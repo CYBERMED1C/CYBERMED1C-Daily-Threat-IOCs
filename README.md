@@ -9,7 +9,7 @@
 
 **Overall health:** The 2026-11-11 set contains 42 validated IOCs. Extended research is complete; publication and GitHub readback checks passed.
 
-**Daily schedule:** Active — 7:00 AM America/Los_Angeles.
+**Daily schedule:** Active — 6:00 AM Pacific time (America/Los_Angeles).
 <!-- CYBERMEDIC-LIVE-STATUS:END -->
 
 > [!IMPORTANT]
@@ -17,7 +17,7 @@
 >
 > Intelligence is drawn from publicly available sources. Use it for defensive investigation and assess every match in context.
 
-# Daily-Threat-IOCs — Version 2.1.1
+# Daily-Threat-IOCs — Version 2.1.2
 
 **Public threat intelligence. Traceable evidence. Practical hunts.**
 
@@ -25,11 +25,11 @@ Created and maintained under the **CYBERMEDIC** attribution at [CYBERMED1C/CYBER
 
 This project helps SOC analysts, threat hunters, incident responders and detection engineers turn public research into focused searches in Microsoft Defender XDR and Elastic Security. Each daily set brings together source context, structured indicators and ready-to-review hunting queries so an analyst can understand what a value represents before acting on a match.
 
-Version 2.1.1 starts on **November 11, 2026**, with fresh research and an empty historical IOC baseline. No data, reports or Git history from the previous repository are imported. The established date folders and five-file daily structure remain the same.
+Version 2.1.2 starts on **November 11, 2026**, with fresh research and an empty historical IOC baseline. No data, reports or Git history from the previous repository are imported. The established date folders and five-file daily structure remain the same.
 
 [Open today's report](2026/11/11/11-11-26-iocs.md) · [Browse the archive](2026/)
 
-## November 11, 2026: version 2.1.1 set
+## November 11, 2026: version 2.1.2 set
 
 Today's revised set contains **42 unique indicators**, including **16 additions** after broader research. It covers Falcon / Antino, Citrus / Sn00py, FormBook, PureHVNC, njRAT, a macOS ClickFix chain and directly observed SSH exploitation. Each accepted value has a November 11 publication or a qualifying observation on the Los Angeles report day. Older activity and corroboration remain explicitly dated; publication today does not imply activity today.
 
@@ -145,4 +145,4 @@ Human-readable network indicators are **defanged** using forms such as `[.]` and
 
 ## Update cadence
 
-The intended daily run is **7:00 AM America/Los_Angeles**, following local daylight-saving time. A scheduled start is a research run time, not a guaranteed publication time. Live status at the top records the last confirmed publication, any temporary pause and material coverage limitations.
+The intended daily run is **6:00 AM Pacific time (America/Los_Angeles)**, following local daylight-saving time. A scheduled start is a research run time, not a guaranteed publication time. Live status at the top records the last confirmed publication, any temporary pause and material coverage limitations.

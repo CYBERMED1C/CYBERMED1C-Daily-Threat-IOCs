@@ -1,4 +1,4 @@
-// CYBERMEDIC Daily-Threat-IOCs v2.1.1 hunt — 2026-11-11
+// CYBERMEDIC Daily-Threat-IOCs v2.1.2 hunt — 2026-11-11
 // Requires compatible ECS-mapped logs-* indexes and all fields used by WHERE.
 // Narrow FROM or adapt mappings if fields are absent, multivalued or conflict.
 // Exact hostnames and full URLs; no parent-domain or substring expansion.

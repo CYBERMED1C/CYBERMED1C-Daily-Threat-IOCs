@@ -1,4 +1,4 @@
-// CYBERMEDIC Daily-Threat-IOCs v2.1.1 hunt — 2026-11-11
+// CYBERMEDIC Daily-Threat-IOCs v2.1.2 hunt — 2026-11-11
 // Requires Microsoft Defender for Endpoint telemetry and the tables below.
 // Exact hostname/full-URL scope; no parent-domain or substring expansion.
 // IPIOCs have reviewed destination roles; SourceIPIOCs are observed SSH attacker peers.
