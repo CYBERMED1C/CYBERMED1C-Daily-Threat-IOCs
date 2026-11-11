@@ -9,7 +9,7 @@
 
 **Overall health:** The 2026-11-11 set contains 26 IOCs. Research coverage is limited; see the daily report for sources, context and limitations.
 
-**Daily schedule:** 7:00 AM America/Los_Angeles; temporarily paused during repository cleanup.
+**Daily schedule:** Active — 7:00 AM America/Los_Angeles.
 <!-- CYBERMEDIC-LIVE-STATUS:END -->
 
 > [!IMPORTANT]
