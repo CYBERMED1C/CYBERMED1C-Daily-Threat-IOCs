@@ -17,7 +17,7 @@
 >
 > Intelligence is drawn from publicly available sources. Use it for defensive investigation and assess every match in context.
 
-# Daily-Threat-IOCs — Version 2.0
+# Daily-Threat-IOCs — Version 2.1.1
 
 **Public threat intelligence. Traceable evidence. Practical hunts.**
 
@@ -25,11 +25,11 @@ Created and maintained under the **CYBERMEDIC** attribution at [CYBERMED1C/CYBER
 
 This project helps SOC analysts, threat hunters, incident responders and detection engineers turn public research into focused searches in Microsoft Defender XDR and Elastic Security. Each daily set brings together source context, structured indicators and ready-to-review hunting queries so an analyst can understand what a value represents before acting on a match.
 
-Version 2.0 starts on **November 11, 2026**, with fresh research and an empty historical IOC baseline. No data, reports or Git history from the previous repository are imported. The established date folders and five-file daily structure remain the same.
+Version 2.1.1 starts on **November 11, 2026**, with fresh research and an empty historical IOC baseline. No data, reports or Git history from the previous repository are imported. The established date folders and five-file daily structure remain the same.
 
 [Open today's report](2026/11/11/11-11-26-iocs.md) · [Browse the archive](2026/)
 
-## November 11, 2026: first version 2.0 set
+## November 11, 2026: first version 2.1.1 set
 
 The first set contains **26 unique indicators** from two primary reports published on **2026-11-11**. It covers Falcon / Antino browser espionage artifacts and Citrus / Sn00py intrusion activity. Exact indicator observation dates and present activity are unknown. The Falcon source describes March–May 2026 activity, so today's publication date must not be read as today's activity date.
 
@@ -80,18 +80,20 @@ A 30-day hunt does not retrieve March–May events outside that window. Any deli
 
 ## Repository layout
 
-Each completed day has exactly five files under `YYYY/MM/DD/`:
+Open the year, then the month, then the day. Each daily folder contains exactly five files:
 
 ```text
-YYYY/MM/DD/
-├── MM-DD-YY-iocs.md
-├── MM-DD-YY-iocs.csv
-├── MM-DD-YY-iocs.json
-├── mde-hunt.kql
-└── elastic-hunt.esql
+2026
+└── 11
+    └── 11
+        ├── 11-11-26-iocs.md
+        ├── 11-11-26-iocs.csv
+        ├── 11-11-26-iocs.json
+        ├── mde-hunt.kql
+        └── elastic-hunt.esql
 ```
 
-The archive begins at [`2026/11/11/`](2026/11/11/). Report dates use **America/Los_Angeles**. Evidence collection and publication timestamps use **UTC** with an explicit timezone.
+Browse one level at a time: [2026](2026/) → [11](2026/11/) → [11](2026/11/11/). Report dates use **America/Los_Angeles**. Evidence collection and publication timestamps use **UTC** with an explicit timezone.
 
 | Daily file | Purpose |
 |---|---|
