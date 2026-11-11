@@ -1,13 +1,13 @@
 <!-- CYBERMEDIC-LIVE-STATUS:START -->
 ## Live status
 
-🟡 **Published — coverage limited**
+🟡 **Publication update — verification in progress**
 
 **Latest report:** [November 11, 2026](2026/11/11/11-11-26-iocs.md).
 
 **Last successful IOC publication:** Confirmed 2026-11-11 18:51:12 UTC.
 
-**Overall health:** The 2026-11-11 set contains 26 IOCs. Research coverage is limited; see the daily report for sources, context and limitations.
+**Overall health:** The revised 2026-11-11 set is prepared with 42 IOCs. Final publication verification is in progress.
 
 **Daily schedule:** Active — 7:00 AM America/Los_Angeles.
 <!-- CYBERMEDIC-LIVE-STATUS:END -->
@@ -29,19 +29,19 @@ Version 2.1.1 starts on **November 11, 2026**, with fresh research and an empty 
 
 [Open today's report](2026/11/11/11-11-26-iocs.md) · [Browse the archive](2026/)
 
-## November 11, 2026: first version 2.1.1 set
+## November 11, 2026: version 2.1.1 set
 
-The first set contains **26 unique indicators** from two primary reports published on **2026-11-11**. It covers Falcon / Antino browser espionage artifacts and Citrus / Sn00py intrusion activity. Exact indicator observation dates and present activity are unknown. The Falcon source describes March–May 2026 activity, so today's publication date must not be read as today's activity date.
+Today's revised set contains **42 unique indicators**, including **16 additions** after broader research. It covers Falcon / Antino, Citrus / Sn00py, FormBook, PureHVNC, njRAT, a macOS ClickFix chain and directly observed SSH exploitation. Each accepted value has a November 11 publication or a qualifying observation on the Los Angeles report day. Older activity and corroboration remain explicitly dated; publication today does not imply activity today.
 
 | Indicator type | Count |
 |---|---:|
-| Domains | 5 |
-| IP addresses | 1 |
-| SHA256 file hashes | 16 |
-| MD5 file hashes | 4 |
-| SHA1 file hashes | 0 |
-| URLs | 0 |
-| **Total** | **26** |
+| Domains | 6 |
+| IP addresses | 4 |
+| SHA256 file hashes | 19 |
+| MD5 file hashes | 7 |
+| SHA1 file hashes | 3 |
+| URLs | 3 |
+| **Total** | **42** |
 
 | Open today's files | What to expect |
 |---|---|
@@ -51,7 +51,7 @@ The first set contains **26 unique indicators** from two primary reports publish
 | [Microsoft Defender XDR hunt — KQL](2026/11/11/mde-hunt.kql) | Endpoint network, file and process searches |
 | [Elastic Security hunt — ES\|QL](2026/11/11/elastic-hunt.esql) | Searches across compatible ECS fields in `logs-*` |
 
-This set is **coverage limited**. The live-status section above records its publication state. All accepted indicators have single-source first-party evidence; independent corroboration and current malicious activity have not been confirmed. Read the report's coverage section before using the files.
+The extended two-pass review is complete. The live-status section records the confirmed publication state. Indicators retain their individual evidence, observation dates and false-positive notes; read the daily report before using them.
 
 ## Start hunting
 
@@ -64,13 +64,13 @@ This set is **coverage limited**. The live-status section above records its publ
 
 Open the [KQL hunt](2026/11/11/mde-hunt.kql), copy the complete query into **Advanced hunting**, review its scope and run it against the intended environment. The current hunt uses `DeviceNetworkEvents`, `DeviceFileEvents` and `DeviceProcessEvents` from Microsoft Defender for Endpoint.
 
-Domain indicators are compared with exact hostnames parsed from network telemetry. The documented exfiltration IP is matched as a remote destination. File and process hashes use their corresponding hash columns. The query does not expand domains to their parents or search for arbitrary substrings.
+Domain indicators are compared with exact hostnames parsed from network telemetry. The documented exfiltration IP is matched as a remote destination. Observed SSH attack-source addresses match remote peers only when the endpoint local port is 22. Exact full URLs preserve their path and case. File and process hashes use their corresponding hash columns. The query does not expand domains to their parents or search for arbitrary substrings.
 
 ### Elastic Security
 
 Open the [ES|QL hunt](2026/11/11/elastic-hunt.esql), copy the complete query into an **ES|QL query editor**, and review the `FROM logs-*` selection before running it. Narrow the index pattern to the intended telemetry and confirm that the fields used by `WHERE` are available with compatible mappings.
 
-The current hunt uses `@timestamp`, `dns.question.name`, `destination.domain`, `url.domain`, `destination.ip`, and the applicable `file.hash.*` and `process.hash.*` fields. Hostnames and hashes are matched exactly after case normalization; the IP is used only in its supported destination role.
+The current hunt uses `@timestamp`, `dns.question.name`, `destination.domain`, `url.domain`, `destination.ip`, `source.ip`, `destination.port`, `url.full`, and the applicable `file.hash.*` and `process.hash.*` fields. Hostnames and hashes are matched exactly after case normalization; destination and SSH source IPs use their distinct supported roles; SSH source matching also requires destination port 22. Full URLs match their exact path and case.
 
 ### What a query can miss
 
@@ -113,13 +113,13 @@ Collection focuses on original reports and their technical evidence. Each accept
 
 Records retain source links, publication and observation dates, collection time and campaign context. Unsupported dates, attribution and scores remain unknown or unassigned. Values are checked for valid syntax and duplicates, and the report, data files and hunts are checked for agreement. Historical comparisons use only this archive; the previous repository is not used.
 
-The **initial 2026-11-11 report** accepts evidence published that day or explicitly documenting observations on that date. Every accepted value in this initial set comes from a report published that day. For later runs, the primary freshness window is the preceding **48 hours**; sparse results can prompt a clearly labeled review of the preceding **seven days**. The window is not widened just to fill a count.
+The **initial 2026-11-11 report** accepts evidence published that day or explicitly documenting observations on that date. This includes same-day publications with older activity, and exact indicator observations that fall on that Los Angeles day. Source update dates alone are not sufficient; supporting older research is explicitly labeled. For later runs, the primary freshness window is the preceding **48 hours**; sparse results can prompt a clearly labeled review of the preceding **seven days**. The window is not widened just to fill a count.
 
 ### Current research coverage
 
-For the first set, two passes reviewed **17 substantive reports, advisories or individual evidence records across 11 organizations and three categories**. Focused research lasted only a few minutes; the review windows overlap, so they do not represent separate blocks of elapsed research time. Exact active seconds were not recorded. This is a limited initial review, not full daily coverage. News searches supplied leads but no substantive news review was counted. Source access gaps and exclusions are documented in the [daily report](2026/11/11/11-11-26-iocs.md).
+The extended two-pass review covered **98 substantive reports, advisories or individual evidence records across 60 source organizations and four categories**. It met the normal 30-minute active-research minimum and added 28 source organizations in the second pass. Preparation and publication are excluded from research time; parallel reviews are not summed. The count includes older context, technical studies and patch advisories; it does not mean 98 new attacks occurred today.
 
-Some days may yield few accepted indicators or none. A verified zero-indicator day still requires completed research and an accurate coverage account. An empty template is not a completed report, and limited coverage cannot establish that threat activity was quiet.
+The [daily report](2026/11/11/11-11-26-iocs.md) lists the reviewed evidence and material limits. Unavailable primary evidence, weak behavior, generic probing, diagnostic artifacts and shared infrastructure were excluded. A low or zero accepted count can still be valid after completed research; it does not establish a quiet threat day.
 
 ## Understand the records
 

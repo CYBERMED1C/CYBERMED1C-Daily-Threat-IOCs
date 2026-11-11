@@ -141,16 +141,20 @@
     "malware_family": "Antino",
     "threat_actor": "unknown",
     "source_organization": [
-      "Palo Alto Networks Unit 42"
+      "Palo Alto Networks Unit 42",
+      "Cisco Talos"
     ],
     "source_article": [
-      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+      "China-nexus UAT-11587 targets government and policy organizations across Asia with Antino backdoor"
     ],
     "source_url": [
-      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+      "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/"
     ],
     "article_published_date": [
-      "2026-11-11"
+      "2026-11-11",
+      "2026-09-30"
     ],
     "ioc_first_seen": null,
     "ioc_last_seen": null,
@@ -158,7 +162,7 @@
     "confidence": null,
     "acceptance_score": null,
     "status": "NEW",
-    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Antino payload-delivery domain. Match exact hostname; do not expand to parent domains or treat a match alone as confirmation of compromise.",
+    "notes": "First-party evidence with independent Cisco Talos corroboration. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Antino payload-delivery domain. Match exact hostname; do not expand to parent domains or treat a match alone as confirmation of compromise. Independently corroborated by Cisco Talos research published 2026-09-30. This older source confirms Antino delivery/backdoor context; it does not establish current activity or new observations on 2026-11-11.",
     "sources": [
       {
         "organization": "Palo Alto Networks Unit 42",
@@ -172,6 +176,19 @@
         "discovery_context": [
           "First collection for this archive from a report published 2026-11-11."
         ]
+      },
+      {
+        "organization": "Cisco Talos",
+        "article_title": "China-nexus UAT-11587 targets government and policy organizations across Asia with Antino backdoor",
+        "url": "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/",
+        "published_at": "2026-09-30",
+        "updated_at": null,
+        "source_role": "independent corroboration",
+        "retrieval_method": "web canonical article text; C2 infrastructure narrative and exact IOC appendix entries",
+        "collection_start": "2026-11-11T19:38:15Z",
+        "discovery_context": [
+          "Previously collected same-day Unit 42 values were checked against independent older primary research; no additional older IOC values are imported. Publication date verified on the canonical article, distinct from search-result dating."
+        ]
       }
     ]
   },
@@ -182,19 +199,23 @@
     "hunt_ioc": "wps-cn.com",
     "hunt_ioc_type": "domain",
     "threat_campaign": "Falcon browser espionage",
-    "malware_family": "Falcon",
+    "malware_family": "Antino",
     "threat_actor": "unknown",
     "source_organization": [
-      "Palo Alto Networks Unit 42"
+      "Palo Alto Networks Unit 42",
+      "Cisco Talos"
     ],
     "source_article": [
-      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+      "China-nexus UAT-11587 targets government and policy organizations across Asia with Antino backdoor"
     ],
     "source_url": [
-      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+      "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/"
     ],
     "article_published_date": [
-      "2026-11-11"
+      "2026-11-11",
+      "2026-09-30"
     ],
     "ioc_first_seen": null,
     "ioc_last_seen": null,
@@ -202,7 +223,7 @@
     "confidence": null,
     "acceptance_score": null,
     "status": "NEW",
-    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Falcon campaign payload-delivery domain. Match exact hostname; do not expand to parent domains or treat a match alone as confirmation of compromise.",
+    "notes": "First-party evidence with independent Cisco Talos corroboration. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Falcon campaign payload-delivery domain. Match exact hostname; do not expand to parent domains or treat a match alone as confirmation of compromise. Independently corroborated by Cisco Talos research published 2026-09-30. This older source confirms Antino delivery/backdoor context; it does not establish current activity or new observations on 2026-11-11.",
     "sources": [
       {
         "organization": "Palo Alto Networks Unit 42",
@@ -215,6 +236,19 @@
         "collection_start": "2026-11-11T18:18:28Z",
         "discovery_context": [
           "First collection for this archive from a report published 2026-11-11."
+        ]
+      },
+      {
+        "organization": "Cisco Talos",
+        "article_title": "China-nexus UAT-11587 targets government and policy organizations across Asia with Antino backdoor",
+        "url": "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/",
+        "published_at": "2026-09-30",
+        "updated_at": null,
+        "source_role": "independent corroboration",
+        "retrieval_method": "web canonical article text; C2 infrastructure narrative and exact IOC appendix entries",
+        "collection_start": "2026-11-11T19:38:15Z",
+        "discovery_context": [
+          "Previously collected same-day Unit 42 values were checked against independent older primary research; no additional older IOC values are imported. Publication date verified on the canonical article, distinct from search-result dating."
         ]
       }
     ]
@@ -889,16 +923,20 @@
     "malware_family": "Antino",
     "threat_actor": "unknown",
     "source_organization": [
-      "Palo Alto Networks Unit 42"
+      "Palo Alto Networks Unit 42",
+      "Cisco Talos"
     ],
     "source_article": [
-      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+      "China-nexus UAT-11587 targets government and policy organizations across Asia with Antino backdoor"
     ],
     "source_url": [
-      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+      "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/"
     ],
     "article_published_date": [
-      "2026-11-11"
+      "2026-11-11",
+      "2026-09-30"
     ],
     "ioc_first_seen": null,
     "ioc_last_seen": null,
@@ -906,7 +944,7 @@
     "confidence": null,
     "acceptance_score": null,
     "status": "NEW",
-    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact observation dates and current activity are unknown. Antino executable flashcenter_pp_ax_install_en.exe; correlate with process and persistence evidence.",
+    "notes": "First-party evidence with independent Cisco Talos corroboration. Published 2026-11-11; report describes March-May 2026 activity. Exact observation dates and current activity are unknown. Antino executable flashcenter_pp_ax_install_en.exe; correlate with process and persistence evidence. Independently corroborated by Cisco Talos research published 2026-09-30. This older source confirms Antino delivery/backdoor context; it does not establish current activity or new observations on 2026-11-11.",
     "sources": [
       {
         "organization": "Palo Alto Networks Unit 42",
@@ -919,6 +957,19 @@
         "collection_start": "2026-11-11T18:18:28Z",
         "discovery_context": [
           "First collection for this archive from a report published 2026-11-11."
+        ]
+      },
+      {
+        "organization": "Cisco Talos",
+        "article_title": "China-nexus UAT-11587 targets government and policy organizations across Asia with Antino backdoor",
+        "url": "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/",
+        "published_at": "2026-09-30",
+        "updated_at": null,
+        "source_role": "independent corroboration",
+        "retrieval_method": "web canonical article text; C2 infrastructure narrative and exact IOC appendix entries",
+        "collection_start": "2026-11-11T19:38:15Z",
+        "discovery_context": [
+          "Previously collected same-day Unit 42 values were checked against independent older primary research; no additional older IOC values are imported. Publication date verified on the canonical article, distinct from search-result dating."
         ]
       }
     ]
@@ -933,16 +984,20 @@
     "malware_family": "Meterpreter",
     "threat_actor": "Citrus",
     "source_organization": [
-      "Kaspersky Securelist"
+      "Kaspersky Securelist",
+      "LevelBlue Open Threat Exchange (OTX)"
     ],
     "source_article": [
-      "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand"
+      "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand",
+      "Public file indicator classification: FileHash-MD5"
     ],
     "source_url": [
-      "https://securelist.com/citrus-ransomware/121879/"
+      "https://securelist.com/citrus-ransomware/121879/",
+      "https://otx.alienvault.com/api/v1/indicators/file/7107fb029e7c63523e3aca5fc8e56b38/general"
     ],
     "article_published_date": [
-      "2026-11-11"
+      "2026-11-11",
+      "unknown"
     ],
     "ioc_first_seen": null,
     "ioc_last_seen": null,
@@ -950,7 +1005,7 @@
     "confidence": null,
     "acceptance_score": null,
     "status": "NEW",
-    "notes": "Single-source first-party evidence. Published 2026-11-11; exact observation dates and current activity are unknown. Meterpreter stager 2341.exe. Hash appears in the malicious-file IOC appendix; MD5 type inferred from the 32-hexadecimal form. Investigate matching file context before response.",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; exact observation dates and current activity are unknown. Meterpreter stager 2341.exe. Hash appears in the malicious-file IOC appendix; MD5 type inferred from the 32-hexadecimal form. Investigate matching file context before response. The primary appendix does not name the hash algorithm. OTX also classifies this exact public record as MD5, but its public analysis section contains no sample-derived metadata and no sample bytes were downloaded or hashed. This secondary type label does not independently verify maliciousness; retain the primary-source algorithm inference caveat.",
     "sources": [
       {
         "organization": "Kaspersky Securelist",
@@ -964,6 +1019,24 @@
         "discovery_context": [
           "First collection for this archive from a report published 2026-11-11."
         ]
+      },
+      {
+        "organization": "LevelBlue Open Threat Exchange (OTX)",
+        "article_title": "Public file indicator classification: FileHash-MD5",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/7107fb029e7c63523e3aca5fc8e56b38/general",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "hash type classification only",
+        "retrieval_method": "ordinary documented public read-only HTTPS general and analysis routes, without credentials",
+        "collection_start": "2026-11-11T20:00:20.018086+00:00",
+        "discovery_context": [
+          "Existing public base_indicator explicitly reports type md5 and type_title FileHash-MD5. Analysis response is empty; visible pulses cite the primary Securelist report. This source supplies a secondary hash-type label only, with no independent maliciousness claim. No sample bytes were downloaded or hashed."
+        ],
+        "classification_reviewed_at": "2026-11-11T20:00:55Z",
+        "reported_type": "md5",
+        "reported_type_title": "FileHash-MD5",
+        "base_indicator_id": 4575786346,
+        "computed_sample_metadata_retrieved": false
       }
     ]
   },
@@ -977,16 +1050,20 @@
     "malware_family": "modified peeping-tom keylogger",
     "threat_actor": "Citrus",
     "source_organization": [
-      "Kaspersky Securelist"
+      "Kaspersky Securelist",
+      "LevelBlue Open Threat Exchange (OTX)"
     ],
     "source_article": [
-      "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand"
+      "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand",
+      "Public file indicator classification: FileHash-MD5"
     ],
     "source_url": [
-      "https://securelist.com/citrus-ransomware/121879/"
+      "https://securelist.com/citrus-ransomware/121879/",
+      "https://otx.alienvault.com/api/v1/indicators/file/e251df2d0b7c3682965efb4d2009a2f4/general"
     ],
     "article_published_date": [
-      "2026-11-11"
+      "2026-11-11",
+      "unknown"
     ],
     "ioc_first_seen": null,
     "ioc_last_seen": null,
@@ -994,7 +1071,7 @@
     "confidence": null,
     "acceptance_score": null,
     "status": "NEW",
-    "notes": "Single-source first-party evidence. Published 2026-11-11; exact observation dates and current activity are unknown. Keylogger jhost.exe. Hash appears in the malicious-file IOC appendix; MD5 type inferred from the 32-hexadecimal form. Investigate matching file context before response.",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; exact observation dates and current activity are unknown. Keylogger jhost.exe. Hash appears in the malicious-file IOC appendix; MD5 type inferred from the 32-hexadecimal form. Investigate matching file context before response. The primary appendix does not name the hash algorithm. OTX also classifies this exact public record as MD5, but its public analysis section contains no sample-derived metadata and no sample bytes were downloaded or hashed. This secondary type label does not independently verify maliciousness; retain the primary-source algorithm inference caveat.",
     "sources": [
       {
         "organization": "Kaspersky Securelist",
@@ -1008,6 +1085,24 @@
         "discovery_context": [
           "First collection for this archive from a report published 2026-11-11."
         ]
+      },
+      {
+        "organization": "LevelBlue Open Threat Exchange (OTX)",
+        "article_title": "Public file indicator classification: FileHash-MD5",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/e251df2d0b7c3682965efb4d2009a2f4/general",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "hash type classification only",
+        "retrieval_method": "ordinary documented public read-only HTTPS general and analysis routes, without credentials",
+        "collection_start": "2026-11-11T20:00:21.727391+00:00",
+        "discovery_context": [
+          "Existing public base_indicator explicitly reports type md5 and type_title FileHash-MD5. Analysis response is empty; visible pulses cite the primary Securelist report. This source supplies a secondary hash-type label only, with no independent maliciousness claim. No sample bytes were downloaded or hashed."
+        ],
+        "classification_reviewed_at": "2026-11-11T20:00:55Z",
+        "reported_type": "md5",
+        "reported_type_title": "FileHash-MD5",
+        "base_indicator_id": 4575786347,
+        "computed_sample_metadata_retrieved": false
       }
     ]
   },
@@ -1021,16 +1116,20 @@
     "malware_family": "Sn00py",
     "threat_actor": "Citrus",
     "source_organization": [
-      "Kaspersky Securelist"
+      "Kaspersky Securelist",
+      "LevelBlue Open Threat Exchange (OTX)"
     ],
     "source_article": [
-      "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand"
+      "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand",
+      "Public file indicator classification: FileHash-MD5"
     ],
     "source_url": [
-      "https://securelist.com/citrus-ransomware/121879/"
+      "https://securelist.com/citrus-ransomware/121879/",
+      "https://otx.alienvault.com/api/v1/indicators/file/17b29b6c9de80402a45e321bbe1168fa/general"
     ],
     "article_published_date": [
-      "2026-11-11"
+      "2026-11-11",
+      "unknown"
     ],
     "ioc_first_seen": null,
     "ioc_last_seen": null,
@@ -1038,7 +1137,7 @@
     "confidence": null,
     "acceptance_score": null,
     "status": "NEW",
-    "notes": "Single-source first-party evidence. Published 2026-11-11; exact observation dates and current activity are unknown. Sn00py ransomware build_64.exe. Hash appears in the malicious-file IOC appendix; MD5 type inferred from the 32-hexadecimal form. Investigate matching file context before response.",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; exact observation dates and current activity are unknown. Sn00py ransomware build_64.exe. Hash appears in the malicious-file IOC appendix; MD5 type inferred from the 32-hexadecimal form. Investigate matching file context before response. The primary appendix does not name the hash algorithm. OTX also classifies this exact public record as MD5, but its public analysis section contains no sample-derived metadata and no sample bytes were downloaded or hashed. This secondary type label does not independently verify maliciousness; retain the primary-source algorithm inference caveat.",
     "sources": [
       {
         "organization": "Kaspersky Securelist",
@@ -1052,6 +1151,24 @@
         "discovery_context": [
           "First collection for this archive from a report published 2026-11-11."
         ]
+      },
+      {
+        "organization": "LevelBlue Open Threat Exchange (OTX)",
+        "article_title": "Public file indicator classification: FileHash-MD5",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/17b29b6c9de80402a45e321bbe1168fa/general",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "hash type classification only",
+        "retrieval_method": "ordinary documented public read-only HTTPS general and analysis routes, without credentials",
+        "collection_start": "2026-11-11T20:00:23.484959+00:00",
+        "discovery_context": [
+          "Existing public base_indicator explicitly reports type md5 and type_title FileHash-MD5. Analysis response is empty; visible pulses cite the primary Securelist report. This source supplies a secondary hash-type label only, with no independent maliciousness claim. No sample bytes were downloaded or hashed."
+        ],
+        "classification_reviewed_at": "2026-11-11T20:00:55Z",
+        "reported_type": "md5",
+        "reported_type_title": "FileHash-MD5",
+        "base_indicator_id": 4575786348,
+        "computed_sample_metadata_retrieved": false
       }
     ]
   },
@@ -1065,16 +1182,20 @@
     "malware_family": "Sn00py",
     "threat_actor": "Citrus",
     "source_organization": [
-      "Kaspersky Securelist"
+      "Kaspersky Securelist",
+      "LevelBlue Open Threat Exchange (OTX)"
     ],
     "source_article": [
-      "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand"
+      "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand",
+      "Public file indicator classification: FileHash-MD5"
     ],
     "source_url": [
-      "https://securelist.com/citrus-ransomware/121879/"
+      "https://securelist.com/citrus-ransomware/121879/",
+      "https://otx.alienvault.com/api/v1/indicators/file/9eee984b187423c46c10a63d080da15d/general"
     ],
     "article_published_date": [
-      "2026-11-11"
+      "2026-11-11",
+      "unknown"
     ],
     "ioc_first_seen": null,
     "ioc_last_seen": null,
@@ -1082,7 +1203,7 @@
     "confidence": null,
     "acceptance_score": null,
     "status": "NEW",
-    "notes": "Single-source first-party evidence. Published 2026-11-11; exact observation dates and current activity are unknown. Sn00py ransomware build_64.exe. Hash appears in the malicious-file IOC appendix; MD5 type inferred from the 32-hexadecimal form. Investigate matching file context before response.",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; exact observation dates and current activity are unknown. Sn00py ransomware build_64.exe. Hash appears in the malicious-file IOC appendix; MD5 type inferred from the 32-hexadecimal form. Investigate matching file context before response. The primary appendix does not name the hash algorithm. OTX also classifies this exact public record as MD5, but its public analysis section contains no sample-derived metadata and no sample bytes were downloaded or hashed. This secondary type label does not independently verify maliciousness; retain the primary-source algorithm inference caveat.",
     "sources": [
       {
         "organization": "Kaspersky Securelist",
@@ -1096,6 +1217,24 @@
         "discovery_context": [
           "First collection for this archive from a report published 2026-11-11."
         ]
+      },
+      {
+        "organization": "LevelBlue Open Threat Exchange (OTX)",
+        "article_title": "Public file indicator classification: FileHash-MD5",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/9eee984b187423c46c10a63d080da15d/general",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "hash type classification only",
+        "retrieval_method": "ordinary documented public read-only HTTPS general and analysis routes, without credentials",
+        "collection_start": "2026-11-11T20:00:25.212796+00:00",
+        "discovery_context": [
+          "Existing public base_indicator explicitly reports type md5 and type_title FileHash-MD5. Analysis response is empty; visible pulses cite the primary Securelist report. This source supplies a secondary hash-type label only, with no independent maliciousness claim. No sample bytes were downloaded or hashed."
+        ],
+        "classification_reviewed_at": "2026-11-11T20:00:55Z",
+        "reported_type": "md5",
+        "reported_type_title": "FileHash-MD5",
+        "base_indicator_id": 4575786349,
+        "computed_sample_metadata_retrieved": false
       }
     ]
   },
@@ -1140,6 +1279,932 @@
         "discovery_context": [
           "First collection for this archive from a report published 2026-11-11."
         ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://microsoft-flash.com/download/Adobe_installer.exe",
+    "ioc_type": "url",
+    "original_ioc": "https://microsoft-flash.com/download/Adobe_installer.exe",
+    "hunt_ioc": "https://microsoft-flash.com/download/Adobe_installer.exe",
+    "hunt_ioc_type": "url",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Antino",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T19:38:15Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence published 2026-11-11. The Unit 42 fake Adobe Flash update narrative explicitly identifies this exact URL as delivering the Antino implant to selected users. The broader report describes March-May 2026 activity; exact indicator observation dates and present activity are unknown. Preserve full URL and path case; do not infer that another installer filename has this same sample hash.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "ordinary official HTTPS; complete technical article and IOC appendix reviewed",
+        "collection_start": "2026-11-11T19:38:15Z",
+        "discovery_context": [
+          "Exact Antino delivery URL found in the same-day primary narrative during independent evidence reinspection; no malicious infrastructure was contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "007d9220f33809e7ba0a2e286f91f6d7",
+    "ioc_type": "md5",
+    "original_ioc": "007d9220f33809e7ba0a2e286f91f6d7",
+    "hunt_ioc": "007d9220f33809e7ba0a2e286f91f6d7",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "FormBook delivery file",
+    "malware_family": "FormBook",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "CSIRT Italia (ACN)",
+      "Threatray"
+    ],
+    "source_article": [
+      "Warning: Formbook IOCs 2026-11-11",
+      "Public dynamic analysis of FormBook delivery document"
+    ],
+    "source_url": [
+      "https://www.csirt.gov.it/feed-misp/06c8a4c9-2e10-4eae-ab1e-688741833dc6.json",
+      "https://reports.threatray.com/989e0be7-2c40-4856-9539-dfd37dcc0c04"
+    ],
+    "article_published_date": [
+      "2026-11-11",
+      "unknown"
+    ],
+    "ioc_first_seen": "2026-11-10T06:56:44Z",
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T19:36:49.586301+00:00",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Original delivery-document hash published by CSIRT Italia on Nov11. Independent Threatray dynamic analysis maps the exact hash and shows Word/Equation Editor launching shell and CScript, then PowerShell with FormBook code in descendant process memory. Sandbox analysis occurred Nov10; publication today does not establish activity today. Alternate hashes identify the same document, not three separate threats. First-seen is the sandbox provider's explicit sample-first-seen value, not a claim of activity in the wild.",
+    "sources": [
+      {
+        "organization": "CSIRT Italia (ACN)",
+        "article_title": "Warning: Formbook IOCs 2026-11-11",
+        "url": "https://www.csirt.gov.it/feed-misp/06c8a4c9-2e10-4eae-ab1e-688741833dc6.json",
+        "published_at": "2026-11-11T15:18:32Z",
+        "updated_at": null,
+        "source_role": "primary government IOC publication",
+        "retrieval_method": "public MISP JSON retrieved and parsed",
+        "collection_start": "2026-11-11T19:24:48Z",
+        "discovery_context": [
+          "Official ACN public MISP documentation establishes publisher ownership.",
+          "Completed TLP:CLEAR event dated Nov11 lists this exact payload-delivery hash."
+        ],
+        "source_id": "06c8a4c9-2e10-4eae-ab1e-688741833dc6"
+      },
+      {
+        "organization": "Threatray",
+        "article_title": "Public dynamic analysis of FormBook delivery document",
+        "url": "https://reports.threatray.com/989e0be7-2c40-4856-9539-dfd37dcc0c04",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "independent technical sandbox corroboration",
+        "retrieval_method": "public JSON static/dynamic analysis report; no sample bytes downloaded",
+        "collection_start": "2026-11-11T19:24:48Z",
+        "discovery_context": [
+          "Exact original document hashes mapped in sample_detail.",
+          "Observed Word/Equation Editor to shell/CScript to PowerShell execution and FormBook-attributed code in descendant process memory.",
+          "Public report generation time is Nov10; a public publication timestamp is not provided."
+        ],
+        "source_id": "989e0be7-2c40-4856-9539-dfd37dcc0c04",
+        "retrieved_api_url": "https://api-community.analysis.threatray.com/v1/reports/989e0be7-2c40-4856-9539-dfd37dcc0c04",
+        "report_generated_at": "2026-11-10T07:34:49.845184Z"
+      }
+    ]
+  },
+  {
+    "ioc": "503aa37d19b8bfa6b5783ac39d4d71e08abb5c1a",
+    "ioc_type": "sha1",
+    "original_ioc": "503aa37d19b8bfa6b5783ac39d4d71e08abb5c1a",
+    "hunt_ioc": "503aa37d19b8bfa6b5783ac39d4d71e08abb5c1a",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "FormBook delivery file",
+    "malware_family": "FormBook",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "CSIRT Italia (ACN)",
+      "Threatray"
+    ],
+    "source_article": [
+      "Warning: Formbook IOCs 2026-11-11",
+      "Public dynamic analysis of FormBook delivery document"
+    ],
+    "source_url": [
+      "https://www.csirt.gov.it/feed-misp/06c8a4c9-2e10-4eae-ab1e-688741833dc6.json",
+      "https://reports.threatray.com/989e0be7-2c40-4856-9539-dfd37dcc0c04"
+    ],
+    "article_published_date": [
+      "2026-11-11",
+      "unknown"
+    ],
+    "ioc_first_seen": "2026-11-10T06:56:44Z",
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T19:36:49.586301+00:00",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Original delivery-document hash published by CSIRT Italia on Nov11. Independent Threatray dynamic analysis maps the exact hash and shows Word/Equation Editor launching shell and CScript, then PowerShell with FormBook code in descendant process memory. Sandbox analysis occurred Nov10; publication today does not establish activity today. Alternate hashes identify the same document, not three separate threats. First-seen is the sandbox provider's explicit sample-first-seen value, not a claim of activity in the wild.",
+    "sources": [
+      {
+        "organization": "CSIRT Italia (ACN)",
+        "article_title": "Warning: Formbook IOCs 2026-11-11",
+        "url": "https://www.csirt.gov.it/feed-misp/06c8a4c9-2e10-4eae-ab1e-688741833dc6.json",
+        "published_at": "2026-11-11T15:18:32Z",
+        "updated_at": null,
+        "source_role": "primary government IOC publication",
+        "retrieval_method": "public MISP JSON retrieved and parsed",
+        "collection_start": "2026-11-11T19:24:48Z",
+        "discovery_context": [
+          "Official ACN public MISP documentation establishes publisher ownership.",
+          "Completed TLP:CLEAR event dated Nov11 lists this exact payload-delivery hash."
+        ],
+        "source_id": "06c8a4c9-2e10-4eae-ab1e-688741833dc6"
+      },
+      {
+        "organization": "Threatray",
+        "article_title": "Public dynamic analysis of FormBook delivery document",
+        "url": "https://reports.threatray.com/989e0be7-2c40-4856-9539-dfd37dcc0c04",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "independent technical sandbox corroboration",
+        "retrieval_method": "public JSON static/dynamic analysis report; no sample bytes downloaded",
+        "collection_start": "2026-11-11T19:24:48Z",
+        "discovery_context": [
+          "Exact original document hashes mapped in sample_detail.",
+          "Observed Word/Equation Editor to shell/CScript to PowerShell execution and FormBook-attributed code in descendant process memory.",
+          "Public report generation time is Nov10; a public publication timestamp is not provided."
+        ],
+        "source_id": "989e0be7-2c40-4856-9539-dfd37dcc0c04",
+        "retrieved_api_url": "https://api-community.analysis.threatray.com/v1/reports/989e0be7-2c40-4856-9539-dfd37dcc0c04",
+        "report_generated_at": "2026-11-10T07:34:49.845184Z"
+      }
+    ]
+  },
+  {
+    "ioc": "94b597e300b6eb9859bd619fc9171c214294351f17ee400ab3c7cafb4f7c0d29",
+    "ioc_type": "sha256",
+    "original_ioc": "94b597e300b6eb9859bd619fc9171c214294351f17ee400ab3c7cafb4f7c0d29",
+    "hunt_ioc": "94b597e300b6eb9859bd619fc9171c214294351f17ee400ab3c7cafb4f7c0d29",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "FormBook delivery file",
+    "malware_family": "FormBook",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "CSIRT Italia (ACN)",
+      "Threatray"
+    ],
+    "source_article": [
+      "Warning: Formbook IOCs 2026-11-11",
+      "Public dynamic analysis of FormBook delivery document"
+    ],
+    "source_url": [
+      "https://www.csirt.gov.it/feed-misp/06c8a4c9-2e10-4eae-ab1e-688741833dc6.json",
+      "https://reports.threatray.com/989e0be7-2c40-4856-9539-dfd37dcc0c04"
+    ],
+    "article_published_date": [
+      "2026-11-11",
+      "unknown"
+    ],
+    "ioc_first_seen": "2026-11-10T06:56:44Z",
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T19:36:49.586301+00:00",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Original delivery-document hash published by CSIRT Italia on Nov11. Independent Threatray dynamic analysis maps the exact hash and shows Word/Equation Editor launching shell and CScript, then PowerShell with FormBook code in descendant process memory. Sandbox analysis occurred Nov10; publication today does not establish activity today. Alternate hashes identify the same document, not three separate threats. First-seen is the sandbox provider's explicit sample-first-seen value, not a claim of activity in the wild.",
+    "sources": [
+      {
+        "organization": "CSIRT Italia (ACN)",
+        "article_title": "Warning: Formbook IOCs 2026-11-11",
+        "url": "https://www.csirt.gov.it/feed-misp/06c8a4c9-2e10-4eae-ab1e-688741833dc6.json",
+        "published_at": "2026-11-11T15:18:32Z",
+        "updated_at": null,
+        "source_role": "primary government IOC publication",
+        "retrieval_method": "public MISP JSON retrieved and parsed",
+        "collection_start": "2026-11-11T19:24:48Z",
+        "discovery_context": [
+          "Official ACN public MISP documentation establishes publisher ownership.",
+          "Completed TLP:CLEAR event dated Nov11 lists this exact payload-delivery hash."
+        ],
+        "source_id": "06c8a4c9-2e10-4eae-ab1e-688741833dc6"
+      },
+      {
+        "organization": "Threatray",
+        "article_title": "Public dynamic analysis of FormBook delivery document",
+        "url": "https://reports.threatray.com/989e0be7-2c40-4856-9539-dfd37dcc0c04",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "independent technical sandbox corroboration",
+        "retrieval_method": "public JSON static/dynamic analysis report; no sample bytes downloaded",
+        "collection_start": "2026-11-11T19:24:48Z",
+        "discovery_context": [
+          "Exact original document hashes mapped in sample_detail.",
+          "Observed Word/Equation Editor to shell/CScript to PowerShell execution and FormBook-attributed code in descendant process memory.",
+          "Public report generation time is Nov10; a public publication timestamp is not provided."
+        ],
+        "source_id": "989e0be7-2c40-4856-9539-dfd37dcc0c04",
+        "retrieved_api_url": "https://api-community.analysis.threatray.com/v1/reports/989e0be7-2c40-4856-9539-dfd37dcc0c04",
+        "report_generated_at": "2026-11-10T07:34:49.845184Z"
+      }
+    ]
+  },
+  {
+    "ioc": "95cf718927aecb61c4a7fa4790d8ef7b",
+    "ioc_type": "md5",
+    "original_ioc": "95cf718927aecb61c4a7fa4790d8ef7b",
+    "hunt_ioc": "95cf718927aecb61c4a7fa4790d8ef7b",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "PureHVNC delivery file",
+    "malware_family": "PureHVNC",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Threatray",
+      "VirusSign"
+    ],
+    "source_article": [
+      "Public dynamic analysis of JavaScript delivery file",
+      "Public file intelligence and observation record"
+    ],
+    "source_url": [
+      "https://reports.threatray.com/2e4c4aeb-7281-40d8-8c64-bf25dee527f4",
+      "https://intel.virussign.com/intelligence/file/a2267cc5579ceb2755d2b022179ac8bc5b39e08db937b22a67962ff9fb4423ad"
+    ],
+    "article_published_date": [
+      "unknown",
+      "unknown"
+    ],
+    "ioc_first_seen": "2026-11-11T10:13:59Z",
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T19:43:46.152504+00:00",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Exact original JavaScript delivery-file hash. Threatray explicit sample first-seen is Nov11; its dynamic report shows CScript launching Explorer and coretray81.exe, with high-labelled PureHVNC code in a descendant process memory region and 117 malicious functions. A separate VirusSign record explicitly reports file first/last seen Nov11, but its overall verdict is Suspicious and is only observation context. Alternate hashes identify one original file; sandbox observations do not establish activity in the wild. No child-memory hashes or related network infrastructure are accepted.",
+    "sources": [
+      {
+        "organization": "Threatray",
+        "article_title": "Public dynamic analysis of JavaScript delivery file",
+        "url": "https://reports.threatray.com/2e4c4aeb-7281-40d8-8c64-bf25dee527f4",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "primary public technical sandbox evidence",
+        "retrieval_method": "public JSON static/dynamic analysis report; no sample bytes downloaded",
+        "collection_start": "2026-11-11T19:41:35.566328Z",
+        "discovery_context": [
+          "Exact original-file hash triplet in sample_detail; explicit sample.first_seen Nov11 10:13:59Z.",
+          "Dynamic process tree CScript to Explorer to coretray81.exe; its memory region has malicious PureHVNC code detection and 117 malicious functions.",
+          "Analysis creation Nov11 10:15:31Z and report generation Nov11 10:26:42Z are sandbox metadata, not real-world activity times."
+        ],
+        "source_id": "2e4c4aeb-7281-40d8-8c64-bf25dee527f4",
+        "report_generated_at": "2026-11-11T10:26:42.004387+00:00",
+        "retrieved_api_url": "https://api-community.analysis.threatray.com/v1/reports/2e4c4aeb-7281-40d8-8c64-bf25dee527f4"
+      },
+      {
+        "organization": "VirusSign",
+        "article_title": "Public file intelligence and observation record",
+        "url": "https://intel.virussign.com/intelligence/file/a2267cc5579ceb2755d2b022179ac8bc5b39e08db937b22a67962ff9fb4423ad",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "separate explicit sample-observation context; not sole maliciousness evidence",
+        "retrieval_method": "public HTML report body; no sample bytes downloaded",
+        "collection_start": "2026-11-11T19:41:25.227379Z",
+        "discovery_context": [
+          "Exact original-file triplet; explicit file first seen Nov11 10:17:14Z and last seen Nov11 16:19:00Z.",
+          "Selected public network context is not independently verified as malicious infrastructure and is excluded."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a59326b5dc779f6e7955e5a65232dd271ba591f8",
+    "ioc_type": "sha1",
+    "original_ioc": "a59326b5dc779f6e7955e5a65232dd271ba591f8",
+    "hunt_ioc": "a59326b5dc779f6e7955e5a65232dd271ba591f8",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "PureHVNC delivery file",
+    "malware_family": "PureHVNC",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Threatray",
+      "VirusSign"
+    ],
+    "source_article": [
+      "Public dynamic analysis of JavaScript delivery file",
+      "Public file intelligence and observation record"
+    ],
+    "source_url": [
+      "https://reports.threatray.com/2e4c4aeb-7281-40d8-8c64-bf25dee527f4",
+      "https://intel.virussign.com/intelligence/file/a2267cc5579ceb2755d2b022179ac8bc5b39e08db937b22a67962ff9fb4423ad"
+    ],
+    "article_published_date": [
+      "unknown",
+      "unknown"
+    ],
+    "ioc_first_seen": "2026-11-11T10:13:59Z",
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T19:43:46.152504+00:00",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Exact original JavaScript delivery-file hash. Threatray explicit sample first-seen is Nov11; its dynamic report shows CScript launching Explorer and coretray81.exe, with high-labelled PureHVNC code in a descendant process memory region and 117 malicious functions. A separate VirusSign record explicitly reports file first/last seen Nov11, but its overall verdict is Suspicious and is only observation context. Alternate hashes identify one original file; sandbox observations do not establish activity in the wild. No child-memory hashes or related network infrastructure are accepted.",
+    "sources": [
+      {
+        "organization": "Threatray",
+        "article_title": "Public dynamic analysis of JavaScript delivery file",
+        "url": "https://reports.threatray.com/2e4c4aeb-7281-40d8-8c64-bf25dee527f4",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "primary public technical sandbox evidence",
+        "retrieval_method": "public JSON static/dynamic analysis report; no sample bytes downloaded",
+        "collection_start": "2026-11-11T19:41:35.566328Z",
+        "discovery_context": [
+          "Exact original-file hash triplet in sample_detail; explicit sample.first_seen Nov11 10:13:59Z.",
+          "Dynamic process tree CScript to Explorer to coretray81.exe; its memory region has malicious PureHVNC code detection and 117 malicious functions.",
+          "Analysis creation Nov11 10:15:31Z and report generation Nov11 10:26:42Z are sandbox metadata, not real-world activity times."
+        ],
+        "source_id": "2e4c4aeb-7281-40d8-8c64-bf25dee527f4",
+        "report_generated_at": "2026-11-11T10:26:42.004387+00:00",
+        "retrieved_api_url": "https://api-community.analysis.threatray.com/v1/reports/2e4c4aeb-7281-40d8-8c64-bf25dee527f4"
+      },
+      {
+        "organization": "VirusSign",
+        "article_title": "Public file intelligence and observation record",
+        "url": "https://intel.virussign.com/intelligence/file/a2267cc5579ceb2755d2b022179ac8bc5b39e08db937b22a67962ff9fb4423ad",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "separate explicit sample-observation context; not sole maliciousness evidence",
+        "retrieval_method": "public HTML report body; no sample bytes downloaded",
+        "collection_start": "2026-11-11T19:41:25.227379Z",
+        "discovery_context": [
+          "Exact original-file triplet; explicit file first seen Nov11 10:17:14Z and last seen Nov11 16:19:00Z.",
+          "Selected public network context is not independently verified as malicious infrastructure and is excluded."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a2267cc5579ceb2755d2b022179ac8bc5b39e08db937b22a67962ff9fb4423ad",
+    "ioc_type": "sha256",
+    "original_ioc": "a2267cc5579ceb2755d2b022179ac8bc5b39e08db937b22a67962ff9fb4423ad",
+    "hunt_ioc": "a2267cc5579ceb2755d2b022179ac8bc5b39e08db937b22a67962ff9fb4423ad",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PureHVNC delivery file",
+    "malware_family": "PureHVNC",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Threatray",
+      "VirusSign"
+    ],
+    "source_article": [
+      "Public dynamic analysis of JavaScript delivery file",
+      "Public file intelligence and observation record"
+    ],
+    "source_url": [
+      "https://reports.threatray.com/2e4c4aeb-7281-40d8-8c64-bf25dee527f4",
+      "https://intel.virussign.com/intelligence/file/a2267cc5579ceb2755d2b022179ac8bc5b39e08db937b22a67962ff9fb4423ad"
+    ],
+    "article_published_date": [
+      "unknown",
+      "unknown"
+    ],
+    "ioc_first_seen": "2026-11-11T10:13:59Z",
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T19:43:46.152504+00:00",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Exact original JavaScript delivery-file hash. Threatray explicit sample first-seen is Nov11; its dynamic report shows CScript launching Explorer and coretray81.exe, with high-labelled PureHVNC code in a descendant process memory region and 117 malicious functions. A separate VirusSign record explicitly reports file first/last seen Nov11, but its overall verdict is Suspicious and is only observation context. Alternate hashes identify one original file; sandbox observations do not establish activity in the wild. No child-memory hashes or related network infrastructure are accepted.",
+    "sources": [
+      {
+        "organization": "Threatray",
+        "article_title": "Public dynamic analysis of JavaScript delivery file",
+        "url": "https://reports.threatray.com/2e4c4aeb-7281-40d8-8c64-bf25dee527f4",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "primary public technical sandbox evidence",
+        "retrieval_method": "public JSON static/dynamic analysis report; no sample bytes downloaded",
+        "collection_start": "2026-11-11T19:41:35.566328Z",
+        "discovery_context": [
+          "Exact original-file hash triplet in sample_detail; explicit sample.first_seen Nov11 10:13:59Z.",
+          "Dynamic process tree CScript to Explorer to coretray81.exe; its memory region has malicious PureHVNC code detection and 117 malicious functions.",
+          "Analysis creation Nov11 10:15:31Z and report generation Nov11 10:26:42Z are sandbox metadata, not real-world activity times."
+        ],
+        "source_id": "2e4c4aeb-7281-40d8-8c64-bf25dee527f4",
+        "report_generated_at": "2026-11-11T10:26:42.004387+00:00",
+        "retrieved_api_url": "https://api-community.analysis.threatray.com/v1/reports/2e4c4aeb-7281-40d8-8c64-bf25dee527f4"
+      },
+      {
+        "organization": "VirusSign",
+        "article_title": "Public file intelligence and observation record",
+        "url": "https://intel.virussign.com/intelligence/file/a2267cc5579ceb2755d2b022179ac8bc5b39e08db937b22a67962ff9fb4423ad",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "separate explicit sample-observation context; not sole maliciousness evidence",
+        "retrieval_method": "public HTML report body; no sample bytes downloaded",
+        "collection_start": "2026-11-11T19:41:25.227379Z",
+        "discovery_context": [
+          "Exact original-file triplet; explicit file first seen Nov11 10:17:14Z and last seen Nov11 16:19:00Z.",
+          "Selected public network context is not independently verified as malicious infrastructure and is excluded."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://sso.crypsend.click/idcheck/vantdot.html",
+    "ioc_type": "url",
+    "original_ioc": "https://sso.crypsend.click/idcheck/vantdot.html",
+    "hunt_ioc": "https://sso.crypsend.click/idcheck/vantdot.html",
+    "hunt_ioc_type": "url",
+    "threat_campaign": "macOS ClickFix with Polygon dead drop",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Malanta"
+    ],
+    "source_article": [
+      "ClickFix on a typo, C2 in a smart contract"
+    ],
+    "source_url": [
+      "https://www.malanta.ai/blog-posts/clickfix-on-a-typo-c2-in-a-smart-contract"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T19:44:30Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Original article and official blog index visibly dated November 11, 2026; JSON-LD publication fields are empty. Researcher observations and static decoding date to October 20, 2026. Final payload was not retrieved; no malicious infrastructure was contacted in this review. Exact first/last observations and current activity are unknown. Exact fake-CAPTCHA lure URL reached during a controlled researcher visit. Retain the full path and match the exact URL; do not expand to Cloudflare or unrelated hostnames.",
+    "sources": [
+      {
+        "organization": "Malanta",
+        "article_title": "ClickFix on a typo, C2 in a smart contract",
+        "url": "https://www.malanta.ai/blog-posts/clickfix-on-a-typo-c2-in-a-smart-contract",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "ordinary public HTTPS: full canonical article text plus official blog index and page metadata",
+        "collection_start": "2026-11-11T19:29:40Z",
+        "discovery_context": [
+          "Discovered during the second extended vendor-research pass; no previous repository dataset imported.",
+          "Visible publication date November 11 confirmed by official blog index; empty structured date fields do not provide an independent timestamp.",
+          "Full static appendix anchor resolves only to # and was not available. Exact indicators are directly supported by the full canonical narrative."
+        ],
+        "source_indicator_notation": "hxxps://sso.crypsend[.]click/idcheck/vantdot.html"
+      }
+    ]
+  },
+  {
+    "ioc": "https://7ulk.irvinaurus.fit/clear-cache.sh",
+    "ioc_type": "url",
+    "original_ioc": "https://7ulk.irvinaurus.fit/clear-cache.sh",
+    "hunt_ioc": "https://7ulk.irvinaurus.fit/clear-cache.sh",
+    "hunt_ioc_type": "url",
+    "threat_campaign": "macOS ClickFix with Polygon dead drop",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Malanta"
+    ],
+    "source_article": [
+      "ClickFix on a typo, C2 in a smart contract"
+    ],
+    "source_url": [
+      "https://www.malanta.ai/blog-posts/clickfix-on-a-typo-c2-in-a-smart-contract"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T19:44:30Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Original article and official blog index visibly dated November 11, 2026; JSON-LD publication fields are empty. Researcher observations and static decoding date to October 20, 2026. Final payload was not retrieved; no malicious infrastructure was contacted in this review. Exact first/last observations and current activity are unknown. Exact stage-1 shell-script URL copied by the fake verification. The decoded script constructs an AppleScript launch agent and retrieves commands via a Polygon dead drop. Retain the exact host and path.",
+    "sources": [
+      {
+        "organization": "Malanta",
+        "article_title": "ClickFix on a typo, C2 in a smart contract",
+        "url": "https://www.malanta.ai/blog-posts/clickfix-on-a-typo-c2-in-a-smart-contract",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "ordinary public HTTPS: full canonical article text plus official blog index and page metadata",
+        "collection_start": "2026-11-11T19:29:40Z",
+        "discovery_context": [
+          "Discovered during the second extended vendor-research pass; no previous repository dataset imported.",
+          "Visible publication date November 11 confirmed by official blog index; empty structured date fields do not provide an independent timestamp.",
+          "Full static appendix anchor resolves only to # and was not available. Exact indicators are directly supported by the full canonical narrative."
+        ],
+        "source_indicator_notation": "hxxps://7ulk.irvinaurus[.]fit/clear-cache.sh"
+      }
+    ]
+  },
+  {
+    "ioc": "secdarvin2026.icu",
+    "ioc_type": "domain",
+    "original_ioc": "secdarvin2026.icu",
+    "hunt_ioc": "secdarvin2026.icu",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "macOS ClickFix with Polygon dead drop",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Malanta"
+    ],
+    "source_article": [
+      "ClickFix on a typo, C2 in a smart contract"
+    ],
+    "source_url": [
+      "https://www.malanta.ai/blog-posts/clickfix-on-a-typo-c2-in-a-smart-contract"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T19:44:30Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Original article and official blog index visibly dated November 11, 2026; JSON-LD publication fields are empty. Researcher observations and static decoding date to October 20, 2026. Final payload was not retrieved; no malicious infrastructure was contacted in this review. Exact first/last observations and current activity are unknown. Exact command-server domain recovered from the Polygon smart-contract string on October 20. The decoded implant posts a campaign identifier and runs returned AppleScript with user privileges. Match exact hostname; current resolution and activity are unknown.",
+    "sources": [
+      {
+        "organization": "Malanta",
+        "article_title": "ClickFix on a typo, C2 in a smart contract",
+        "url": "https://www.malanta.ai/blog-posts/clickfix-on-a-typo-c2-in-a-smart-contract",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "ordinary public HTTPS: full canonical article text plus official blog index and page metadata",
+        "collection_start": "2026-11-11T19:29:40Z",
+        "discovery_context": [
+          "Discovered during the second extended vendor-research pass; no previous repository dataset imported.",
+          "Visible publication date November 11 confirmed by official blog index; empty structured date fields do not provide an independent timestamp.",
+          "Full static appendix anchor resolves only to # and was not available. Exact indicators are directly supported by the full canonical narrative."
+        ],
+        "source_indicator_notation": "secdarvin2026[.]icu"
+      }
+    ]
+  },
+  {
+    "ioc": "f0b86adb6cf83b21cd457ea90cfbeaf3",
+    "ioc_type": "md5",
+    "original_ioc": "f0b86adb6cf83b21cd457ea90cfbeaf3",
+    "hunt_ioc": "f0b86adb6cf83b21cd457ea90cfbeaf3",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "njRAT delivery file",
+    "malware_family": "njRAT",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "CSIRT Italia (ACN)",
+      "VirusSign"
+    ],
+    "source_article": [
+      "Warning: NJRat IOCs 2026-11-11",
+      "Public exact-file technical intelligence report"
+    ],
+    "source_url": [
+      "https://www.csirt.gov.it/feed-misp/87b9d5cc-966a-4c53-961e-6d4b11f9127b.json",
+      "https://intel.virussign.com/intelligence/file/f9b02fa30519eba35ee96217415fe2b3b0542e693795812ecd07060788ac0859"
+    ],
+    "article_published_date": [
+      "2026-11-11",
+      "unknown"
+    ],
+    "ioc_first_seen": "2026-11-09T11:50:48Z",
+    "ioc_last_seen": "2026-11-10T09:36:19Z",
+    "collected_at": "2026-11-11T19:50:39.214462+00:00",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Government-published njRAT delivery-file hash. The original is a PE/.NET executable using an .xls filename; independent selected technical findings include credential-storage registry access, analysis delay, write-watch memory allocation and changed unbacked-memory protections, with a Malicious verdict. VirusSign selected technical observations include credential-storage registry access, write-watch allocation for sandbox evasion, changed unbacked-memory protections, suspicious DLL loading and a candidate C2 communication. Its overall verdict is Malicious. Exact original-file triplet matches the government Nov11 publication. Family is a government source label; VirusSign labels this sample more generically. File first/last seen are explicitly provider-reported sample observations, not real-world activity claims. Publication today does not establish activity today. Alternate hashes identify one original file; shared-service URLs, candidate C2, other network and child-file values are excluded.",
+    "sources": [
+      {
+        "organization": "CSIRT Italia (ACN)",
+        "article_title": "Warning: NJRat IOCs 2026-11-11",
+        "url": "https://www.csirt.gov.it/feed-misp/87b9d5cc-966a-4c53-961e-6d4b11f9127b.json",
+        "published_at": "2026-11-11T15:18:31Z",
+        "updated_at": null,
+        "source_role": "primary government IOC publication",
+        "retrieval_method": "public MISP JSON retrieved and parsed",
+        "collection_start": "2026-11-11T19:31:23Z",
+        "discovery_context": [
+          "Official ACN public MISP documentation establishes source ownership.",
+          "Published TLP:CLEAR Nov11 payload-delivery event lists the exact original-file hash."
+        ],
+        "source_id": "87b9d5cc-966a-4c53-961e-6d4b11f9127b",
+        "attribute_uuid": "0da25927-3296-43d3-bad4-f2ae2911cc3f"
+      },
+      {
+        "organization": "VirusSign",
+        "article_title": "Public exact-file technical intelligence report",
+        "url": "https://intel.virussign.com/intelligence/file/f9b02fa30519eba35ee96217415fe2b3b0542e693795812ecd07060788ac0859",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "independent selected technical behavior corroboration",
+        "retrieval_method": "public HTML technical report selected findings; no sample bytes downloaded",
+        "collection_start": "2026-11-11T19:49:53.437649Z",
+        "discovery_context": [
+          "VirusSign selected technical observations include credential-storage registry access, write-watch allocation for sandbox evasion, changed unbacked-memory protections, suspicious DLL loading and a candidate C2 communication. Its overall verdict is Malicious.",
+          "Explicit provider file observations predate Nov11; do not substitute relationship/UI freshness for file observation dates."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2ab678ea1ef27980117cdce172e5969868d6b408",
+    "ioc_type": "sha1",
+    "original_ioc": "2ab678ea1ef27980117cdce172e5969868d6b408",
+    "hunt_ioc": "2ab678ea1ef27980117cdce172e5969868d6b408",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "njRAT delivery file",
+    "malware_family": "njRAT",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "CSIRT Italia (ACN)",
+      "VirusSign"
+    ],
+    "source_article": [
+      "Warning: NJRat IOCs 2026-11-11",
+      "Public exact-file technical intelligence report"
+    ],
+    "source_url": [
+      "https://www.csirt.gov.it/feed-misp/87b9d5cc-966a-4c53-961e-6d4b11f9127b.json",
+      "https://intel.virussign.com/intelligence/file/f9b02fa30519eba35ee96217415fe2b3b0542e693795812ecd07060788ac0859"
+    ],
+    "article_published_date": [
+      "2026-11-11",
+      "unknown"
+    ],
+    "ioc_first_seen": "2026-11-09T11:50:48Z",
+    "ioc_last_seen": "2026-11-10T09:36:19Z",
+    "collected_at": "2026-11-11T19:50:39.214462+00:00",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Government-published njRAT delivery-file hash. The original is a PE/.NET executable using an .xls filename; independent selected technical findings include credential-storage registry access, analysis delay, write-watch memory allocation and changed unbacked-memory protections, with a Malicious verdict. VirusSign selected technical observations include credential-storage registry access, write-watch allocation for sandbox evasion, changed unbacked-memory protections, suspicious DLL loading and a candidate C2 communication. Its overall verdict is Malicious. Exact original-file triplet matches the government Nov11 publication. Family is a government source label; VirusSign labels this sample more generically. File first/last seen are explicitly provider-reported sample observations, not real-world activity claims. Publication today does not establish activity today. Alternate hashes identify one original file; shared-service URLs, candidate C2, other network and child-file values are excluded.",
+    "sources": [
+      {
+        "organization": "CSIRT Italia (ACN)",
+        "article_title": "Warning: NJRat IOCs 2026-11-11",
+        "url": "https://www.csirt.gov.it/feed-misp/87b9d5cc-966a-4c53-961e-6d4b11f9127b.json",
+        "published_at": "2026-11-11T15:18:31Z",
+        "updated_at": null,
+        "source_role": "primary government IOC publication",
+        "retrieval_method": "public MISP JSON retrieved and parsed",
+        "collection_start": "2026-11-11T19:31:23Z",
+        "discovery_context": [
+          "Official ACN public MISP documentation establishes source ownership.",
+          "Published TLP:CLEAR Nov11 payload-delivery event lists the exact original-file hash."
+        ],
+        "source_id": "87b9d5cc-966a-4c53-961e-6d4b11f9127b",
+        "attribute_uuid": "930d36d7-b2d6-4f99-92fc-7ad68c863c4c"
+      },
+      {
+        "organization": "VirusSign",
+        "article_title": "Public exact-file technical intelligence report",
+        "url": "https://intel.virussign.com/intelligence/file/f9b02fa30519eba35ee96217415fe2b3b0542e693795812ecd07060788ac0859",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "independent selected technical behavior corroboration",
+        "retrieval_method": "public HTML technical report selected findings; no sample bytes downloaded",
+        "collection_start": "2026-11-11T19:49:53.437649Z",
+        "discovery_context": [
+          "VirusSign selected technical observations include credential-storage registry access, write-watch allocation for sandbox evasion, changed unbacked-memory protections, suspicious DLL loading and a candidate C2 communication. Its overall verdict is Malicious.",
+          "Explicit provider file observations predate Nov11; do not substitute relationship/UI freshness for file observation dates."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "f9b02fa30519eba35ee96217415fe2b3b0542e693795812ecd07060788ac0859",
+    "ioc_type": "sha256",
+    "original_ioc": "f9b02fa30519eba35ee96217415fe2b3b0542e693795812ecd07060788ac0859",
+    "hunt_ioc": "f9b02fa30519eba35ee96217415fe2b3b0542e693795812ecd07060788ac0859",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "njRAT delivery file",
+    "malware_family": "njRAT",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "CSIRT Italia (ACN)",
+      "VirusSign"
+    ],
+    "source_article": [
+      "Warning: NJRat IOCs 2026-11-11",
+      "Public exact-file technical intelligence report"
+    ],
+    "source_url": [
+      "https://www.csirt.gov.it/feed-misp/87b9d5cc-966a-4c53-961e-6d4b11f9127b.json",
+      "https://intel.virussign.com/intelligence/file/f9b02fa30519eba35ee96217415fe2b3b0542e693795812ecd07060788ac0859"
+    ],
+    "article_published_date": [
+      "2026-11-11",
+      "unknown"
+    ],
+    "ioc_first_seen": "2026-11-09T11:50:48Z",
+    "ioc_last_seen": "2026-11-10T09:36:19Z",
+    "collected_at": "2026-11-11T19:50:39.214462+00:00",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Government-published njRAT delivery-file hash. The original is a PE/.NET executable using an .xls filename; independent selected technical findings include credential-storage registry access, analysis delay, write-watch memory allocation and changed unbacked-memory protections, with a Malicious verdict. VirusSign selected technical observations include credential-storage registry access, write-watch allocation for sandbox evasion, changed unbacked-memory protections, suspicious DLL loading and a candidate C2 communication. Its overall verdict is Malicious. Exact original-file triplet matches the government Nov11 publication. Family is a government source label; VirusSign labels this sample more generically. File first/last seen are explicitly provider-reported sample observations, not real-world activity claims. Publication today does not establish activity today. Alternate hashes identify one original file; shared-service URLs, candidate C2, other network and child-file values are excluded.",
+    "sources": [
+      {
+        "organization": "CSIRT Italia (ACN)",
+        "article_title": "Warning: NJRat IOCs 2026-11-11",
+        "url": "https://www.csirt.gov.it/feed-misp/87b9d5cc-966a-4c53-961e-6d4b11f9127b.json",
+        "published_at": "2026-11-11T15:18:31Z",
+        "updated_at": null,
+        "source_role": "primary government IOC publication",
+        "retrieval_method": "public MISP JSON retrieved and parsed",
+        "collection_start": "2026-11-11T19:31:23Z",
+        "discovery_context": [
+          "Official ACN public MISP documentation establishes source ownership.",
+          "Published TLP:CLEAR Nov11 payload-delivery event lists the exact original-file hash."
+        ],
+        "source_id": "87b9d5cc-966a-4c53-961e-6d4b11f9127b",
+        "attribute_uuid": "587b9093-0fe9-4654-b0da-ccc0c219e6b6"
+      },
+      {
+        "organization": "VirusSign",
+        "article_title": "Public exact-file technical intelligence report",
+        "url": "https://intel.virussign.com/intelligence/file/f9b02fa30519eba35ee96217415fe2b3b0542e693795812ecd07060788ac0859",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "independent selected technical behavior corroboration",
+        "retrieval_method": "public HTML technical report selected findings; no sample bytes downloaded",
+        "collection_start": "2026-11-11T19:49:53.437649Z",
+        "discovery_context": [
+          "VirusSign selected technical observations include credential-storage registry access, write-watch allocation for sandbox evasion, changed unbacked-memory protections, suspicious DLL loading and a candidate C2 communication. Its overall verdict is Malicious.",
+          "Explicit provider file observations predate Nov11; do not substitute relationship/UI freshness for file observation dates."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "196.128.138.201",
+    "ioc_type": "ip",
+    "original_ioc": "196.128.138.201",
+    "hunt_ioc": "196.128.138.201",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "SSHole (CVE-2026-123158) exploitation",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "GreyNoise"
+    ],
+    "source_article": [
+      "SSHole (CVE-2026-123158) Activity 2026"
+    ],
+    "source_url": [
+      "https://sshole.events.greynoise.io/"
+    ],
+    "article_published_date": [
+      "unknown"
+    ],
+    "ioc_first_seen": "2026-11-10T15:03:48Z",
+    "ioc_last_seen": "2026-11-11T17:16:06Z",
+    "collected_at": "2026-11-11T19:53:49Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party direct observations. This is an attacker source IP for inbound SSH port 22 exploitation, not an inferred destination C2 address or a generic TCP scan. Qualifying November 11 Los Angeles sessions at 17:15:14-17:15:52 and 17:15:17-17:16:06 UTC execute system, SSH configuration, known-host and private-key availability discovery on vulnerable gridpoints. Earlier November 10 activity additionally created a local account with passwordless root privileges. First/last seen are the earliest/latest post-exploitation command times for this exact IP visible in this report, not global lifecycle dates or continuously active access. The live report was updated 2026-11-11 19:11 UTC; original publication date is unknown. Addresses may be reassigned, shared or compromised, so a match requires local SSH context. No attribution to GT10 or another named actor is inferred.",
+    "sources": [
+      {
+        "organization": "GreyNoise",
+        "article_title": "SSHole (CVE-2026-123158) Activity 2026",
+        "url": "https://sshole.events.greynoise.io/",
+        "published_at": null,
+        "updated_at": "2026-11-11T19:11Z",
+        "source_role": "primary evidence",
+        "retrieval_method": "ordinary official HTTPS; full public report retrieved, confirmed exploitation table and exact process commands reviewed",
+        "collection_start": "2026-11-11T19:51:34Z",
+        "discovery_context": [
+          "Official GreyNoise blog index directly links this live report. Exact attacker source role, SSH port 22 and post-exploitation timestamps independently verified. Acceptance day assessed in America/Los_Angeles. No malicious infrastructure contacted."
+        ],
+        "indicator_role": "attacker source",
+        "observed_service": "SSH",
+        "observed_port": 22
+      }
+    ]
+  },
+  {
+    "ioc": "79.116.138.30",
+    "ioc_type": "ip",
+    "original_ioc": "79.116.138.30",
+    "hunt_ioc": "79.116.138.30",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "SSHole (CVE-2026-123158) exploitation",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "GreyNoise"
+    ],
+    "source_article": [
+      "SSHole (CVE-2026-123158) Activity 2026"
+    ],
+    "source_url": [
+      "https://sshole.events.greynoise.io/"
+    ],
+    "article_published_date": [
+      "unknown"
+    ],
+    "ioc_first_seen": "2026-11-07T21:42:15Z",
+    "ioc_last_seen": "2026-11-11T09:15:17Z",
+    "collected_at": "2026-11-11T19:53:49Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party direct observations. This is an attacker source IP for inbound SSH port 22 exploitation, not an inferred destination C2 address or a generic TCP scan. Qualifying November 11 Los Angeles sessions at 08:28:47-08:42:35 and 09:14:44-09:15:17 UTC execute interactive shell commands to inspect identity, hostname, shell history and network connections on the previously exploited gridpoint. Earlier November 7 activity read credential stores, and November 10 activity changed authorized_keys. First/last seen are the earliest/latest post-exploitation command times for this exact IP visible in this report, not global lifecycle dates or continuously active access. The live report was updated 2026-11-11 19:11 UTC; original publication date is unknown. Addresses may be reassigned, shared or compromised, so a match requires local SSH context. No attribution to GT10 or another named actor is inferred.",
+    "sources": [
+      {
+        "organization": "GreyNoise",
+        "article_title": "SSHole (CVE-2026-123158) Activity 2026",
+        "url": "https://sshole.events.greynoise.io/",
+        "published_at": null,
+        "updated_at": "2026-11-11T19:11Z",
+        "source_role": "primary evidence",
+        "retrieval_method": "ordinary official HTTPS; full public report retrieved, confirmed exploitation table and exact process commands reviewed",
+        "collection_start": "2026-11-11T19:51:34Z",
+        "discovery_context": [
+          "Official GreyNoise blog index directly links this live report. Exact attacker source role, SSH port 22 and post-exploitation timestamps independently verified. Acceptance day assessed in America/Los_Angeles. No malicious infrastructure contacted."
+        ],
+        "indicator_role": "attacker source",
+        "observed_service": "SSH",
+        "observed_port": 22
+      }
+    ]
+  },
+  {
+    "ioc": "103.140.130.248",
+    "ioc_type": "ip",
+    "original_ioc": "103.140.130.248",
+    "hunt_ioc": "103.140.130.248",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "SSHole (CVE-2026-123158) exploitation",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "GreyNoise"
+    ],
+    "source_article": [
+      "SSHole (CVE-2026-123158) Activity 2026"
+    ],
+    "source_url": [
+      "https://sshole.events.greynoise.io/"
+    ],
+    "article_published_date": [
+      "unknown"
+    ],
+    "ioc_first_seen": "2026-11-11T07:31:11Z",
+    "ioc_last_seen": "2026-11-11T08:06:23Z",
+    "collected_at": "2026-11-11T19:53:49Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party direct observations. This is an attacker source IP for inbound SSH port 22 exploitation, not an inferred destination C2 address or a generic TCP scan. A qualifying November 11 Los Angeles session at 08:06:14-08:06:23 UTC creates a local server_manager account, sets its password, grants passwordless root access through doas configuration, and removes its home directory. A preceding 07:31:11 UTC session is on November 10 in Los Angeles. First/last seen are the earliest/latest post-exploitation command times for this exact IP visible in this report, not global lifecycle dates or continuously active access. The live report was updated 2026-11-11 19:11 UTC; original publication date is unknown. Addresses may be reassigned, shared or compromised, so a match requires local SSH context. No attribution to GT10 or another named actor is inferred.",
+    "sources": [
+      {
+        "organization": "GreyNoise",
+        "article_title": "SSHole (CVE-2026-123158) Activity 2026",
+        "url": "https://sshole.events.greynoise.io/",
+        "published_at": null,
+        "updated_at": "2026-11-11T19:11Z",
+        "source_role": "primary evidence",
+        "retrieval_method": "ordinary official HTTPS; full public report retrieved, confirmed exploitation table and exact process commands reviewed",
+        "collection_start": "2026-11-11T19:51:34Z",
+        "discovery_context": [
+          "Official GreyNoise blog index directly links this live report. Exact attacker source role, SSH port 22 and post-exploitation timestamps independently verified. Acceptance day assessed in America/Los_Angeles. No malicious infrastructure contacted."
+        ],
+        "indicator_role": "attacker source",
+        "observed_service": "SSH",
+        "observed_port": 22
       }
     ]
   }
