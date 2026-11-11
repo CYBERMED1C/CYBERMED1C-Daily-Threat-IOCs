@@ -1,13 +1,13 @@
 <!-- CYBERMEDIC-LIVE-STATUS:START -->
 ## Live status
 
-🟡 **Publication update — verification in progress**
+🟢 **Healthy and operational**
 
 **Latest report:** [November 11, 2026](2026/11/11/11-11-26-iocs.md).
 
-**Last successful IOC publication:** Confirmed 2026-11-11 18:51:12 UTC.
+**Last successful IOC publication:** Confirmed 2026-11-11 20:10:35 UTC.
 
-**Overall health:** The revised 2026-11-11 set is prepared with 42 IOCs. Final publication verification is in progress.
+**Overall health:** The 2026-11-11 set contains 42 validated IOCs. Extended research is complete; publication and GitHub readback checks passed.
 
 **Daily schedule:** Active — 7:00 AM America/Los_Angeles.
 <!-- CYBERMEDIC-LIVE-STATUS:END -->
