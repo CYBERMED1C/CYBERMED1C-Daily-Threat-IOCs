@@ -1,0 +1,1146 @@
+[
+  {
+    "ioc": "fonts.tarotfree101.top",
+    "ioc_type": "domain",
+    "original_ioc": "fonts.tarotfree101.top",
+    "hunt_ioc": "fonts.tarotfree101.top",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Falcon",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Falcon C2 hostname. Match exact hostname; do not expand to parent domains or treat a match alone as confirmation of compromise.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "fonts.chrorne.com",
+    "ioc_type": "domain",
+    "original_ioc": "fonts.chrorne.com",
+    "hunt_ioc": "fonts.chrorne.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Falcon",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Falcon C2 hostname. Match exact hostname; do not expand to parent domains or treat a match alone as confirmation of compromise.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "robot.avbliud.com",
+    "ioc_type": "domain",
+    "original_ioc": "robot.avbliud.com",
+    "hunt_ioc": "robot.avbliud.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Falcon",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Falcon C2 hostname. Match exact hostname; do not expand to parent domains or treat a match alone as confirmation of compromise.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "microsoft-flash.com",
+    "ioc_type": "domain",
+    "original_ioc": "microsoft-flash.com",
+    "hunt_ioc": "microsoft-flash.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Antino",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Antino payload-delivery domain. Match exact hostname; do not expand to parent domains or treat a match alone as confirmation of compromise.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "wps-cn.com",
+    "ioc_type": "domain",
+    "original_ioc": "wps-cn.com",
+    "hunt_ioc": "wps-cn.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Falcon",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Falcon campaign payload-delivery domain. Match exact hostname; do not expand to parent domains or treat a match alone as confirmation of compromise.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "3e535d63af8a95221fb517fa1b3e4a0029d3463d8b767443abdff385ee8cb6e9",
+    "ioc_type": "sha256",
+    "original_ioc": "3e535d63af8a95221fb517fa1b3e4a0029d3463d8b767443abdff385ee8cb6e9",
+    "hunt_ioc": "3e535d63af8a95221fb517fa1b3e4a0029d3463d8b767443abdff385ee8cb6e9",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Falcon",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Chrome/Firefox extension component: analytics-core.js. Correlate file location and browser-extension context; endpoint hash telemetry for non-executable resources may be limited.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "f8b86238e179d88a9979b6f97750a39dda1d07b54d634bc1348fdfb0944a3b92",
+    "ioc_type": "sha256",
+    "original_ioc": "f8b86238e179d88a9979b6f97750a39dda1d07b54d634bc1348fdfb0944a3b92",
+    "hunt_ioc": "f8b86238e179d88a9979b6f97750a39dda1d07b54d634bc1348fdfb0944a3b92",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Falcon",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Chrome extension component: background.js. Correlate file location and browser-extension context; endpoint hash telemetry for non-executable resources may be limited.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "88e8b07bdf294ace0357d35acb7e108c66ba65a2c4ad66351fb8f7806dae0862",
+    "ioc_type": "sha256",
+    "original_ioc": "88e8b07bdf294ace0357d35acb7e108c66ba65a2c4ad66351fb8f7806dae0862",
+    "hunt_ioc": "88e8b07bdf294ace0357d35acb7e108c66ba65a2c4ad66351fb8f7806dae0862",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Falcon",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Chrome extension component: content-script.js. Correlate file location and browser-extension context; endpoint hash telemetry for non-executable resources may be limited.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b6a7be724871ed3e81c986b74d62da8911c82a336c4c1857b35f2446b2d49fda",
+    "ioc_type": "sha256",
+    "original_ioc": "b6a7be724871ed3e81c986b74d62da8911c82a336c4c1857b35f2446b2d49fda",
+    "hunt_ioc": "b6a7be724871ed3e81c986b74d62da8911c82a336c4c1857b35f2446b2d49fda",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Falcon",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Chrome extension component: manifest.json. Correlate file location and browser-extension context; endpoint hash telemetry for non-executable resources may be limited.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2ed834d92bfefc9d07a9f1a48f986974ae2a29669029f8163a1f6e8706388fcd",
+    "ioc_type": "sha256",
+    "original_ioc": "2ed834d92bfefc9d07a9f1a48f986974ae2a29669029f8163a1f6e8706388fcd",
+    "hunt_ioc": "2ed834d92bfefc9d07a9f1a48f986974ae2a29669029f8163a1f6e8706388fcd",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Falcon",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Chrome/Firefox extension component: offscreen.html. Correlate file location and browser-extension context; endpoint hash telemetry for non-executable resources may be limited.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "356b96c2267c5f2d8c07693643626e090b6389318b4ffa74699fa1732da5a00c",
+    "ioc_type": "sha256",
+    "original_ioc": "356b96c2267c5f2d8c07693643626e090b6389318b4ffa74699fa1732da5a00c",
+    "hunt_ioc": "356b96c2267c5f2d8c07693643626e090b6389318b4ffa74699fa1732da5a00c",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Falcon",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Chrome extension component: offscreen.js. Correlate file location and browser-extension context; endpoint hash telemetry for non-executable resources may be limited.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "265c2b36060e4b21c25aa86a8bb22d1db5f806117b484774c75c65b5b38222e0",
+    "ioc_type": "sha256",
+    "original_ioc": "265c2b36060e4b21c25aa86a8bb22d1db5f806117b484774c75c65b5b38222e0",
+    "hunt_ioc": "265c2b36060e4b21c25aa86a8bb22d1db5f806117b484774c75c65b5b38222e0",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Falcon",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Chrome/Firefox extension component: sandbox.html. Correlate file location and browser-extension context; endpoint hash telemetry for non-executable resources may be limited.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "66e9098551a1c0c74077d6cf55570e5d307a4a5ef0b0f2053e139394e61c442d",
+    "ioc_type": "sha256",
+    "original_ioc": "66e9098551a1c0c74077d6cf55570e5d307a4a5ef0b0f2053e139394e61c442d",
+    "hunt_ioc": "66e9098551a1c0c74077d6cf55570e5d307a4a5ef0b0f2053e139394e61c442d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Falcon",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Chrome extension component: sandbox.js. Correlate file location and browser-extension context; endpoint hash telemetry for non-executable resources may be limited.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "3e923f11db08413fca8a3a69d33d8896cfd56309e5179e8604d7fb7110428da2",
+    "ioc_type": "sha256",
+    "original_ioc": "3e923f11db08413fca8a3a69d33d8896cfd56309e5179e8604d7fb7110428da2",
+    "hunt_ioc": "3e923f11db08413fca8a3a69d33d8896cfd56309e5179e8604d7fb7110428da2",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Falcon",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Chrome extension component: twitter-dm.js. Correlate file location and browser-extension context; endpoint hash telemetry for non-executable resources may be limited.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2ebe36f1322b77264a33fded81cd4b8817f93362945070bf0bb5845dd27c0575",
+    "ioc_type": "sha256",
+    "original_ioc": "2ebe36f1322b77264a33fded81cd4b8817f93362945070bf0bb5845dd27c0575",
+    "hunt_ioc": "2ebe36f1322b77264a33fded81cd4b8817f93362945070bf0bb5845dd27c0575",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Falcon",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Firefox extension component: background.js. Correlate file location and browser-extension context; endpoint hash telemetry for non-executable resources may be limited.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "857429faffe0e0747ce299e86eed063ed781b4e403b917ca7e853e89bedf072c",
+    "ioc_type": "sha256",
+    "original_ioc": "857429faffe0e0747ce299e86eed063ed781b4e403b917ca7e853e89bedf072c",
+    "hunt_ioc": "857429faffe0e0747ce299e86eed063ed781b4e403b917ca7e853e89bedf072c",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Falcon",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Firefox extension component: content-script.js. Correlate file location and browser-extension context; endpoint hash telemetry for non-executable resources may be limited.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b33f2e95943e3ff0a72dea1be9fdea03d986bada4def34f6991b3113ec161ad7",
+    "ioc_type": "sha256",
+    "original_ioc": "b33f2e95943e3ff0a72dea1be9fdea03d986bada4def34f6991b3113ec161ad7",
+    "hunt_ioc": "b33f2e95943e3ff0a72dea1be9fdea03d986bada4def34f6991b3113ec161ad7",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Falcon",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Firefox extension component: manifest.json. Correlate file location and browser-extension context; endpoint hash telemetry for non-executable resources may be limited.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "898656c33effb51e109c548fc213f157f151a870ea64a4601eda74ae75bd3af6",
+    "ioc_type": "sha256",
+    "original_ioc": "898656c33effb51e109c548fc213f157f151a870ea64a4601eda74ae75bd3af6",
+    "hunt_ioc": "898656c33effb51e109c548fc213f157f151a870ea64a4601eda74ae75bd3af6",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Falcon",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Firefox extension component: offscreen.js. Correlate file location and browser-extension context; endpoint hash telemetry for non-executable resources may be limited.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b3d8ea89b19a87bf2fdd63127086681059f41d67b6e5f8c939f5636a1b2315ce",
+    "ioc_type": "sha256",
+    "original_ioc": "b3d8ea89b19a87bf2fdd63127086681059f41d67b6e5f8c939f5636a1b2315ce",
+    "hunt_ioc": "b3d8ea89b19a87bf2fdd63127086681059f41d67b6e5f8c939f5636a1b2315ce",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Falcon",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Firefox extension component: sandbox.js. Correlate file location and browser-extension context; endpoint hash telemetry for non-executable resources may be limited.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "24d69139cb2d32598f0f4983876f6320485fac134a66ade59cab76b50b4128f7",
+    "ioc_type": "sha256",
+    "original_ioc": "24d69139cb2d32598f0f4983876f6320485fac134a66ade59cab76b50b4128f7",
+    "hunt_ioc": "24d69139cb2d32598f0f4983876f6320485fac134a66ade59cab76b50b4128f7",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Falcon",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact indicator observation dates and current activity are unknown. Firefox extension component: twitter-dm.js. Correlate file location and browser-extension context; endpoint hash telemetry for non-executable resources may be limited.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "0c39264337a1186b2e765e24073399cbdcba118306614eb411e315887af578bd",
+    "ioc_type": "sha256",
+    "original_ioc": "0c39264337a1186b2e765e24073399cbdcba118306614eb411e315887af578bd",
+    "hunt_ioc": "0c39264337a1186b2e765e24073399cbdcba118306614eb411e315887af578bd",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Falcon browser espionage",
+    "malware_family": "Antino",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "The XG Files: Falcon C2 Flying Under The (Browser) Radar"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:20:55Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; report describes March-May 2026 activity. Exact observation dates and current activity are unknown. Antino executable flashcenter_pp_ax_install_en.exe; correlate with process and persistence evidence.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical article text and IOC appendix",
+        "collection_start": "2026-11-11T18:18:28Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "7107fb029e7c63523e3aca5fc8e56b38",
+    "ioc_type": "md5",
+    "original_ioc": "7107fb029e7c63523e3aca5fc8e56b38",
+    "hunt_ioc": "7107fb029e7c63523e3aca5fc8e56b38",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Citrus ransomware intrusion activity",
+    "malware_family": "Meterpreter",
+    "threat_actor": "Citrus",
+    "source_organization": [
+      "Kaspersky Securelist"
+    ],
+    "source_article": [
+      "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand"
+    ],
+    "source_url": [
+      "https://securelist.com/citrus-ransomware/121879/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:22:31Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; exact observation dates and current activity are unknown. Meterpreter stager 2341.exe. Hash appears in the malicious-file IOC appendix; MD5 type inferred from the 32-hexadecimal form. Investigate matching file context before response.",
+    "sources": [
+      {
+        "organization": "Kaspersky Securelist",
+        "article_title": "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand",
+        "url": "https://securelist.com/citrus-ransomware/121879/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical report text and IOC appendix",
+        "collection_start": "2026-11-11T18:20:55Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e251df2d0b7c3682965efb4d2009a2f4",
+    "ioc_type": "md5",
+    "original_ioc": "e251df2d0b7c3682965efb4d2009a2f4",
+    "hunt_ioc": "e251df2d0b7c3682965efb4d2009a2f4",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Citrus ransomware intrusion activity",
+    "malware_family": "modified peeping-tom keylogger",
+    "threat_actor": "Citrus",
+    "source_organization": [
+      "Kaspersky Securelist"
+    ],
+    "source_article": [
+      "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand"
+    ],
+    "source_url": [
+      "https://securelist.com/citrus-ransomware/121879/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:22:31Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; exact observation dates and current activity are unknown. Keylogger jhost.exe. Hash appears in the malicious-file IOC appendix; MD5 type inferred from the 32-hexadecimal form. Investigate matching file context before response.",
+    "sources": [
+      {
+        "organization": "Kaspersky Securelist",
+        "article_title": "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand",
+        "url": "https://securelist.com/citrus-ransomware/121879/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical report text and IOC appendix",
+        "collection_start": "2026-11-11T18:20:55Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "17b29b6c9de80402a45e321bbe1168fa",
+    "ioc_type": "md5",
+    "original_ioc": "17b29b6c9de80402a45e321bbe1168fa",
+    "hunt_ioc": "17b29b6c9de80402a45e321bbe1168fa",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Citrus ransomware intrusion activity",
+    "malware_family": "Sn00py",
+    "threat_actor": "Citrus",
+    "source_organization": [
+      "Kaspersky Securelist"
+    ],
+    "source_article": [
+      "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand"
+    ],
+    "source_url": [
+      "https://securelist.com/citrus-ransomware/121879/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:22:31Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; exact observation dates and current activity are unknown. Sn00py ransomware build_64.exe. Hash appears in the malicious-file IOC appendix; MD5 type inferred from the 32-hexadecimal form. Investigate matching file context before response.",
+    "sources": [
+      {
+        "organization": "Kaspersky Securelist",
+        "article_title": "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand",
+        "url": "https://securelist.com/citrus-ransomware/121879/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical report text and IOC appendix",
+        "collection_start": "2026-11-11T18:20:55Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "9eee984b187423c46c10a63d080da15d",
+    "ioc_type": "md5",
+    "original_ioc": "9eee984b187423c46c10a63d080da15d",
+    "hunt_ioc": "9eee984b187423c46c10a63d080da15d",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Citrus ransomware intrusion activity",
+    "malware_family": "Sn00py",
+    "threat_actor": "Citrus",
+    "source_organization": [
+      "Kaspersky Securelist"
+    ],
+    "source_article": [
+      "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand"
+    ],
+    "source_url": [
+      "https://securelist.com/citrus-ransomware/121879/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:22:31Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; exact observation dates and current activity are unknown. Sn00py ransomware build_64.exe. Hash appears in the malicious-file IOC appendix; MD5 type inferred from the 32-hexadecimal form. Investigate matching file context before response.",
+    "sources": [
+      {
+        "organization": "Kaspersky Securelist",
+        "article_title": "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand",
+        "url": "https://securelist.com/citrus-ransomware/121879/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical report text and IOC appendix",
+        "collection_start": "2026-11-11T18:20:55Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "91.210.109.118",
+    "ioc_type": "ip",
+    "original_ioc": "91.210.109.118",
+    "hunt_ioc": "91.210.109.118",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Citrus ransomware intrusion activity",
+    "malware_family": "unknown",
+    "threat_actor": "Citrus",
+    "source_organization": [
+      "Kaspersky Securelist"
+    ],
+    "source_article": [
+      "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand"
+    ],
+    "source_url": [
+      "https://securelist.com/citrus-ransomware/121879/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-11T18:22:31Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Single-source first-party evidence. Published 2026-11-11; exact observation dates and current activity are unknown. Attacker-controlled system receiving keylogger data and supplying forged certificate-validation data. Network destination role supported by keylogger exfiltration narrative; correlate with process and certificate-service context before response.",
+    "sources": [
+      {
+        "organization": "Kaspersky Securelist",
+        "article_title": "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand",
+        "url": "https://securelist.com/citrus-ransomware/121879/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "web tool: canonical report text and IOC appendix",
+        "collection_start": "2026-11-11T18:20:55Z",
+        "discovery_context": [
+          "First collection for this archive from a report published 2026-11-11."
+        ]
+      }
+    ]
+  }
+]

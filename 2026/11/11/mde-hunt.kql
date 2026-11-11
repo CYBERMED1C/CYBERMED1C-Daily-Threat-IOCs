@@ -1,0 +1,33 @@
+// CYBERMEDIC Daily-Threat-IOCs v2.0 hunt — 2026-11-11
+// Requires Microsoft Defender for Endpoint telemetry and the tables below.
+// Exact hostname/full-URL scope; no parent-domain or substring expansion.
+// IP indicators below have a reviewed C2/exfiltration destination role.
+// SHA256 and non-executable file hashes may be absent from endpoint telemetry.
+// Generated and statically reviewed; not executed in a live Defender tenant.
+let DomainIOCs = dynamic(["fonts.chrorne.com", "fonts.tarotfree101.top", "microsoft-flash.com", "robot.avbliud.com", "wps-cn.com"]);
+let IPIOCs = dynamic(["91.210.109.118"]);
+let MD5IOCs = dynamic(["17b29b6c9de80402a45e321bbe1168fa", "7107fb029e7c63523e3aca5fc8e56b38", "9eee984b187423c46c10a63d080da15d", "e251df2d0b7c3682965efb4d2009a2f4"]);
+let SHA256IOCs = dynamic(["0c39264337a1186b2e765e24073399cbdcba118306614eb411e315887af578bd", "24d69139cb2d32598f0f4983876f6320485fac134a66ade59cab76b50b4128f7", "265c2b36060e4b21c25aa86a8bb22d1db5f806117b484774c75c65b5b38222e0", "2ebe36f1322b77264a33fded81cd4b8817f93362945070bf0bb5845dd27c0575", "2ed834d92bfefc9d07a9f1a48f986974ae2a29669029f8163a1f6e8706388fcd", "356b96c2267c5f2d8c07693643626e090b6389318b4ffa74699fa1732da5a00c", "3e535d63af8a95221fb517fa1b3e4a0029d3463d8b767443abdff385ee8cb6e9", "3e923f11db08413fca8a3a69d33d8896cfd56309e5179e8604d7fb7110428da2", "66e9098551a1c0c74077d6cf55570e5d307a4a5ef0b0f2053e139394e61c442d", "857429faffe0e0747ce299e86eed063ed781b4e403b917ca7e853e89bedf072c", "88e8b07bdf294ace0357d35acb7e108c66ba65a2c4ad66351fb8f7806dae0862", "898656c33effb51e109c548fc213f157f151a870ea64a4601eda74ae75bd3af6", "b33f2e95943e3ff0a72dea1be9fdea03d986bada4def34f6991b3113ec161ad7", "b3d8ea89b19a87bf2fdd63127086681059f41d67b6e5f8c939f5636a1b2315ce", "b6a7be724871ed3e81c986b74d62da8911c82a336c4c1857b35f2446b2d49fda", "f8b86238e179d88a9979b6f97750a39dda1d07b54d634bc1348fdfb0944a3b92"]);
+union
+(
+DeviceNetworkEvents
+| where Timestamp >= ago(30d)
+// A scheme is added only for parsing bare FQDN telemetry; no network request occurs.
+| extend RemoteHost = tolower(tostring(parse_url(iff(RemoteUrl contains "://", RemoteUrl, strcat("https://", RemoteUrl))).Host))
+| extend RemoteHost = trim_end(@"\.$", RemoteHost)
+| where RemoteHost in (DomainIOCs) or RemoteIP in (IPIOCs)
+| project Timestamp, DeviceId, DeviceName, ActionType, EventKind = "Network", RemoteIP, RemoteUrl, FileName = InitiatingProcessFileName, SHA256 = InitiatingProcessSHA256, SHA1 = InitiatingProcessSHA1, MD5 = InitiatingProcessMD5
+),
+(
+DeviceFileEvents
+| where Timestamp >= ago(30d)
+| where tolower(MD5) in (MD5IOCs) or tolower(SHA256) in (SHA256IOCs)
+| project Timestamp, DeviceId, DeviceName, ActionType, EventKind = "File", RemoteIP = FileOriginIP, RemoteUrl = FileOriginUrl, FileName, SHA256, SHA1, MD5
+),
+(
+DeviceProcessEvents
+| where Timestamp >= ago(30d)
+| where tolower(MD5) in (MD5IOCs) or tolower(SHA256) in (SHA256IOCs)
+| project Timestamp, DeviceId, DeviceName, ActionType, EventKind = "Process", RemoteIP = "", RemoteUrl = "", FileName, SHA256, SHA1, MD5
+)
+| top 500 by Timestamp desc
