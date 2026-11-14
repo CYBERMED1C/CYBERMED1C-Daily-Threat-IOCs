@@ -2,9 +2,9 @@
 ## Live status
 
 🟡 **Published — source coverage limitations noted**
-**Latest report:** [November 13, 2026 (2026-11-13)](2026/11/13/11-13-26-iocs.md).
-**Last successful IOC publication:** Confirmed 2026-11-13 15:16 UTC (minute precision).
-**Overall status:** 82 validated IOCs are published. Research reviewed 41 substantive studies/records across 31 organization groups; the initial-pass item target and source access gaps are documented. Hunt queries received static review and were not executed on live security platforms.
+**Latest report:** [November 14, 2026 (2026-11-14)](2026/11/14/11-14-26-iocs.md).
+**Last successful IOC publication:** 2026-11-14 UTC (date precision). The exact last successful push timestamp is GitHub’s `pushed_at` field in the [repository metadata](https://api.github.com/repos/CYBERMED1C/CYBERMED1C-Daily-Threat-IOCs).
+**Overall status:** 213 validated IOCs are published. Research reviewed 53 original studies/records across 35 publisher groups, plus five discovery stories; the initial-pass count was 23 of the 25-item target. Source access limitations are documented. Hunt queries received static review and were not executed on live security platforms.
 **Daily schedule:** Active — 6:00 AM Pacific time (America/Los_Angeles).
 <!-- CYBERMEDIC-LIVE-STATUS:END -->
 
