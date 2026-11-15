@@ -1,0 +1,37 @@
+// 2026-11-15 | Microsoft Defender XDR | 30-day scoped IOC sweep.
+// Static validation only; not executed on a live security platform.
+// Exact host/URL matching. Requires AWS-connected CloudAppEvents for source IPs.
+// Investigate context; older observations may fall outside the lookback.
+let DomainIOCs = dynamic(["007.from-ak.com", "544504d7fe1e.xyz", "a8f2aac37385.xyz", "accurasofthire.com", "calls-us.online", "cloude.ai", "com-join.us", "dns.cdn-syncnode-server.com", "fileharbor.net", "ivjgg6.blockchainfuturedev.buzz", "joinwebexmeeting.us", "kfkwrfdd.xyz", "meet-in.store", "meets-room.live", "mymeet.cc", "neoramo.com", "netguardprotect.com", "netguardsite.com", "sync-node-serv.com", "taennslieve.com", "teamicrosft.us.com", "teams06live.us.com", "teamslive.co", "teennslieves.com", "ue05webzoom.com", "ur05webzoom.com", "uroker.casa", "us01-zoom.cc", "us02-zoom.cc", "us05web-zoom.club", "us12zoom.us.com", "ux05webzoom.com", "wooocommerce.shopping"]);
+let IPIOCs = dynamic(["103.179.142.155", "145.63.138.67", "185.138.88.3", "185.241.211.197"]);
+let AWSSourceIPIOCs = dynamic(["103.54.154.40", "154.64.252.77", "2001:41d0:70d:7800::", "43.240.29.11", "57.129.54.120"]);
+let URLIOCs = dynamic(["http://145.63.138.67:8125/up/", "http://157.20.241.16:8080/ob/fcheck", "http://157.20.241.16:8080/xmrig.tgz", "http://157.20.241.16:8080/xvgz", "https://gpimmlgration.com/static-export/api/device/start"]);
+let SHA256IOCs = dynamic(["009099ba10365b44bdb3ecc28dfcbed6a594ec0a0df86931620cdaac9843e611", "0aff424f9a02eb9f429119c4caa05e85fc952603549d69849e745293d20235d6", "0dcfe51d2521e52a469f5cec6b42bc8e7e37b41df993cce7d739ff3fd248d8b1", "338e37f58043635ebab64ee5fdc919935e55cb146ca97834b358f934e55e88ec", "47e853092511d9663196e9b36d563a0c3e92ee734f88675c4f375ffcfa5f3db8", "4efe003a54db8ffbaef6065270eacb0a59479ccc86941517ac7a33344e97bc1d", "4f656834e545c0b44922ce6d8952989c8c0859d8ae8b1f117c06ab07b047e2b4", "51d577c84e50657d6cacf0e7738c9539ee4f39f76838423c682ad0dadc8e2d87", "56582934901cce0b618d6a50e54c9db29bf2d444636bcd40b5975a765ecde538", "6444a4e18c9ca99b5516e5365baac88bf4d62182e3630451b202c9bfb4ccbc0b", "65f061281c9a712e9502793dc4c5035cae490b84da05f7d4223cefa65ad396e4", "7055483a77f679ad569c3a9bfe76cdb8e5b96efc44d2bf2a6f08e930add598b0", "79a4cb73983a1facb5db09f1a20cec6e58d91a93044a78aa3ba32ab2190284ed", "89695abb392d5cfd4972672961e644bb46baa98aa1ed7173c2a2816c762735cf", "8ebb2bf61b48ae7abdcd674413bebd79b30ddd945854e175ba60d56c0a3adf54", "9a2af4b6d9780e08c86ff35030ee1747ea11460cb1dffc868c48e7af6d626546", "a052b63e9c358c8911c17d1f58cce00949791f103fcf74f6057863d681c52301", "a1937467fd862916f89342cdd61f55c4bc405fb35b6e1379e27cfbfdba77dcdc", "a4ad001c6900176eba43a747ae5d212db6fc78f7ef4e777f276cbbdf8099dbe8", "a972797cc1a4161f6e2841142b8cace9b781585f9a71b03aa79a9c051b817491", "bceeb2d54b6a756c73a3e06617e9e95ad4d8e53da47639bcd6ef3cae98c6da6d", "bd1c005f35e4fd8c61dfa6f20d4c03e082c692e286a3b22dd642369c8d5e3564", "bdddb50204d6867b4bd73d9cfe93cbc98c4518342da104e4608f04e675ac6cb3", "c7eb24e77c3c7b73f757eaeb43ce1d90bae5a88fe6204cbbde52cbea7f074c4f", "cf92fe40fc374b651ef31de2d305f5ee1f70a0f14122017214af89e7be774c3f", "d2d41b249905deae3bd6bcaa547872d747256a7dfa459b509d9db9de8f0ca29b", "d85315bd7602b6f5c13dc0eada2c9cba0892c7cd3b1eb7dacb1bffdd536ceb21", "dbd252becd490ac47e16bff4391ab9e6237c4f7e81ab6784c57fa2eed751f477", "dc57638cb90798835848a9dafec228bef7738def50f4f2db612862e07c5b6f8a", "e9e57a57ee45b8faae2e47affd8cf3a6d0cc1283802108f7298ae1d2ef3b43f0", "ee5fa33b58d0f2772e091e23de9db24908d970000a88e39fd7d908f30f5e591a"]);
+union
+(
+DeviceNetworkEvents
+| where Timestamp >= ago(30d)
+| extend RemoteHost = tolower(tostring(parse_url(iff(RemoteUrl contains "://", RemoteUrl, strcat("http://", RemoteUrl))).Host))
+| where RemoteHost in (DomainIOCs) or RemoteIP in (IPIOCs) or RemoteUrl in (URLIOCs)
+| project Timestamp, DeviceId, DeviceName, ActionType, FileName, RemoteIP, RemoteUrl, InitiatingProcessFileName
+),
+(
+DeviceFileEvents
+| where Timestamp >= ago(30d)
+| where tolower(SHA256) in (SHA256IOCs)
+| project Timestamp, DeviceId, DeviceName, ActionType, FileName, FolderPath, SHA256, InitiatingProcessFileName
+),
+(
+DeviceProcessEvents
+| where Timestamp >= ago(30d)
+| where tolower(SHA256) in (SHA256IOCs)
+| project Timestamp, DeviceId, DeviceName, ActionType, FileName, FolderPath, SHA256, InitiatingProcessFileName
+),
+(
+CloudAppEvents
+| where Timestamp >= ago(30d)
+| where Application == "Amazon Web Services"
+| where IPAddress in (AWSSourceIPIOCs)
+| project Timestamp, Application, ActionType, IPAddress, ObjectName, ObjectType
+)
+| top 500 by Timestamp desc

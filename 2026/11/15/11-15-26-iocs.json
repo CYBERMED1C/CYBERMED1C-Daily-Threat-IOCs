@@ -1,0 +1,3884 @@
+[
+  {
+    "ioc": "185.241.211.197",
+    "ioc_type": "ip",
+    "original_ioc": "185.241.211.197",
+    "hunt_ioc": "185.241.211.197",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "SCKit rogue ScreenConnect enrollment",
+    "malware_family": "SCKit",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Huntress",
+      "Blackpoint Cyber"
+    ],
+    "source_article": [
+      "SCKit investigation",
+      "SCKit technical analysis"
+    ],
+    "source_url": [
+      "https://www.huntress.com/blog/sckit-worm-rogue-screenconnect",
+      "https://blackpointcyber.com/blog/screenconnect-attack-sckit/"
+    ],
+    "article_published_date": [
+      "2026-11-11",
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Reviewed destination: rogue installer/relay. Two direct investigations; legitimate RMM enrollment requires context. November 13 evidence.",
+    "sources": [
+      {
+        "source_id": "huntress-sck",
+        "organization": "Huntress",
+        "article_title": "SCKit investigation",
+        "url": "https://www.huntress.com/blog/sckit-worm-rogue-screenconnect",
+        "published_at": "2026-11-11",
+        "updated_at": "2026-11-13T22:30:00Z",
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:03:03Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "November 13 deployment wave; exact per-indicator first/last observations not separately provided.",
+        "freshness_window": "primary",
+        "indicator_role": "destination"
+      },
+      {
+        "source_id": "blackpoint-sck",
+        "organization": "Blackpoint Cyber",
+        "article_title": "SCKit technical analysis",
+        "url": "https://blackpointcyber.com/blog/screenconnect-attack-sckit/",
+        "published_at": "2026-11-11",
+        "updated_at": "2026-11-13T19:23:00Z",
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:08:48Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Recovered campaign components; November 13 SOC update.",
+        "freshness_window": "primary",
+        "indicator_role": "destination"
+      }
+    ]
+  },
+  {
+    "ioc": "007.from-ak.com",
+    "ioc_type": "domain",
+    "original_ioc": "007.from-ak.com",
+    "hunt_ioc": "007.from-ak.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SCKit rogue ScreenConnect enrollment",
+    "malware_family": "SCKit",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Huntress"
+    ],
+    "source_article": [
+      "SCKit investigation"
+    ],
+    "source_url": [
+      "https://www.huntress.com/blog/sckit-worm-rogue-screenconnect"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Exact rogue relay hostname, port 88 documented. Single primary source; November 13 evidence.",
+    "sources": [
+      {
+        "source_id": "huntress-sck",
+        "organization": "Huntress",
+        "article_title": "SCKit investigation",
+        "url": "https://www.huntress.com/blog/sckit-worm-rogue-screenconnect",
+        "published_at": "2026-11-11",
+        "updated_at": "2026-11-13T22:30:00Z",
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:03:03Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "November 13 deployment wave; exact per-indicator first/last observations not separately provided.",
+        "freshness_window": "primary"
+      }
+    ]
+  },
+  {
+    "ioc": "a1937467fd862916f89342cdd61f55c4bc405fb35b6e1379e27cfbfdba77dcdc",
+    "ioc_type": "sha256",
+    "original_ioc": "a1937467fd862916f89342cdd61f55c4bc405fb35b6e1379e27cfbfdba77dcdc",
+    "hunt_ioc": "a1937467fd862916f89342cdd61f55c4bc405fb35b6e1379e27cfbfdba77dcdc",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "SCKit rogue ScreenConnect enrollment",
+    "malware_family": "SCKit",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Blackpoint Cyber"
+    ],
+    "source_article": [
+      "SCKit technical analysis"
+    ],
+    "source_url": [
+      "https://blackpointcyber.com/blog/screenconnect-attack-sckit/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Unauthorized-client installer script. Extended-window, single-source file evidence.",
+    "sources": [
+      {
+        "source_id": "blackpoint-sck",
+        "organization": "Blackpoint Cyber",
+        "article_title": "SCKit technical analysis",
+        "url": "https://blackpointcyber.com/blog/screenconnect-attack-sckit/",
+        "published_at": "2026-11-11",
+        "updated_at": "2026-11-13T19:23:00Z",
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:08:48Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Recovered campaign components; November 13 SOC update.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "338e37f58043635ebab64ee5fdc919935e55cb146ca97834b358f934e55e88ec",
+    "ioc_type": "sha256",
+    "original_ioc": "338e37f58043635ebab64ee5fdc919935e55cb146ca97834b358f934e55e88ec",
+    "hunt_ioc": "338e37f58043635ebab64ee5fdc919935e55cb146ca97834b358f934e55e88ec",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "SCKit rogue ScreenConnect enrollment",
+    "malware_family": "SCKit",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Blackpoint Cyber"
+    ],
+    "source_article": [
+      "SCKit technical analysis"
+    ],
+    "source_url": [
+      "https://blackpointcyber.com/blog/screenconnect-attack-sckit/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "PowerShell toolkit decoder. Extended-window, single-source file evidence.",
+    "sources": [
+      {
+        "source_id": "blackpoint-sck",
+        "organization": "Blackpoint Cyber",
+        "article_title": "SCKit technical analysis",
+        "url": "https://blackpointcyber.com/blog/screenconnect-attack-sckit/",
+        "published_at": "2026-11-11",
+        "updated_at": "2026-11-13T19:23:00Z",
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:08:48Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Recovered campaign components; November 13 SOC update.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "d85315bd7602b6f5c13dc0eada2c9cba0892c7cd3b1eb7dacb1bffdd536ceb21",
+    "ioc_type": "sha256",
+    "original_ioc": "d85315bd7602b6f5c13dc0eada2c9cba0892c7cd3b1eb7dacb1bffdd536ceb21",
+    "hunt_ioc": "d85315bd7602b6f5c13dc0eada2c9cba0892c7cd3b1eb7dacb1bffdd536ceb21",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "SCKit rogue ScreenConnect enrollment",
+    "malware_family": "SCKit",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Blackpoint Cyber"
+    ],
+    "source_article": [
+      "SCKit technical analysis"
+    ],
+    "source_url": [
+      "https://blackpointcyber.com/blog/screenconnect-attack-sckit/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "MSI configured for rogue enrollment; vendor code unmodified. Extended-window, single-source file evidence.",
+    "sources": [
+      {
+        "source_id": "blackpoint-sck",
+        "organization": "Blackpoint Cyber",
+        "article_title": "SCKit technical analysis",
+        "url": "https://blackpointcyber.com/blog/screenconnect-attack-sckit/",
+        "published_at": "2026-11-11",
+        "updated_at": "2026-11-13T19:23:00Z",
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:08:48Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Recovered campaign components; November 13 SOC update.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "89695abb392d5cfd4972672961e644bb46baa98aa1ed7173c2a2816c762735cf",
+    "ioc_type": "sha256",
+    "original_ioc": "89695abb392d5cfd4972672961e644bb46baa98aa1ed7173c2a2816c762735cf",
+    "hunt_ioc": "89695abb392d5cfd4972672961e644bb46baa98aa1ed7173c2a2816c762735cf",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "wfx CI credential theft",
+    "malware_family": "wfx-loot",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Aikido Security"
+    ],
+    "source_article": [
+      "wfx-loot investigation"
+    ],
+    "source_url": [
+      "https://www.aikido.dev/blog/compromised-github-accounts-push-ci-secret-stealer-to-tens-of-thousands-of-repositories"
+    ],
+    "article_published_date": [
+      "2026-11-12"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Stealer script; workflow/hook execution required. Extended-window; hash variants limit detection.",
+    "sources": [
+      {
+        "source_id": "aikido-wfx",
+        "organization": "Aikido Security",
+        "article_title": "wfx-loot investigation",
+        "url": "https://www.aikido.dev/blog/compromised-github-accounts-push-ci-secret-stealer-to-tens-of-thousands-of-repositories",
+        "published_at": "2026-11-12",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:03:56Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Campaign began November 10; exact sample first/last dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "43.240.29.11",
+    "ioc_type": "ip",
+    "original_ioc": "43.240.29.11",
+    "hunt_ioc": "43.240.29.11",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "CyberStrikeAI-linked AWS intrusion",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Elastic Security Labs"
+    ],
+    "source_article": [
+      "CyberStrikeAI AWS intrusion"
+    ],
+    "source_url": [
+      "https://www.elastic.co/security-labs/threat-command/cyberstrikeai-aws-cloudtrail-intrusion"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Attacker source in CloudTrail; single-source. September–October observations, no current-activity claim. Boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "elastic-aws",
+        "organization": "Elastic Security Labs",
+        "article_title": "CyberStrikeAI AWS intrusion",
+        "url": "https://www.elastic.co/security-labs/threat-command/cyberstrikeai-aws-cloudtrail-intrusion",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:04:38Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "AWS intrusion observed September 30 through October 16, 2026; publication time unknown.",
+        "freshness_window": "extended/boundary",
+        "indicator_role": "attacker source",
+        "observed_service": "AWS CloudTrail",
+        "documented_observation_period": {
+          "start": "2026-09-30",
+          "end": "2026-10-16"
+        }
+      }
+    ]
+  },
+  {
+    "ioc": "103.54.154.40",
+    "ioc_type": "ip",
+    "original_ioc": "103.54.154.40",
+    "hunt_ioc": "103.54.154.40",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "ARTEX-associated AWS intrusion",
+    "malware_family": "ARTEX abuse",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Datadog Security Labs"
+    ],
+    "source_article": [
+      "ARTEX AWS investigation"
+    ],
+    "source_url": [
+      "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/"
+    ],
+    "article_published_date": [
+      "2026-11-09"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Attacker source: compromised-key log searches. October 20 observation; extended-window publication; single-source.",
+    "sources": [
+      {
+        "source_id": "datadog-aws",
+        "organization": "Datadog Security Labs",
+        "article_title": "ARTEX AWS investigation",
+        "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+        "published_at": "2026-11-09",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:19:52Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Explicit October 20 and October 26–27 CloudTrail cases; source IPs only.",
+        "freshness_window": "extended/boundary",
+        "indicator_role": "attacker source",
+        "observed_service": "AWS CloudTrail",
+        "documented_observation_period": {
+          "start": "2026-10-20",
+          "end": "2026-10-20"
+        }
+      }
+    ]
+  },
+  {
+    "ioc": "154.64.252.77",
+    "ioc_type": "ip",
+    "original_ioc": "154.64.252.77",
+    "hunt_ioc": "154.64.252.77",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "ARTEX-associated AWS intrusion",
+    "malware_family": "ARTEX abuse",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Datadog Security Labs"
+    ],
+    "source_article": [
+      "ARTEX AWS investigation"
+    ],
+    "source_url": [
+      "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/"
+    ],
+    "article_published_date": [
+      "2026-11-09"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Attacker source: Cognito abuse and denied enumeration. October 26–27 observations; extended-window; single-source.",
+    "sources": [
+      {
+        "source_id": "datadog-aws",
+        "organization": "Datadog Security Labs",
+        "article_title": "ARTEX AWS investigation",
+        "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+        "published_at": "2026-11-09",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:19:52Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Explicit October 20 and October 26–27 CloudTrail cases; source IPs only.",
+        "freshness_window": "extended/boundary",
+        "indicator_role": "attacker source",
+        "observed_service": "AWS CloudTrail",
+        "documented_observation_period": {
+          "start": "2026-10-26",
+          "end": "2026-10-27"
+        }
+      }
+    ]
+  },
+  {
+    "ioc": "https://gpimmlgration.com/static-export/api/device/start",
+    "ioc_type": "url",
+    "original_ioc": "https://gpimmlgration.com/static-export/api/device/start",
+    "hunt_ioc": "https://gpimmlgration.com/static-export/api/device/start",
+    "hunt_ioc_type": "url",
+    "threat_campaign": "Teams-booking device-code phishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Huntress"
+    ],
+    "source_article": [
+      "Teams booking phishing analysis"
+    ],
+    "source_url": [
+      "https://www.huntress.com/blog/crafty-microsoft-teams-booking-flow-disguises-device-code-phishing"
+    ],
+    "article_published_date": [
+      "2026-11-12"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Exact device-code phishing backend endpoint. Extended-window publication; mid-October incident; known campaign hostname.",
+    "sources": [
+      {
+        "source_id": "huntress-phish",
+        "organization": "Huntress",
+        "article_title": "Teams booking phishing analysis",
+        "url": "https://www.huntress.com/blog/crafty-microsoft-teams-booking-flow-disguises-device-code-phishing",
+        "published_at": "2026-11-12",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:20:32Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Mid-October incident; exact per-URL dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "57.129.54.120",
+    "ioc_type": "ip",
+    "original_ioc": "57.129.54.120",
+    "hunt_ioc": "57.129.54.120",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Qubole cross-account intrusion",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Wiz Research"
+    ],
+    "source_article": [
+      "Qubole intrusion analysis"
+    ],
+    "source_url": [
+      "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"
+    ],
+    "article_published_date": [
+      "2026-11-09"
+    ],
+    "ioc_first_seen": "2026-10-15",
+    "ioc_last_seen": "2026-10-26",
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Attacker source in AWS role abuse. Extended-window; confirm session context and historical ownership.",
+    "sources": [
+      {
+        "source_id": "wiz-qubole",
+        "organization": "Wiz Research",
+        "article_title": "Qubole intrusion analysis",
+        "url": "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild",
+        "published_at": "2026-11-09",
+        "updated_at": "2026-11-11",
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:21:48Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "October 14–26 intrusion; ISO deployment in the wild unconfirmed.",
+        "freshness_window": "extended/boundary",
+        "indicator_role": "attacker source",
+        "observed_service": "AWS CloudTrail"
+      }
+    ]
+  },
+  {
+    "ioc": "2001:41d0:70d:7800::",
+    "ioc_type": "ip",
+    "original_ioc": "2001:41d0:70d:7800::",
+    "hunt_ioc": "2001:41d0:70d:7800::",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Qubole cross-account intrusion",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Wiz Research"
+    ],
+    "source_article": [
+      "Qubole intrusion analysis"
+    ],
+    "source_url": [
+      "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"
+    ],
+    "article_published_date": [
+      "2026-11-09"
+    ],
+    "ioc_first_seen": "2026-10-16",
+    "ioc_last_seen": "2026-10-24",
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Attacker source: credential enumeration/verification. Extended-window; canonical IPv6 spelling; confirm session context.",
+    "sources": [
+      {
+        "source_id": "wiz-qubole",
+        "organization": "Wiz Research",
+        "article_title": "Qubole intrusion analysis",
+        "url": "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild",
+        "published_at": "2026-11-09",
+        "updated_at": "2026-11-11",
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:21:48Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "October 14–26 intrusion; ISO deployment in the wild unconfirmed.",
+        "freshness_window": "extended/boundary",
+        "indicator_role": "attacker source",
+        "observed_service": "AWS CloudTrail"
+      }
+    ]
+  },
+  {
+    "ioc": "65f061281c9a712e9502793dc4c5035cae490b84da05f7d4223cefa65ad396e4",
+    "ioc_type": "sha256",
+    "original_ioc": "65f061281c9a712e9502793dc4c5035cae490b84da05f7d4223cefa65ad396e4",
+    "hunt_ioc": "65f061281c9a712e9502793dc4c5035cae490b84da05f7d4223cefa65ad396e4",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Qubole-associated ISO backdoor",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Wiz Research"
+    ],
+    "source_article": [
+      "Qubole intrusion analysis"
+    ],
+    "source_url": [
+      "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"
+    ],
+    "article_published_date": [
+      "2026-11-09"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Backdoored ISO: inventory upload and shell polling. Deployment unconfirmed; extended-window; one sample with alternate hashes.",
+    "sources": [
+      {
+        "source_id": "wiz-qubole",
+        "organization": "Wiz Research",
+        "article_title": "Qubole intrusion analysis",
+        "url": "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild",
+        "published_at": "2026-11-09",
+        "updated_at": "2026-11-11",
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:21:48Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "October 14–26 intrusion; ISO deployment in the wild unconfirmed.",
+        "freshness_window": "extended/boundary",
+        "alternate_hashes": {
+          "md5": "086d4a83181971e883c53a4c44f46da2",
+          "sha1": "1c7437dac21630f53c0b888b50662c6487e23fd7"
+        }
+      }
+    ]
+  },
+  {
+    "ioc": "6444a4e18c9ca99b5516e5365baac88bf4d62182e3630451b202c9bfb4ccbc0b",
+    "ioc_type": "sha256",
+    "original_ioc": "6444a4e18c9ca99b5516e5365baac88bf4d62182e3630451b202c9bfb4ccbc0b",
+    "hunt_ioc": "6444a4e18c9ca99b5516e5365baac88bf4d62182e3630451b202c9bfb4ccbc0b",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake-game WARDEN delivery",
+    "malware_family": "WARDEN Stealer",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Cynet",
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "Fake-game WARDEN analysis",
+      "WARDEN sample record"
+    ],
+    "source_url": [
+      "https://www.cynet.com/blog/download-gta6-for-free-inside-the-malware-trap/",
+      "https://bazaar.abuse.ch/sample/6444a4e18c9ca99b5516e5365baac88bf4d62182e3630451b202c9bfb4ccbc0b/"
+    ],
+    "article_published_date": [
+      "2026-11-13",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Malicious executable tested by publisher. Related sample-record behavior summary; raw sandbox unavailable. Boundary publication; live infection unconfirmed.",
+    "sources": [
+      {
+        "source_id": "cynet-warden",
+        "organization": "Cynet",
+        "article_title": "Fake-game WARDEN analysis",
+        "url": "https://www.cynet.com/blog/download-gta6-for-free-inside-the-malware-trap/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:22:54Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Publisher testing, not a confirmed live victim infection; exact test date unknown.",
+        "freshness_window": "extended/boundary"
+      },
+      {
+        "source_id": "mb-warden",
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "WARDEN sample record",
+        "url": "https://bazaar.abuse.ch/sample/6444a4e18c9ca99b5516e5365baac88bf4d62182e3630451b202c9bfb4ccbc0b/",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "contextual sample record; vendor behavior summaries, not independently retrieved sandbox evidence",
+        "retrieval_method": "Public record inspected; no sample downloaded",
+        "collection_start": "2026-11-15T14:22:54Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Record submitted November 11 at 03:15:38 UTC; submission is not an in-the-wild observation.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "uroker.casa",
+    "ioc_type": "domain",
+    "original_ioc": "uroker.casa",
+    "hunt_ioc": "uroker.casa",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Fake-game WARDEN delivery",
+    "malware_family": "WARDEN Stealer",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Cynet"
+    ],
+    "source_article": [
+      "Fake-game WARDEN analysis"
+    ],
+    "source_url": [
+      "https://www.cynet.com/blog/download-gta6-for-free-inside-the-malware-trap/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Probable C2 in publisher analysis. Cloudflare-backed hostname; shared IP excluded. Boundary publication; single primary source.",
+    "sources": [
+      {
+        "source_id": "cynet-warden",
+        "organization": "Cynet",
+        "article_title": "Fake-game WARDEN analysis",
+        "url": "https://www.cynet.com/blog/download-gta6-for-free-inside-the-malware-trap/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:22:54Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Publisher testing, not a confirmed live victim infection; exact test date unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "wooocommerce.shopping",
+    "ioc_type": "domain",
+    "original_ioc": "wooocommerce.shopping",
+    "hunt_ioc": "wooocommerce.shopping",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Fake-game WARDEN delivery",
+    "malware_family": "WARDEN Stealer",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Cynet"
+    ],
+    "source_article": [
+      "Fake-game WARDEN analysis"
+    ],
+    "source_url": [
+      "https://www.cynet.com/blog/download-gta6-for-free-inside-the-malware-trap/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Malware-serving destination blocked in publisher test. Boundary publication; single primary source.",
+    "sources": [
+      {
+        "source_id": "cynet-warden",
+        "organization": "Cynet",
+        "article_title": "Fake-game WARDEN analysis",
+        "url": "https://www.cynet.com/blog/download-gta6-for-free-inside-the-malware-trap/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:22:54Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Publisher testing, not a confirmed live victim infection; exact test date unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "bdddb50204d6867b4bd73d9cfe93cbc98c4518342da104e4608f04e675ac6cb3",
+    "ioc_type": "sha256",
+    "original_ioc": "bdddb50204d6867b4bd73d9cfe93cbc98c4518342da104e4608f04e675ac6cb3",
+    "hunt_ioc": "bdddb50204d6867b4bd73d9cfe93cbc98c4518342da104e4608f04e675ac6cb3",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "TypoPrompting browser hijackers",
+    "malware_family": "Net Guard 1.0.9.0",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Island"
+    ],
+    "source_article": [
+      "TypoPrompting research"
+    ],
+    "source_url": [
+      "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware"
+    ],
+    "article_published_date": [
+      "2026-11-12"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher classifies exact signed MSIX as malicious browser hijacker. Extended-window; static analysis, single-source.",
+    "sources": [
+      {
+        "source_id": "island",
+        "organization": "Island",
+        "article_title": "TypoPrompting research",
+        "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+        "published_at": "2026-11-12",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:23:02Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Research snapshot November 3, 2026; exact package execution dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "a052b63e9c358c8911c17d1f58cce00949791f103fcf74f6057863d681c52301",
+    "ioc_type": "sha256",
+    "original_ioc": "a052b63e9c358c8911c17d1f58cce00949791f103fcf74f6057863d681c52301",
+    "hunt_ioc": "a052b63e9c358c8911c17d1f58cce00949791f103fcf74f6057863d681c52301",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "TypoPrompting browser hijackers",
+    "malware_family": "Privacy Keeper 1.0.10.0",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Island"
+    ],
+    "source_article": [
+      "TypoPrompting research"
+    ],
+    "source_url": [
+      "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware"
+    ],
+    "article_published_date": [
+      "2026-11-12"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher classifies exact signed MSIX as malicious browser hijacker. Extended-window; static analysis, single-source.",
+    "sources": [
+      {
+        "source_id": "island",
+        "organization": "Island",
+        "article_title": "TypoPrompting research",
+        "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+        "published_at": "2026-11-12",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:23:02Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Research snapshot November 3, 2026; exact package execution dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "51d577c84e50657d6cacf0e7738c9539ee4f39f76838423c682ad0dadc8e2d87",
+    "ioc_type": "sha256",
+    "original_ioc": "51d577c84e50657d6cacf0e7738c9539ee4f39f76838423c682ad0dadc8e2d87",
+    "hunt_ioc": "51d577c84e50657d6cacf0e7738c9539ee4f39f76838423c682ad0dadc8e2d87",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "TypoPrompting browser hijackers",
+    "malware_family": "MyFlixly Browser 1.0.10.0",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Island"
+    ],
+    "source_article": [
+      "TypoPrompting research"
+    ],
+    "source_url": [
+      "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware"
+    ],
+    "article_published_date": [
+      "2026-11-12"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher classifies exact signed MSIX as malicious browser hijacker. Extended-window; static analysis, single-source.",
+    "sources": [
+      {
+        "source_id": "island",
+        "organization": "Island",
+        "article_title": "TypoPrompting research",
+        "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+        "published_at": "2026-11-12",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:23:02Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Research snapshot November 3, 2026; exact package execution dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "cloude.ai",
+    "ioc_type": "domain",
+    "original_ioc": "cloude.ai",
+    "hunt_ioc": "cloude.ai",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "TypoPrompting ClickFix",
+    "malware_family": "ClickFix delivery",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Island",
+      "urlscan.io"
+    ],
+    "source_article": [
+      "TypoPrompting research",
+      "Linked gate capture"
+    ],
+    "source_url": [
+      "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+      "https://urlscan.io/result/01a1a0c2-9325-7549-9b9d-3f0ae9eb5815/"
+    ],
+    "article_published_date": [
+      "2026-11-12",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Captured entry to malicious verification chain. Conditional redirects; benign parking possible. Extended-window; no current activity asserted.",
+    "sources": [
+      {
+        "source_id": "island",
+        "organization": "Island",
+        "article_title": "TypoPrompting research",
+        "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+        "published_at": "2026-11-12",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:23:02Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Research snapshot November 3, 2026; exact package execution dates unknown.",
+        "freshness_window": "extended/boundary"
+      },
+      {
+        "source_id": "urlscan-gate",
+        "organization": "urlscan.io",
+        "article_title": "Linked gate capture",
+        "url": "https://urlscan.io/result/01a1a0c2-9325-7549-9b9d-3f0ae9eb5815/",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "contextual capture linked by primary publisher; related evidence, not an independent investigation",
+        "retrieval_method": "Existing public scan metadata inspected; malicious resources not requested",
+        "collection_start": "2026-11-15T14:24:04Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Captured November 3, 2026; existing scan only, no new scan submitted.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "ivjgg6.blockchainfuturedev.buzz",
+    "ioc_type": "domain",
+    "original_ioc": "ivjgg6.blockchainfuturedev.buzz",
+    "hunt_ioc": "ivjgg6.blockchainfuturedev.buzz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "TypoPrompting ClickFix",
+    "malware_family": "ClickFix delivery",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Island",
+      "urlscan.io"
+    ],
+    "source_article": [
+      "TypoPrompting research",
+      "Linked gate capture"
+    ],
+    "source_url": [
+      "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+      "https://urlscan.io/result/01a1a0c2-9325-7549-9b9d-3f0ae9eb5815/"
+    ],
+    "article_published_date": [
+      "2026-11-12",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Exact captured gate host; excludes broader parent and shared Cloudflare IP. Extended-window; related capture, not independent confirmation.",
+    "sources": [
+      {
+        "source_id": "island",
+        "organization": "Island",
+        "article_title": "TypoPrompting research",
+        "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+        "published_at": "2026-11-12",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:23:02Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Research snapshot November 3, 2026; exact package execution dates unknown.",
+        "freshness_window": "extended/boundary"
+      },
+      {
+        "source_id": "urlscan-gate",
+        "organization": "urlscan.io",
+        "article_title": "Linked gate capture",
+        "url": "https://urlscan.io/result/01a1a0c2-9325-7549-9b9d-3f0ae9eb5815/",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "contextual capture linked by primary publisher; related evidence, not an independent investigation",
+        "retrieval_method": "Existing public scan metadata inspected; malicious resources not requested",
+        "collection_start": "2026-11-15T14:24:04Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Captured November 3, 2026; existing scan only, no new scan submitted.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "netguardsite.com",
+    "ioc_type": "domain",
+    "original_ioc": "netguardsite.com",
+    "hunt_ioc": "netguardsite.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "TypoPrompting browser hijackers",
+    "malware_family": "Net Guard",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Island"
+    ],
+    "source_article": [
+      "TypoPrompting research"
+    ],
+    "source_url": [
+      "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware"
+    ],
+    "article_published_date": [
+      "2026-11-12"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Documented installer host. Extended-window research; present availability unverified; single-source.",
+    "sources": [
+      {
+        "source_id": "island",
+        "organization": "Island",
+        "article_title": "TypoPrompting research",
+        "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+        "published_at": "2026-11-12",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:23:02Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Research snapshot November 3, 2026; exact package execution dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "netguardprotect.com",
+    "ioc_type": "domain",
+    "original_ioc": "netguardprotect.com",
+    "hunt_ioc": "netguardprotect.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "TypoPrompting browser hijackers",
+    "malware_family": "Net Guard",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Island"
+    ],
+    "source_article": [
+      "TypoPrompting research"
+    ],
+    "source_url": [
+      "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware"
+    ],
+    "article_published_date": [
+      "2026-11-12"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Documented installer host. Extended-window research; present availability unverified; single-source.",
+    "sources": [
+      {
+        "source_id": "island",
+        "organization": "Island",
+        "article_title": "TypoPrompting research",
+        "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+        "published_at": "2026-11-12",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:23:02Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Research snapshot November 3, 2026; exact package execution dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "185.138.88.3",
+    "ioc_type": "ip",
+    "original_ioc": "185.138.88.3",
+    "hunt_ioc": "185.138.88.3",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "TypoPrompting ClickFix",
+    "malware_family": "ClickFix delivery",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Island"
+    ],
+    "source_article": [
+      "TypoPrompting research"
+    ],
+    "source_url": [
+      "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware"
+    ],
+    "article_published_date": [
+      "2026-11-12"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Reviewed destination: PowerShell payload server. Publisher supplies dotted and decimal spellings. Extended-window; single-source.",
+    "sources": [
+      {
+        "source_id": "island",
+        "organization": "Island",
+        "article_title": "TypoPrompting research",
+        "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+        "published_at": "2026-11-12",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:23:02Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Research snapshot November 3, 2026; exact package execution dates unknown.",
+        "freshness_window": "extended/boundary",
+        "indicator_role": "destination"
+      }
+    ]
+  },
+  {
+    "ioc": "c7eb24e77c3c7b73f757eaeb43ce1d90bae5a88fe6204cbbde52cbea7f074c4f",
+    "ioc_type": "sha256",
+    "original_ioc": "c7eb24e77c3c7b73f757eaeb43ce1d90bae5a88fe6204cbbde52cbea7f074c4f",
+    "hunt_ioc": "c7eb24e77c3c7b73f757eaeb43ce1d90bae5a88fe6204cbbde52cbea7f074c4f",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Moldova authority-impersonation phishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "RESIDENT.NGO Threat Lab"
+    ],
+    "source_article": [
+      "Moldova phishing investigation"
+    ],
+    "source_url": [
+      "https://resident.ngo/lab/writeups/malware-campaign-impersonates-moldovas-national-bank-and-ministry-of-finance-november-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Decoded UTF-8 installer script; may execute in memory. Extended-window; single-source; final payload unavailable.",
+    "sources": [
+      {
+        "source_id": "resident",
+        "organization": "RESIDENT.NGO Threat Lab",
+        "article_title": "Moldova phishing investigation",
+        "url": "https://resident.ngo/lab/writeups/malware-campaign-impersonates-moldovas-national-bank-and-ministry-of-finance-november-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:37:59Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "November 10 analysis; final payload unavailable; recipient execution unconfirmed.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "cf92fe40fc374b651ef31de2d305f5ee1f70a0f14122017214af89e7be774c3f",
+    "ioc_type": "sha256",
+    "original_ioc": "cf92fe40fc374b651ef31de2d305f5ee1f70a0f14122017214af89e7be774c3f",
+    "hunt_ioc": "cf92fe40fc374b651ef31de2d305f5ee1f70a0f14122017214af89e7be774c3f",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Moldova authority-impersonation phishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "RESIDENT.NGO Threat Lab"
+    ],
+    "source_article": [
+      "Moldova phishing investigation"
+    ],
+    "source_url": [
+      "https://resident.ngo/lab/writeups/malware-campaign-impersonates-moldovas-national-bank-and-ministry-of-finance-november-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Decoded UTF-8 installer script; may execute in memory. Extended-window; single-source; final payload unavailable.",
+    "sources": [
+      {
+        "source_id": "resident",
+        "organization": "RESIDENT.NGO Threat Lab",
+        "article_title": "Moldova phishing investigation",
+        "url": "https://resident.ngo/lab/writeups/malware-campaign-impersonates-moldovas-national-bank-and-ministry-of-finance-november-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:37:59Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "November 10 analysis; final payload unavailable; recipient execution unconfirmed.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "009099ba10365b44bdb3ecc28dfcbed6a594ec0a0df86931620cdaac9843e611",
+    "ioc_type": "sha256",
+    "original_ioc": "009099ba10365b44bdb3ecc28dfcbed6a594ec0a0df86931620cdaac9843e611",
+    "hunt_ioc": "009099ba10365b44bdb3ecc28dfcbed6a594ec0a0df86931620cdaac9843e611",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "previous-version delivery artifact. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "0aff424f9a02eb9f429119c4caa05e85fc952603549d69849e745293d20235d6",
+    "ioc_type": "sha256",
+    "original_ioc": "0aff424f9a02eb9f429119c4caa05e85fc952603549d69849e745293d20235d6",
+    "hunt_ioc": "0aff424f9a02eb9f429119c4caa05e85fc952603549d69849e745293d20235d6",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "previous-version delivery artifact. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "0dcfe51d2521e52a469f5cec6b42bc8e7e37b41df993cce7d739ff3fd248d8b1",
+    "ioc_type": "sha256",
+    "original_ioc": "0dcfe51d2521e52a469f5cec6b42bc8e7e37b41df993cce7d739ff3fd248d8b1",
+    "hunt_ioc": "0dcfe51d2521e52a469f5cec6b42bc8e7e37b41df993cce7d739ff3fd248d8b1",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "MSI payload. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "47e853092511d9663196e9b36d563a0c3e92ee734f88675c4f375ffcfa5f3db8",
+    "ioc_type": "sha256",
+    "original_ioc": "47e853092511d9663196e9b36d563a0c3e92ee734f88675c4f375ffcfa5f3db8",
+    "hunt_ioc": "47e853092511d9663196e9b36d563a0c3e92ee734f88675c4f375ffcfa5f3db8",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "MSI payload. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "4efe003a54db8ffbaef6065270eacb0a59479ccc86941517ac7a33344e97bc1d",
+    "ioc_type": "sha256",
+    "original_ioc": "4efe003a54db8ffbaef6065270eacb0a59479ccc86941517ac7a33344e97bc1d",
+    "hunt_ioc": "4efe003a54db8ffbaef6065270eacb0a59479ccc86941517ac7a33344e97bc1d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "MSI payload. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "4f656834e545c0b44922ce6d8952989c8c0859d8ae8b1f117c06ab07b047e2b4",
+    "ioc_type": "sha256",
+    "original_ioc": "4f656834e545c0b44922ce6d8952989c8c0859d8ae8b1f117c06ab07b047e2b4",
+    "hunt_ioc": "4f656834e545c0b44922ce6d8952989c8c0859d8ae8b1f117c06ab07b047e2b4",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "beacon module. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "56582934901cce0b618d6a50e54c9db29bf2d444636bcd40b5975a765ecde538",
+    "ioc_type": "sha256",
+    "original_ioc": "56582934901cce0b618d6a50e54c9db29bf2d444636bcd40b5975a765ecde538",
+    "hunt_ioc": "56582934901cce0b618d6a50e54c9db29bf2d444636bcd40b5975a765ecde538",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "previous-version delivery artifact. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "7055483a77f679ad569c3a9bfe76cdb8e5b96efc44d2bf2a6f08e930add598b0",
+    "ioc_type": "sha256",
+    "original_ioc": "7055483a77f679ad569c3a9bfe76cdb8e5b96efc44d2bf2a6f08e930add598b0",
+    "hunt_ioc": "7055483a77f679ad569c3a9bfe76cdb8e5b96efc44d2bf2a6f08e930add598b0",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "MSI payload. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "79a4cb73983a1facb5db09f1a20cec6e58d91a93044a78aa3ba32ab2190284ed",
+    "ioc_type": "sha256",
+    "original_ioc": "79a4cb73983a1facb5db09f1a20cec6e58d91a93044a78aa3ba32ab2190284ed",
+    "hunt_ioc": "79a4cb73983a1facb5db09f1a20cec6e58d91a93044a78aa3ba32ab2190284ed",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "PowerShell payload. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "8ebb2bf61b48ae7abdcd674413bebd79b30ddd945854e175ba60d56c0a3adf54",
+    "ioc_type": "sha256",
+    "original_ioc": "8ebb2bf61b48ae7abdcd674413bebd79b30ddd945854e175ba60d56c0a3adf54",
+    "hunt_ioc": "8ebb2bf61b48ae7abdcd674413bebd79b30ddd945854e175ba60d56c0a3adf54",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "watcher module. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "9a2af4b6d9780e08c86ff35030ee1747ea11460cb1dffc868c48e7af6d626546",
+    "ioc_type": "sha256",
+    "original_ioc": "9a2af4b6d9780e08c86ff35030ee1747ea11460cb1dffc868c48e7af6d626546",
+    "hunt_ioc": "9a2af4b6d9780e08c86ff35030ee1747ea11460cb1dffc868c48e7af6d626546",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "MSI payload. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "a4ad001c6900176eba43a747ae5d212db6fc78f7ef4e777f276cbbdf8099dbe8",
+    "ioc_type": "sha256",
+    "original_ioc": "a4ad001c6900176eba43a747ae5d212db6fc78f7ef4e777f276cbbdf8099dbe8",
+    "hunt_ioc": "a4ad001c6900176eba43a747ae5d212db6fc78f7ef4e777f276cbbdf8099dbe8",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "encrypted Demon. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "a972797cc1a4161f6e2841142b8cace9b781585f9a71b03aa79a9c051b817491",
+    "ioc_type": "sha256",
+    "original_ioc": "a972797cc1a4161f6e2841142b8cace9b781585f9a71b03aa79a9c051b817491",
+    "hunt_ioc": "a972797cc1a4161f6e2841142b8cace9b781585f9a71b03aa79a9c051b817491",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "MSI payload. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "bceeb2d54b6a756c73a3e06617e9e95ad4d8e53da47639bcd6ef3cae98c6da6d",
+    "ioc_type": "sha256",
+    "original_ioc": "bceeb2d54b6a756c73a3e06617e9e95ad4d8e53da47639bcd6ef3cae98c6da6d",
+    "hunt_ioc": "bceeb2d54b6a756c73a3e06617e9e95ad4d8e53da47639bcd6ef3cae98c6da6d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "HTA payload. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "bd1c005f35e4fd8c61dfa6f20d4c03e082c692e286a3b22dd642369c8d5e3564",
+    "ioc_type": "sha256",
+    "original_ioc": "bd1c005f35e4fd8c61dfa6f20d4c03e082c692e286a3b22dd642369c8d5e3564",
+    "hunt_ioc": "bd1c005f35e4fd8c61dfa6f20d4c03e082c692e286a3b22dd642369c8d5e3564",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "MSI payload. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "d2d41b249905deae3bd6bcaa547872d747256a7dfa459b509d9db9de8f0ca29b",
+    "ioc_type": "sha256",
+    "original_ioc": "d2d41b249905deae3bd6bcaa547872d747256a7dfa459b509d9db9de8f0ca29b",
+    "hunt_ioc": "d2d41b249905deae3bd6bcaa547872d747256a7dfa459b509d9db9de8f0ca29b",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "MSI payload. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "dbd252becd490ac47e16bff4391ab9e6237c4f7e81ab6784c57fa2eed751f477",
+    "ioc_type": "sha256",
+    "original_ioc": "dbd252becd490ac47e16bff4391ab9e6237c4f7e81ab6784c57fa2eed751f477",
+    "hunt_ioc": "dbd252becd490ac47e16bff4391ab9e6237c4f7e81ab6784c57fa2eed751f477",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "MSI payload. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "dc57638cb90798835848a9dafec228bef7738def50f4f2db612862e07c5b6f8a",
+    "ioc_type": "sha256",
+    "original_ioc": "dc57638cb90798835848a9dafec228bef7738def50f4f2db612862e07c5b6f8a",
+    "hunt_ioc": "dc57638cb90798835848a9dafec228bef7738def50f4f2db612862e07c5b6f8a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "encrypted Demon. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "e9e57a57ee45b8faae2e47affd8cf3a6d0cc1283802108f7298ae1d2ef3b43f0",
+    "ioc_type": "sha256",
+    "original_ioc": "e9e57a57ee45b8faae2e47affd8cf3a6d0cc1283802108f7298ae1d2ef3b43f0",
+    "hunt_ioc": "e9e57a57ee45b8faae2e47affd8cf3a6d0cc1283802108f7298ae1d2ef3b43f0",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "MSI payload. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "ee5fa33b58d0f2772e091e23de9db24908d970000a88e39fd7d908f30f5e591a",
+    "ioc_type": "sha256",
+    "original_ioc": "ee5fa33b58d0f2772e091e23de9db24908d970000a88e39fd7d908f30f5e591a",
+    "hunt_ioc": "ee5fa33b58d0f2772e091e23de9db24908d970000a88e39fd7d908f30f5e591a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "MSI payload. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "a8f2aac37385.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "a8f2aac37385.xyz",
+    "hunt_ioc": "a8f2aac37385.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Documented C2. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "kfkwrfdd.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "kfkwrfdd.xyz",
+    "hunt_ioc": "kfkwrfdd.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Documented C2. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "544504d7fe1e.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "544504d7fe1e.xyz",
+    "hunt_ioc": "544504d7fe1e.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Documented C2. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "sync-node-serv.com",
+    "ioc_type": "domain",
+    "original_ioc": "sync-node-serv.com",
+    "hunt_ioc": "sync-node-serv.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Documented C2. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "dns.cdn-syncnode-server.com",
+    "ioc_type": "domain",
+    "original_ioc": "dns.cdn-syncnode-server.com",
+    "hunt_ioc": "dns.cdn-syncnode-server.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Documented C2. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "145.63.138.67",
+    "ioc_type": "ip",
+    "original_ioc": "145.63.138.67",
+    "hunt_ioc": "145.63.138.67",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "C2/exfiltration destination. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary",
+        "indicator_role": "destination"
+      }
+    ]
+  },
+  {
+    "ioc": "http://145.63.138.67:8125/up/",
+    "ioc_type": "url",
+    "original_ioc": "http://145.63.138.67:8125/up/",
+    "hunt_ioc": "http://145.63.138.67:8125/up/",
+    "hunt_ioc_type": "url",
+    "threat_campaign": "XaocMail Phantom53 HavoX",
+    "malware_family": "Phantom53 / HavoX",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "SOCRadar Threat Research Unit"
+    ],
+    "source_article": [
+      "XaocMail and Phantom53 investigation"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+    ],
+    "article_published_date": [
+      "2026-11-13"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Exact exfiltration path. Single-source; boundary-date publication.",
+    "sources": [
+      {
+        "source_id": "phantom",
+        "organization": "SOCRadar Threat Research Unit",
+        "article_title": "XaocMail and Phantom53 investigation",
+        "url": "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Source describes campaign active at publication; individual artifact observation dates unknown.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "103.179.142.155",
+    "ioc_type": "ip",
+    "original_ioc": "103.179.142.155",
+    "hunt_ioc": "103.179.142.155",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "AccuraSoftHire fake interview",
+    "malware_family": "PolinRider",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "StepSecurity",
+      "JFrog Security Research"
+    ],
+    "source_article": [
+      "AccuraSoftHire server-history research",
+      "AccuraSoftHire fake-interview analysis"
+    ],
+    "source_url": [
+      "https://www.stepsecurity.io/blog/accurasofthire-fake-interview-developer-machines",
+      "https://research.jfrog.com/post/accurasofthire-fake-interview/"
+    ],
+    "article_published_date": [
+      "2026-11-13",
+      "2026-11-09"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Malware download destination. Latest documented pointer October 19; no current activity verified. Related analyses.",
+    "sources": [
+      {
+        "source_id": "step-interview",
+        "organization": "StepSecurity",
+        "article_title": "AccuraSoftHire server-history research",
+        "url": "https://www.stepsecurity.io/blog/accurasofthire-fake-interview-developer-machines",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:21Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Server pointer last posted October 19; no later transaction as of November 13; site on client hold November 13.",
+        "freshness_window": "extended/boundary",
+        "indicator_role": "destination",
+        "documented_pointer_period": {
+          "start": "2026-10-16T05:24:00Z",
+          "end": "2026-10-19T10:22:00Z"
+        }
+      },
+      {
+        "source_id": "jfrog-interview",
+        "organization": "JFrog Security Research",
+        "article_title": "AccuraSoftHire fake-interview analysis",
+        "url": "https://research.jfrog.com/post/accurasofthire-fake-interview/",
+        "published_at": "2026-11-09",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Malicious camera payload and package loaders; no demonstrated link to Binance intrusion.",
+        "freshness_window": "extended/boundary",
+        "indicator_role": "destination"
+      }
+    ]
+  },
+  {
+    "ioc": "accurasofthire.com",
+    "ioc_type": "domain",
+    "original_ioc": "accurasofthire.com",
+    "hunt_ioc": "accurasofthire.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "AccuraSoftHire fake interview",
+    "malware_family": "PolinRider",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "StepSecurity",
+      "JFrog Security Research"
+    ],
+    "source_article": [
+      "AccuraSoftHire server-history research",
+      "AccuraSoftHire fake-interview analysis"
+    ],
+    "source_url": [
+      "https://www.stepsecurity.io/blog/accurasofthire-fake-interview-developer-machines",
+      "https://research.jfrog.com/post/accurasofthire-fake-interview/"
+    ],
+    "article_published_date": [
+      "2026-11-13",
+      "2026-11-09"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Fake careers/payload host. Client hold and offline as of November 13; retrospective hunt. Related analyses.",
+    "sources": [
+      {
+        "source_id": "step-interview",
+        "organization": "StepSecurity",
+        "article_title": "AccuraSoftHire server-history research",
+        "url": "https://www.stepsecurity.io/blog/accurasofthire-fake-interview-developer-machines",
+        "published_at": "2026-11-13",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:21Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Server pointer last posted October 19; no later transaction as of November 13; site on client hold November 13.",
+        "freshness_window": "extended/boundary"
+      },
+      {
+        "source_id": "jfrog-interview",
+        "organization": "JFrog Security Research",
+        "article_title": "AccuraSoftHire fake-interview analysis",
+        "url": "https://research.jfrog.com/post/accurasofthire-fake-interview/",
+        "published_at": "2026-11-09",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T14:39:27Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Malicious camera payload and package loaders; no demonstrated link to Binance intrusion.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "http://157.20.241.16:8080/xvgz",
+    "ioc_type": "url",
+    "original_ioc": "http://157.20.241.16:8080/xvgz",
+    "hunt_ioc": "http://157.20.241.16:8080/xvgz",
+    "hunt_ioc_type": "url",
+    "threat_campaign": "N-central mining campaign",
+    "malware_family": "XMRig abuse",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Huntback Research",
+      "Huntress"
+    ],
+    "source_article": [
+      "N-central miner investigation",
+      "N-central incident updates"
+    ],
+    "source_url": [
+      "https://huntback.io/blog/ncentral-4everable2shell-miners-on-live-servers",
+      "https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains"
+    ],
+    "article_published_date": [
+      "2026-11-12",
+      "2026-11-09"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Miner download. Known campaign/server; new exact URL only. Extended-window evidence.",
+    "sources": [
+      {
+        "source_id": "huntback",
+        "organization": "Huntback Research",
+        "article_title": "N-central miner investigation",
+        "url": "https://huntback.io/blog/ncentral-4everable2shell-miners-on-live-servers",
+        "published_at": "2026-11-12",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:00:46Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "November 12 decoy exploitation and miner analysis; exact URL global first/last observations unknown.",
+        "freshness_window": "extended/boundary"
+      },
+      {
+        "source_id": "huntress-ncentral",
+        "organization": "Huntress",
+        "article_title": "N-central incident updates",
+        "url": "https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains",
+        "published_at": "2026-11-09",
+        "updated_at": "2026-11-13T15:25:00Z",
+        "source_role": "vendor indicators reproduced by related reporting; canonical vendor advisory inaccessible",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:00:38Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "November 13 vendor IOC list reproduced; Huntress had not observed exploitation in its own partners.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "http://157.20.241.16:8080/xmrig.tgz",
+    "ioc_type": "url",
+    "original_ioc": "http://157.20.241.16:8080/xmrig.tgz",
+    "hunt_ioc": "http://157.20.241.16:8080/xmrig.tgz",
+    "hunt_ioc_type": "url",
+    "threat_campaign": "N-central mining campaign",
+    "malware_family": "XMRig abuse",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Huntback Research",
+      "Huntress"
+    ],
+    "source_article": [
+      "N-central miner investigation",
+      "N-central incident updates"
+    ],
+    "source_url": [
+      "https://huntback.io/blog/ncentral-4everable2shell-miners-on-live-servers",
+      "https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains"
+    ],
+    "article_published_date": [
+      "2026-11-12",
+      "2026-11-09"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Fallback miner archive. Known campaign/server; new exact URL only. Extended-window evidence.",
+    "sources": [
+      {
+        "source_id": "huntback",
+        "organization": "Huntback Research",
+        "article_title": "N-central miner investigation",
+        "url": "https://huntback.io/blog/ncentral-4everable2shell-miners-on-live-servers",
+        "published_at": "2026-11-12",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:00:46Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "November 12 decoy exploitation and miner analysis; exact URL global first/last observations unknown.",
+        "freshness_window": "extended/boundary"
+      },
+      {
+        "source_id": "huntress-ncentral",
+        "organization": "Huntress",
+        "article_title": "N-central incident updates",
+        "url": "https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains",
+        "published_at": "2026-11-09",
+        "updated_at": "2026-11-13T15:25:00Z",
+        "source_role": "vendor indicators reproduced by related reporting; canonical vendor advisory inaccessible",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:00:38Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "November 13 vendor IOC list reproduced; Huntress had not observed exploitation in its own partners.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "http://157.20.241.16:8080/ob/fcheck",
+    "ioc_type": "url",
+    "original_ioc": "http://157.20.241.16:8080/ob/fcheck",
+    "hunt_ioc": "http://157.20.241.16:8080/ob/fcheck",
+    "hunt_ioc_type": "url",
+    "threat_campaign": "N-central mining campaign",
+    "malware_family": "XMRig abuse",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Huntback Research",
+      "Huntress"
+    ],
+    "source_article": [
+      "N-central miner investigation",
+      "N-central incident updates"
+    ],
+    "source_url": [
+      "https://huntback.io/blog/ncentral-4everable2shell-miners-on-live-servers",
+      "https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains"
+    ],
+    "article_published_date": [
+      "2026-11-12",
+      "2026-11-09"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Installer check-in. Known campaign/server; new exact URL only. Extended-window evidence.",
+    "sources": [
+      {
+        "source_id": "huntback",
+        "organization": "Huntback Research",
+        "article_title": "N-central miner investigation",
+        "url": "https://huntback.io/blog/ncentral-4everable2shell-miners-on-live-servers",
+        "published_at": "2026-11-12",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:00:46Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "November 12 decoy exploitation and miner analysis; exact URL global first/last observations unknown.",
+        "freshness_window": "extended/boundary"
+      },
+      {
+        "source_id": "huntress-ncentral",
+        "organization": "Huntress",
+        "article_title": "N-central incident updates",
+        "url": "https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains",
+        "published_at": "2026-11-09",
+        "updated_at": "2026-11-13T15:25:00Z",
+        "source_role": "vendor indicators reproduced by related reporting; canonical vendor advisory inaccessible",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:00:38Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "November 13 vendor IOC list reproduced; Huntress had not observed exploitation in its own partners.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "taennslieve.com",
+    "ioc_type": "domain",
+    "original_ioc": "taennslieve.com",
+    "hunt_ioc": "taennslieve.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL-reported UNC1069 meeting lures",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher-reported meeting lure. Extended-window; single-source; activity dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "teennslieves.com",
+    "ioc_type": "domain",
+    "original_ioc": "teennslieves.com",
+    "hunt_ioc": "teennslieves.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL-reported UNC1069 meeting lures",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher-reported meeting lure. Extended-window; single-source; activity dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "teamslive.co",
+    "ioc_type": "domain",
+    "original_ioc": "teamslive.co",
+    "hunt_ioc": "teamslive.co",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL-reported UNC1069 meeting lures",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher-reported meeting lure. Extended-window; single-source; activity dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "teams06live.us.com",
+    "ioc_type": "domain",
+    "original_ioc": "teams06live.us.com",
+    "hunt_ioc": "teams06live.us.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL-reported UNC1069 meeting lures",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher-reported meeting lure. Extended-window; single-source; activity dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "meet-in.store",
+    "ioc_type": "domain",
+    "original_ioc": "meet-in.store",
+    "hunt_ioc": "meet-in.store",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL-reported UNC1069 meeting lures",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher-reported meeting lure. Extended-window; single-source; activity dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "neoramo.com",
+    "ioc_type": "domain",
+    "original_ioc": "neoramo.com",
+    "hunt_ioc": "neoramo.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL SINT-69 fake meetings",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "ClickFix payload host. Extended-window; single-source; activity dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "teamicrosft.us.com",
+    "ioc_type": "domain",
+    "original_ioc": "teamicrosft.us.com",
+    "hunt_ioc": "teamicrosft.us.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL SINT-69 fake meetings",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Phishing front end. Extended-window; single-source; activity dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "us01-zoom.cc",
+    "ioc_type": "domain",
+    "original_ioc": "us01-zoom.cc",
+    "hunt_ioc": "us01-zoom.cc",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL unattributed meeting and ClickFix pages",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher-reported fake meeting/ClickFix host. Extended-window; single-source; dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "us02-zoom.cc",
+    "ioc_type": "domain",
+    "original_ioc": "us02-zoom.cc",
+    "hunt_ioc": "us02-zoom.cc",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL unattributed meeting and ClickFix pages",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher-reported fake meeting/ClickFix host. Extended-window; single-source; dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "us05web-zoom.club",
+    "ioc_type": "domain",
+    "original_ioc": "us05web-zoom.club",
+    "hunt_ioc": "us05web-zoom.club",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL unattributed meeting and ClickFix pages",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher-reported fake meeting/ClickFix host. Extended-window; single-source; dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "us12zoom.us.com",
+    "ioc_type": "domain",
+    "original_ioc": "us12zoom.us.com",
+    "hunt_ioc": "us12zoom.us.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL unattributed meeting and ClickFix pages",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher-reported fake meeting/ClickFix host. Extended-window; single-source; dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "ux05webzoom.com",
+    "ioc_type": "domain",
+    "original_ioc": "ux05webzoom.com",
+    "hunt_ioc": "ux05webzoom.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL unattributed meeting and ClickFix pages",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher-reported fake meeting/ClickFix host. Extended-window; single-source; dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "ue05webzoom.com",
+    "ioc_type": "domain",
+    "original_ioc": "ue05webzoom.com",
+    "hunt_ioc": "ue05webzoom.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL unattributed meeting and ClickFix pages",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher-reported fake meeting/ClickFix host. Extended-window; single-source; dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "ur05webzoom.com",
+    "ioc_type": "domain",
+    "original_ioc": "ur05webzoom.com",
+    "hunt_ioc": "ur05webzoom.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL unattributed meeting and ClickFix pages",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher-reported fake meeting/ClickFix host. Extended-window; single-source; dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "joinwebexmeeting.us",
+    "ioc_type": "domain",
+    "original_ioc": "joinwebexmeeting.us",
+    "hunt_ioc": "joinwebexmeeting.us",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL unattributed meeting and ClickFix pages",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher-reported fake meeting/ClickFix host. Extended-window; single-source; dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "com-join.us",
+    "ioc_type": "domain",
+    "original_ioc": "com-join.us",
+    "hunt_ioc": "com-join.us",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL unattributed meeting and ClickFix pages",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher-reported fake meeting/ClickFix host. Extended-window; single-source; dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "meets-room.live",
+    "ioc_type": "domain",
+    "original_ioc": "meets-room.live",
+    "hunt_ioc": "meets-room.live",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL unattributed meeting and ClickFix pages",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher-reported fake meeting/ClickFix host. Extended-window; single-source; dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "mymeet.cc",
+    "ioc_type": "domain",
+    "original_ioc": "mymeet.cc",
+    "hunt_ioc": "mymeet.cc",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL unattributed meeting and ClickFix pages",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher-reported fake meeting/ClickFix host. Extended-window; single-source; dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "calls-us.online",
+    "ioc_type": "domain",
+    "original_ioc": "calls-us.online",
+    "hunt_ioc": "calls-us.online",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL unattributed meeting and ClickFix pages",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher-reported fake meeting/ClickFix host. Extended-window; single-source; dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  },
+  {
+    "ioc": "fileharbor.net",
+    "ioc_type": "domain",
+    "original_ioc": "fileharbor.net",
+    "hunt_ioc": "fileharbor.net",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SEAL unattributed meeting and ClickFix pages",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Security Alliance / SEAL"
+    ],
+    "source_article": [
+      "Weekly incident-response findings"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/"
+    ],
+    "article_published_date": [
+      "2026-11-11"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-15T15:07:52Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Publisher-reported fake meeting/ClickFix host. Extended-window; single-source; dates unknown.",
+    "sources": [
+      {
+        "source_id": "seal",
+        "organization": "Security Alliance / SEAL",
+        "article_title": "Weekly incident-response findings",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-4-11-nov-2026/",
+        "published_at": "2026-11-11",
+        "updated_at": null,
+        "source_role": "primary investigation",
+        "retrieval_method": "Public publisher report retrieved through web research",
+        "collection_start": "2026-11-15T15:04:12Z",
+        "discovery_context": [
+          "Two-pass public-source research"
+        ],
+        "observation_scope": "Weekly reporting covers November 4–11. Exact per-indicator activity dates unknown; single-source incident-response appendix.",
+        "freshness_window": "extended/boundary"
+      }
+    ]
+  }
+]
