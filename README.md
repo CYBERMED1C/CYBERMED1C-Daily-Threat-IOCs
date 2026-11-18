@@ -6,6 +6,14 @@
 **Last successful IOC publication:** 2026-11-17 UTC (date precision).
 **Overall status:** 124 validated IOCs are published. Two research passes reviewed 51 original studies/records plus 9 discovery stories across 37 publisher groups. Source access, single-source and observation-date limitations are documented. Queries were not executed on live security platforms.
 **Daily schedule:** Active — 6:00 AM Pacific time (America/Los_Angeles).
+
+| Latest published files — November 17, 2026 | What to expect |
+|---|---|
+| [Daily intelligence report](2026/11/17/11-17-26-iocs.md) | Campaign context, defanged IOCs, evidence links and research limitations |
+| [IOC table — CSV](2026/11/17/11-17-26-iocs.csv) | Flattened records for spreadsheets and security tools |
+| [Structured records — JSON](2026/11/17/11-17-26-iocs.json) | Original values, hunt mappings, source evidence and collection metadata |
+| [Microsoft Defender XDR hunt — KQL](2026/11/17/mde-hunt.kql) | Endpoint network, file and process searches |
+| [Elastic Security hunt — ES\|QL](2026/11/17/elastic-hunt.esql) | Searches across compatible ECS fields in `logs-*` |
 <!-- CYBERMEDIC-LIVE-STATUS:END -->
 
 > [!IMPORTANT]
@@ -13,41 +21,17 @@
 >
 > Intelligence is drawn from publicly available sources. Use it for defensive investigation and assess every match in context.
 
-# Daily-Threat-IOCs — Version 2.1.2
+# Daily-Threat-IOCs — Version 2.1.3
 
 **Public threat intelligence. Traceable evidence. Practical hunts.**
 
-Created and maintained under the **CYBERMEDIC** attribution at [CYBERMED1C/CYBERMED1C-Daily-Threat-IOCs](https://github.com/CYBERMED1C/CYBERMED1C-Daily-Threat-IOCs).
+Created and maintained under the **CYBERMEDIC** attribution as CYBERMED1C/CYBERMED1C-Daily-Threat-IOCs.
 
 This project helps SOC analysts, threat hunters, incident responders and detection engineers turn public research into focused searches in Microsoft Defender XDR and Elastic Security. Each daily set brings together source context, structured indicators and ready-to-review hunting queries so an analyst can understand what a value represents before acting on a match.
 
-Version 2.1.2 starts on **November 11, 2026**, with fresh research and an empty historical IOC baseline. No data, reports or Git history from the previous repository are imported. The established date folders and five-file daily structure remain the same.
+The archive began on **November 11, 2026**, with fresh research and an empty historical IOC baseline. No data, reports or Git history from the previous repository are imported. Version 2.1.3 retains the established date folders and five-file daily structure.
 
-[Open today's report](2026/11/11/11-11-26-iocs.md) · [Browse the archive](2026/)
-
-## November 11, 2026: version 2.1.2 set
-
-Today's revised set contains **42 unique indicators**, including **16 additions** after broader research. It covers Falcon / Antino, Citrus / Sn00py, FormBook, PureHVNC, njRAT, a macOS ClickFix chain and directly observed SSH exploitation. Each accepted value has a November 11 publication or a qualifying observation on the Los Angeles report day. Older activity and corroboration remain explicitly dated; publication today does not imply activity today.
-
-| Indicator type | Count |
-|---|---:|
-| Domains | 6 |
-| IP addresses | 4 |
-| SHA256 file hashes | 19 |
-| MD5 file hashes | 7 |
-| SHA1 file hashes | 3 |
-| URLs | 3 |
-| **Total** | **42** |
-
-| Open today's files | What to expect |
-|---|---|
-| [Daily intelligence report](2026/11/11/11-11-26-iocs.md) | Campaign context, defanged IOCs, evidence links and research limitations |
-| [IOC table — CSV](2026/11/11/11-11-26-iocs.csv) | Flattened records for spreadsheets and security tools |
-| [Structured records — JSON](2026/11/11/11-11-26-iocs.json) | Original values, hunt mappings, source evidence and collection metadata |
-| [Microsoft Defender XDR hunt — KQL](2026/11/11/mde-hunt.kql) | Endpoint network, file and process searches |
-| [Elastic Security hunt — ES\|QL](2026/11/11/elastic-hunt.esql) | Searches across compatible ECS fields in `logs-*` |
-
-The extended two-pass review is complete. The live-status section records the confirmed publication state. Indicators retain their individual evidence, observation dates and false-positive notes; read the daily report before using them.
+The live-status section above links to the most recent published report, data files and hunts. Indicators retain their individual evidence, observation dates and false-positive notes; read that report before using them.
 
 ## Start hunting
 
@@ -58,38 +42,38 @@ The extended two-pass review is complete. The live-status section records the co
 
 ### Microsoft Defender XDR
 
-Open the [KQL hunt](2026/11/11/mde-hunt.kql), copy the complete query into **Advanced hunting**, review its scope and run it against the intended environment. The current hunt uses `DeviceNetworkEvents`, `DeviceFileEvents` and `DeviceProcessEvents` from Microsoft Defender for Endpoint.
+Open `mde-hunt.kql` from the latest published set above, copy the complete query into **Advanced hunting**, review its scope and run it against the intended environment. The current hunt uses `DeviceNetworkEvents`, `DeviceFileEvents` and `DeviceProcessEvents` from Microsoft Defender for Endpoint.
 
-Domain indicators are compared with exact hostnames parsed from network telemetry. The documented exfiltration IP is matched as a remote destination. Observed SSH attack-source addresses match remote peers only when the endpoint local port is 22. Exact full URLs preserve their path and case. File and process hashes use their corresponding hash columns. The query does not expand domains to their parents or search for arbitrary substrings.
+Domain indicators are compared with exact hostnames parsed from network telemetry. IP indicators are matched according to their documented roles in the daily report. Exact full URLs preserve their path and case. File and process hashes use their corresponding hash columns. The query does not expand domains to their parents or search for arbitrary substrings.
 
 ### Elastic Security
 
-Open the [ES|QL hunt](2026/11/11/elastic-hunt.esql), copy the complete query into an **ES|QL query editor**, and review the `FROM logs-*` selection before running it. Narrow the index pattern to the intended telemetry and confirm that the fields used by `WHERE` are available with compatible mappings.
+Open `elastic-hunt.esql` from the latest published set above, copy the complete query into an **ES|QL query editor**, and review the `FROM logs-*` selection before running it. Narrow the index pattern to the intended telemetry and confirm that the fields used by `WHERE` are available with compatible mappings.
 
-The current hunt uses `@timestamp`, `dns.question.name`, `destination.domain`, `url.domain`, `destination.ip`, `source.ip`, `destination.port`, `url.full`, and the applicable `file.hash.*` and `process.hash.*` fields. Hostnames and hashes are matched exactly after case normalization; destination and SSH source IPs use their distinct supported roles; SSH source matching also requires destination port 22. Full URLs match their exact path and case.
+The hunt uses timestamps, hostname, IP, URL and file/process hash fields appropriate to the daily indicator set. Check the query for the exact ECS fields and mappings it requires. Hostnames and hashes are matched exactly after case normalization; IPs use their documented roles. Full URLs match their exact path and case.
 
 ### What a query can miss
 
 These hunts have been generated and checked for agreement with the accepted indicator set; **no live Defender or Elastic query execution is claimed**. Missing telemetry, unavailable tables, conflicting field types and permissions can affect execution or coverage. Defender SHA256 fields are often unpopulated, and browser extension resource files may not produce file-hash events. Elastic fields that are absent, multivalued or mapped differently may require an index or query adjustment.
 
-A 30-day hunt does not retrieve March–May events outside that window. Any deliberate lookback change also depends on retained telemetry. No matches means no matches in the queried data and scope; it does not establish that an environment is free of compromise.
+A 30-day hunt does not retrieve events outside that window. Any deliberate lookback change also depends on retained telemetry. No matches means no matches in the queried data and scope; it does not establish that an environment is free of compromise.
 
 ## Repository layout
 
 Open the year, then the month, then the day. Each daily folder contains exactly five files:
 
 ```text
-2026
-└── 11
-    └── 11
-        ├── 11-11-26-iocs.md
-        ├── 11-11-26-iocs.csv
-        ├── 11-11-26-iocs.json
+YYYY
+└── MM
+    └── DD
+        ├── MM-DD-YY-iocs.md
+        ├── MM-DD-YY-iocs.csv
+        ├── MM-DD-YY-iocs.json
         ├── mde-hunt.kql
         └── elastic-hunt.esql
 ```
 
-Browse one level at a time: [2026](2026/) → [11](2026/11/) → [11](2026/11/11/). Report dates use **America/Los_Angeles**. Evidence collection and publication timestamps use **UTC** with an explicit timezone.
+Browse one level at a time: year → month → day. Report dates use **America/Los_Angeles**. Evidence collection and publication timestamps use **UTC** with an explicit timezone.
 
 | Daily file | Purpose |
 |---|---|
@@ -113,9 +97,9 @@ The **initial 2026-11-11 report** accepts evidence published that day or explici
 
 ### Current research coverage
 
-The extended two-pass review covered **98 substantive reports, advisories or individual evidence records across 60 source organizations and four categories**. It met the normal 30-minute active-research minimum and added 28 source organizations in the second pass. Preparation and publication are excluded from research time; parallel reviews are not summed. The count includes older context, technical studies and patch advisories; it does not mean 98 new attacks occurred today.
+Each daily report records the reviewed studies, advisories, evidence records and source organizations, along with research time and material limitations. Preparation and publication are excluded from research time; parallel reviews are not summed. Review counts can include older context, technical studies and patch advisories; they do not measure new attacks.
 
-The [daily report](2026/11/11/11-11-26-iocs.md) lists the reviewed evidence and material limits. Unavailable primary evidence, weak behavior, generic probing, diagnostic artifacts and shared infrastructure were excluded. A low or zero accepted count can still be valid after completed research; it does not establish a quiet threat day.
+The latest daily report lists the reviewed evidence and material limits. Unavailable primary evidence, weak behavior, generic probing, diagnostic artifacts and shared infrastructure were excluded. A low or zero accepted count can still be valid after completed research; it does not establish a quiet threat day.
 
 ## Understand the records
 
