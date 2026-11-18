@@ -1,23 +1,25 @@
 <!-- CYBERMEDIC-LIVE-STATUS:START -->
 ## Live status
 
-**Latest published data:** November 17, 2026
+**Latest published data:** November 18, 2026
 
 - **Publication health:** 🟢 Published and verified on GitHub.
-- **IOC validation health:** 🟢 Passed source, format, duplicate and cross-file checks for 124 validated IOCs.
+- **IOC validation health:** 🟢 Passed source, format, duplicate and cross-file checks for 337 validated IOCs.
 - **Research collection health:** 🟡 Completed with documented source-access gaps.
 
-| Latest published files — November 17, 2026 | What to expect |
+| Latest published files — November 18, 2026 | What to expect |
 |---|---|
-| [Daily intelligence report](2026/11/17/11-17-26-iocs.md) | Campaign context, defanged IOCs, evidence links and research limitations |
-| [IOC table — CSV](2026/11/17/11-17-26-iocs.csv) | Flattened records for spreadsheets and security tools |
-| [Structured records — JSON](2026/11/17/11-17-26-iocs.json) | Original values, hunt mappings, source evidence and collection metadata |
-| [Microsoft Defender XDR hunt — KQL](2026/11/17/mde-hunt.kql) | Endpoint network, file and process searches |
-| [Elastic Security hunt — ES\|QL](2026/11/17/elastic-hunt.esql) | Searches across compatible ECS fields in `logs-*` |
+| [Daily intelligence report](2026/11/18/11-18-26-iocs.md) | Campaign context, defanged IOCs, evidence links and research limitations |
+| [IOC table — CSV](2026/11/18/11-18-26-iocs.csv) | Flattened records for spreadsheets and security tools |
+| [Structured records — JSON](2026/11/18/11-18-26-iocs.json) | Original values, hunt mappings, source evidence and collection metadata |
+| [Microsoft Defender XDR hunt — KQL](2026/11/18/mde-hunt.kql) | Endpoint network, file and process searches |
+| [Elastic Security hunt — ES\|QL](2026/11/18/elastic-hunt.esql) | Searches across compatible ECS fields in `logs-*` |
 
 Hunting queries passed static checks. They weren’t executed on live platforms.
 
 **Status key** · 🟢 Green means required checks passed. 🟡 Yellow means usable output with specific limitations. 🔴 Red means required checks failed or are incomplete. ⚪ Gray means pending or not assessed.
+
+**Last successful IOC publication:** 2026-11-18 UTC (date precision). The exact last successful push timestamp is GitHub’s `pushed_at` field in the [repository metadata](https://api.github.com/repos/CYBERMED1C/CYBERMED1C-Daily-Threat-IOCs).
 
 **Daily schedule:** Active — 6:00 AM Pacific time (America/Los_Angeles).
 <!-- CYBERMEDIC-LIVE-STATUS:END -->
@@ -27,7 +29,7 @@ Hunting queries passed static checks. They weren’t executed on live platforms.
 >
 > Intelligence is drawn from publicly available sources. Use it for defensive investigation and assess every match in context.
 
-# Daily-Threat-IOCs — Version 2.1.3
+# Daily-Threat-IOCs — Version 2.1.2
 
 **Public threat intelligence. Traceable evidence. Practical hunts.**
 
@@ -35,7 +37,7 @@ Created and maintained under the **CYBERMEDIC** attribution as CYBERMED1C/CYBERM
 
 This project helps SOC analysts, threat hunters, incident responders and detection engineers turn public research into focused searches in Microsoft Defender XDR and Elastic Security. Each daily set brings together source context, structured indicators and ready-to-review hunting queries so an analyst can understand what a value represents before acting on a match.
 
-The archive began on **November 11, 2026**, with fresh research and an empty historical IOC baseline. No data, reports or Git history from the previous repository are imported. Version 2.1.3 retains the established date folders and five-file daily structure.
+The archive began on **November 11, 2026**, with fresh research and an empty historical IOC baseline. No data, reports or Git history from the previous repository are imported. Version 2.1.2 retains the established date folders and five-file daily structure.
 
 The live-status section above links to the most recent published report, data files and hunts. Indicators retain their individual evidence, observation dates and false-positive notes; read that report before using them.
 
