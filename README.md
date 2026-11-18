@@ -1,11 +1,11 @@
 <!-- CYBERMEDIC-LIVE-STATUS:START -->
 ## Live status
 
-🟡 **Published — source coverage limitations noted**
-**Latest report:** [November 17, 2026 (2026-11-17)](2026/11/17/11-17-26-iocs.md).
-**Last successful IOC publication:** 2026-11-17 UTC (date precision).
-**Overall status:** 124 validated IOCs are published. Two research passes reviewed 51 original studies/records plus 9 discovery stories across 37 publisher groups. Source access, single-source and observation-date limitations are documented. Queries were not executed on live security platforms.
-**Daily schedule:** Active — 6:00 AM Pacific time (America/Los_Angeles).
+**Latest published data:** November 17, 2026
+
+- **Publication health:** 🟢 Published and verified on GitHub.
+- **IOC validation health:** 🟢 Passed source, format, duplicate and cross-file checks for 124 validated IOCs.
+- **Research collection health:** 🟡 Completed with documented source-access gaps.
 
 | Latest published files — November 17, 2026 | What to expect |
 |---|---|
@@ -14,6 +14,12 @@
 | [Structured records — JSON](2026/11/17/11-17-26-iocs.json) | Original values, hunt mappings, source evidence and collection metadata |
 | [Microsoft Defender XDR hunt — KQL](2026/11/17/mde-hunt.kql) | Endpoint network, file and process searches |
 | [Elastic Security hunt — ES\|QL](2026/11/17/elastic-hunt.esql) | Searches across compatible ECS fields in `logs-*` |
+
+Hunting queries passed static checks. They weren’t executed on live platforms.
+
+**Status key** · 🟢 Green means required checks passed. 🟡 Yellow means usable output with specific limitations. 🔴 Red means required checks failed or are incomplete. ⚪ Gray means pending or not assessed.
+
+**Daily schedule:** Active — 6:00 AM Pacific time (America/Los_Angeles).
 <!-- CYBERMEDIC-LIVE-STATUS:END -->
 
 > [!IMPORTANT]
