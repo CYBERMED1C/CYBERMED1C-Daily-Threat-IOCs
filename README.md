@@ -27,7 +27,7 @@ Hunting queries passed static checks. They weren’t executed on live platforms.
 >
 > Intelligence is drawn from publicly available sources. Use it for defensive investigation and assess every match in context.
 
-# Daily-Threat-IOCs — Version 2.1.2
+# Daily-Threat-IOCs — Version 2.1.3
 
 **Public threat intelligence. Traceable evidence. Practical hunts.**
 
