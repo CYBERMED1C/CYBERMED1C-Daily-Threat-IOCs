@@ -5,7 +5,7 @@
 
 - **Publication health:** 🟢 Healthy — All five files were published and verified on GitHub.
 - **IOC validation health:** 🟢 Healthy — 337 validated IOCs passed source, format, duplicate and cross-file checks.
-- **Research collection health:** 🟡 Warning — Both research passes finished with gaps in access to CISA and UK NCSC reports.
+- **Research collection health:** 🟡 Warning
 
 | Latest published files — November 18, 2026 | What to expect |
 |---|---|
