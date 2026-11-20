@@ -3,9 +3,9 @@
 
 **Latest published data:** November 18, 2026
 
-- **Publication health:** 🟢 Published and verified on GitHub.
-- **IOC validation health:** 🟢 Passed source, format, duplicate and cross-file checks for 337 validated IOCs.
-- **Research collection health:** 🟡 Completed with documented source-access gaps.
+- **Publication health:** 🟢 Healthy — All five files were published and verified on GitHub.
+- **IOC validation health:** 🟢 Healthy — 337 validated IOCs passed source, format, duplicate and cross-file checks.
+- **Research collection health:** 🟡 Warning — Both research passes finished with gaps in access to CISA and UK NCSC reports.
 
 | Latest published files — November 18, 2026 | What to expect |
 |---|---|
@@ -17,9 +17,19 @@
 
 Hunting queries passed static checks. They weren’t executed on live platforms.
 
-**Status key** · 🟢 Green means required checks passed. 🟡 Yellow means usable output with specific limitations. 🔴 Red means required checks failed or are incomplete. ⚪ Gray means pending or not assessed.
+**November 19, 2026 publication check:** 🔵 Maintenance — GitHub had no November 19 set when checked. The run outcome is unknown.
 
-**Last successful IOC publication:** 2026-11-18 UTC (date precision). The exact last successful push timestamp is GitHub’s `pushed_at` field in the [repository metadata](https://api.github.com/repos/CYBERMED1C/CYBERMED1C-Daily-Threat-IOCs).
+**Status key**
+
+| Status | Color |
+| --- | --- |
+| **Healthy** *(Operational / OK)* | 🟢 Green |
+| **Warning** *(At Risk)* | 🟡 Yellow |
+| **Degraded** *(Partial Outage)* | 🟠 Orange |
+| **Critical** *(Down / Unhealthy)* | 🔴 Red |
+| **Maintenance** *(Unknown / Offline)* | 🔵 Blue |
+
+**Last successful IOC publication:** November 18, 2026 at 15:10 UTC.
 
 **Daily schedule:** Active — 6:00 AM Pacific time (America/Los_Angeles).
 <!-- CYBERMEDIC-LIVE-STATUS:END -->
