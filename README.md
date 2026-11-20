@@ -17,18 +17,6 @@
 
 Hunting queries passed static checks. They weren’t executed on live platforms.
 
-**November 19, 2026 publication check:** 🔵 Maintenance — GitHub had no November 19 set when checked. The run outcome is unknown.
-
-**Status key**
-
-| Status | Color |
-| --- | --- |
-| **Healthy** *(Operational / OK)* | 🟢 Green |
-| **Warning** *(At Risk)* | 🟡 Yellow |
-| **Degraded** *(Partial Outage)* | 🟠 Orange |
-| **Critical** *(Down / Unhealthy)* | 🔴 Red |
-| **Maintenance** *(Unknown / Offline)* | 🔵 Blue |
-
 **Last successful IOC publication:** November 18, 2026 at 15:10 UTC.
 
 **Daily schedule:** Active — 6:00 AM Pacific time (America/Los_Angeles).
