@@ -1,23 +1,23 @@
 <!-- CYBERMEDIC-LIVE-STATUS:START -->
 ## Live status
 
-**Latest published data:** November 18, 2026
+**Latest published data:** November 20, 2026
 
 - **Publication health:** 🟢 Healthy — All five files were published and verified on GitHub.
-- **IOC validation health:** 🟢 Healthy — 337 validated IOCs passed source, format, duplicate and cross-file checks.
+- **IOC validation health:** 🟢 Healthy — 193 validated IOCs passed source, format, duplicate and cross-file checks.
 - **Research collection health:** 🟡 Warning
 
-| Latest published files — November 18, 2026 | What to expect |
+| Latest published files — November 20, 2026 | What to expect |
 |---|---|
-| [Daily intelligence report](2026/11/18/11-18-26-iocs.md) | Campaign context, defanged IOCs, evidence links and research limitations |
-| [IOC table — CSV](2026/11/18/11-18-26-iocs.csv) | Flattened records for spreadsheets and security tools |
-| [Structured records — JSON](2026/11/18/11-18-26-iocs.json) | Original values, hunt mappings, source evidence and collection metadata |
-| [Microsoft Defender XDR hunt — KQL](2026/11/18/mde-hunt.kql) | Endpoint network, file and process searches |
-| [Elastic Security hunt — ES\|QL](2026/11/18/elastic-hunt.esql) | Searches across compatible ECS fields in `logs-*` |
+| [Daily intelligence report](2026/11/20/11-20-26-iocs.md) | Campaign context, defanged IOCs, evidence links and research limitations |
+| [IOC table — CSV](2026/11/20/11-20-26-iocs.csv) | Flattened records for spreadsheets and security tools |
+| [Structured records — JSON](2026/11/20/11-20-26-iocs.json) | Original values, hunt mappings, source evidence and collection metadata |
+| [Microsoft Defender XDR hunt — KQL](2026/11/20/mde-hunt.kql) | Endpoint network, file and process searches |
+| [Elastic Security hunt — ES\|QL](2026/11/20/elastic-hunt.esql) | Searches across compatible ECS fields in `logs-*` |
 
 Hunting queries passed static checks. They weren’t executed on live platforms.
 
-**Last successful IOC publication:** November 18, 2026 at 15:10 UTC.
+**Last successful IOC publication:** November 21, 2026 UTC (November 20 Pacific report).
 
 **Daily schedule:** Active — 6:00 AM Pacific time (America/Los_Angeles).
 <!-- CYBERMEDIC-LIVE-STATUS:END -->
