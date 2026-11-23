@@ -1,0 +1,1293 @@
+[
+  {
+    "ioc": "1c085b021de27fa330804e5add96e38db0dbe8c6c0f40cebc53f9cb196bddaa5",
+    "ioc_type": "sha256",
+    "original_ioc": "1c085b021de27fa330804e5add96e38db0dbe8c6c0f40cebc53f9cb196bddaa5",
+    "hunt_ioc": "1c085b021de27fa330804e5add96e38db0dbe8c6c0f40cebc53f9cb196bddaa5",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PavinLoader gatekeeper and loader chain",
+    "malware_family": "PavinLoader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Netskope Threat Labs",
+      "Netskope Threat Labs"
+    ],
+    "source_article": [
+      "Inside PavinLoader",
+      "PavinLoader November 2026 IOC appendix"
+    ],
+    "source_url": [
+      "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+      "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md"
+    ],
+    "article_published_date": [
+      "2026-11-19",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Initial installer, Inno Setup, fake \"NVMe Driver Helper Setup\". Single-publisher campaign evidence. Extended seven-day publication window; observation dates unknown. Component digest; transformed or memory-loaded stages may require extracted-content telemetry.",
+    "sources": [
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "Inside PavinLoader",
+        "url": "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+        "published_at": "2026-11-19",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      },
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "PavinLoader November 2026 IOC appendix",
+        "url": "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "official IOC appendix",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "68bbd95b310aa84a8ea40f93025ef72eee3d7b3ed9dd1ee063fcb74b0300d529",
+    "ioc_type": "sha256",
+    "original_ioc": "68bbd95b310aa84a8ea40f93025ef72eee3d7b3ed9dd1ee063fcb74b0300d529",
+    "hunt_ioc": "68bbd95b310aa84a8ea40f93025ef72eee3d7b3ed9dd1ee063fcb74b0300d529",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PavinLoader gatekeeper and loader chain",
+    "malware_family": "PavinLoader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Netskope Threat Labs",
+      "Netskope Threat Labs"
+    ],
+    "source_article": [
+      "Inside PavinLoader",
+      "PavinLoader November 2026 IOC appendix"
+    ],
+    "source_url": [
+      "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+      "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md"
+    ],
+    "article_published_date": [
+      "2026-11-19",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Dropped NovosUpdater.csproj. Single-publisher campaign evidence. Extended seven-day publication window; observation dates unknown. Component digest; transformed or memory-loaded stages may require extracted-content telemetry.",
+    "sources": [
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "Inside PavinLoader",
+        "url": "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+        "published_at": "2026-11-19",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      },
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "PavinLoader November 2026 IOC appendix",
+        "url": "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "official IOC appendix",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a53311077a63b1799c8741a490f3dcc5590ea44aea2afd52a7d5c4e0f60c853b",
+    "ioc_type": "sha256",
+    "original_ioc": "a53311077a63b1799c8741a490f3dcc5590ea44aea2afd52a7d5c4e0f60c853b",
+    "hunt_ioc": "a53311077a63b1799c8741a490f3dcc5590ea44aea2afd52a7d5c4e0f60c853b",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PavinLoader gatekeeper and loader chain",
+    "malware_family": "PavinLoader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Netskope Threat Labs",
+      "Netskope Threat Labs"
+    ],
+    "source_article": [
+      "Inside PavinLoader",
+      "PavinLoader November 2026 IOC appendix"
+    ],
+    "source_url": [
+      "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+      "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md"
+    ],
+    "article_published_date": [
+      "2026-11-19",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Dropped PhoneNumbers.dll. Single-publisher campaign evidence. Extended seven-day publication window; observation dates unknown. Component digest; transformed or memory-loaded stages may require extracted-content telemetry.",
+    "sources": [
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "Inside PavinLoader",
+        "url": "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+        "published_at": "2026-11-19",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      },
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "PavinLoader November 2026 IOC appendix",
+        "url": "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "official IOC appendix",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "141cd7d6daea4f835275eb5906a8220e9f60c3bbe81c6e34c02f553668d7052c",
+    "ioc_type": "sha256",
+    "original_ioc": "141cd7d6daea4f835275eb5906a8220e9f60c3bbe81c6e34c02f553668d7052c",
+    "hunt_ioc": "141cd7d6daea4f835275eb5906a8220e9f60c3bbe81c6e34c02f553668d7052c",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PavinLoader gatekeeper and loader chain",
+    "malware_family": "PavinLoader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Netskope Threat Labs",
+      "Netskope Threat Labs"
+    ],
+    "source_article": [
+      "Inside PavinLoader",
+      "PavinLoader November 2026 IOC appendix"
+    ],
+    "source_url": [
+      "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+      "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md"
+    ],
+    "article_published_date": [
+      "2026-11-19",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Decompressed cache-binary JavaScript wrapper. Single-publisher campaign evidence. Extended seven-day publication window; observation dates unknown. Component digest; transformed or memory-loaded stages may require extracted-content telemetry.",
+    "sources": [
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "Inside PavinLoader",
+        "url": "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+        "published_at": "2026-11-19",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      },
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "PavinLoader November 2026 IOC appendix",
+        "url": "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "official IOC appendix",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "f17deb00622e3d5bf9a69d7871ed974392aeecf53844963f4967b7fc04c47818",
+    "ioc_type": "sha256",
+    "original_ioc": "f17deb00622e3d5bf9a69d7871ed974392aeecf53844963f4967b7fc04c47818",
+    "hunt_ioc": "f17deb00622e3d5bf9a69d7871ed974392aeecf53844963f4967b7fc04c47818",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PavinLoader gatekeeper and loader chain",
+    "malware_family": "PavinLoader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Netskope Threat Labs",
+      "Netskope Threat Labs"
+    ],
+    "source_article": [
+      "Inside PavinLoader",
+      "PavinLoader November 2026 IOC appendix"
+    ],
+    "source_url": [
+      "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+      "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md"
+    ],
+    "article_published_date": [
+      "2026-11-19",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Base64-decoded encrypted stage content. Single-publisher campaign evidence. Extended seven-day publication window; observation dates unknown. Component digest; transformed or memory-loaded stages may require extracted-content telemetry.",
+    "sources": [
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "Inside PavinLoader",
+        "url": "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+        "published_at": "2026-11-19",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      },
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "PavinLoader November 2026 IOC appendix",
+        "url": "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "official IOC appendix",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "5b8ade10e284d1f0da7dab2b77059c9ef1bc2b0d8608566e9b21e52f4ea3fe1a",
+    "ioc_type": "sha256",
+    "original_ioc": "5b8ade10e284d1f0da7dab2b77059c9ef1bc2b0d8608566e9b21e52f4ea3fe1a",
+    "hunt_ioc": "5b8ade10e284d1f0da7dab2b77059c9ef1bc2b0d8608566e9b21e52f4ea3fe1a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PavinLoader gatekeeper and loader chain",
+    "malware_family": "PavinLoader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Netskope Threat Labs",
+      "Netskope Threat Labs"
+    ],
+    "source_article": [
+      "Inside PavinLoader",
+      "PavinLoader November 2026 IOC appendix"
+    ],
+    "source_url": [
+      "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+      "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md"
+    ],
+    "article_published_date": [
+      "2026-11-19",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Stage-2 .NET DLL, assembly Pegasus.Common 4.1.0.0. Single-publisher campaign evidence. Extended seven-day publication window; observation dates unknown. Component digest; transformed or memory-loaded stages may require extracted-content telemetry.",
+    "sources": [
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "Inside PavinLoader",
+        "url": "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+        "published_at": "2026-11-19",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      },
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "PavinLoader November 2026 IOC appendix",
+        "url": "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "official IOC appendix",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "179048190e35a748fe573bf8f4f20ce8a56b835463aeb20f2e6f005fee7cb481",
+    "ioc_type": "sha256",
+    "original_ioc": "179048190e35a748fe573bf8f4f20ce8a56b835463aeb20f2e6f005fee7cb481",
+    "hunt_ioc": "179048190e35a748fe573bf8f4f20ce8a56b835463aeb20f2e6f005fee7cb481",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PavinLoader gatekeeper and loader chain",
+    "malware_family": "PavinLoader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Netskope Threat Labs",
+      "Netskope Threat Labs"
+    ],
+    "source_article": [
+      "Inside PavinLoader",
+      "PavinLoader November 2026 IOC appendix"
+    ],
+    "source_url": [
+      "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+      "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md"
+    ],
+    "article_published_date": [
+      "2026-11-19",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "FileController.zip, launch kit delivered via Dropbox (renamed MSBuild + project + trojanized Rebus.dll). Single-publisher campaign evidence. Extended seven-day publication window; observation dates unknown. Component digest; transformed or memory-loaded stages may require extracted-content telemetry.",
+    "sources": [
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "Inside PavinLoader",
+        "url": "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+        "published_at": "2026-11-19",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      },
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "PavinLoader November 2026 IOC appendix",
+        "url": "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "official IOC appendix",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c1d23065d65e777e214c595ce7a4ed5f09af5bfd8be9f9405f9474f594e007c4",
+    "ioc_type": "sha256",
+    "original_ioc": "c1d23065d65e777e214c595ce7a4ed5f09af5bfd8be9f9405f9474f594e007c4",
+    "hunt_ioc": "c1d23065d65e777e214c595ce7a4ed5f09af5bfd8be9f9405f9474f594e007c4",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PavinLoader gatekeeper and loader chain",
+    "malware_family": "PavinLoader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Netskope Threat Labs",
+      "Netskope Threat Labs"
+    ],
+    "source_article": [
+      "Inside PavinLoader",
+      "PavinLoader November 2026 IOC appendix"
+    ],
+    "source_url": [
+      "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+      "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md"
+    ],
+    "article_published_date": [
+      "2026-11-19",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "FileController.csproj. Single-publisher campaign evidence. Extended seven-day publication window; observation dates unknown. Component digest; transformed or memory-loaded stages may require extracted-content telemetry.",
+    "sources": [
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "Inside PavinLoader",
+        "url": "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+        "published_at": "2026-11-19",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      },
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "PavinLoader November 2026 IOC appendix",
+        "url": "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "official IOC appendix",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "9aa2f6dd84846ce54ad64c3a01eb8b0351b814a46bfaf7564afaacc40fe1e865",
+    "ioc_type": "sha256",
+    "original_ioc": "9aa2f6dd84846ce54ad64c3a01eb8b0351b814a46bfaf7564afaacc40fe1e865",
+    "hunt_ioc": "9aa2f6dd84846ce54ad64c3a01eb8b0351b814a46bfaf7564afaacc40fe1e865",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PavinLoader gatekeeper and loader chain",
+    "malware_family": "PavinLoader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Netskope Threat Labs",
+      "Netskope Threat Labs"
+    ],
+    "source_article": [
+      "Inside PavinLoader",
+      "PavinLoader November 2026 IOC appendix"
+    ],
+    "source_url": [
+      "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+      "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md"
+    ],
+    "article_published_date": [
+      "2026-11-19",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Rebus.dll. Single-publisher campaign evidence. Extended seven-day publication window; observation dates unknown. Component digest; transformed or memory-loaded stages may require extracted-content telemetry.",
+    "sources": [
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "Inside PavinLoader",
+        "url": "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+        "published_at": "2026-11-19",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      },
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "PavinLoader November 2026 IOC appendix",
+        "url": "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "official IOC appendix",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "7de7733a96e4cde79e32a8079ccda1661e00bb73391595df78c33926b4916594",
+    "ioc_type": "sha256",
+    "original_ioc": "7de7733a96e4cde79e32a8079ccda1661e00bb73391595df78c33926b4916594",
+    "hunt_ioc": "7de7733a96e4cde79e32a8079ccda1661e00bb73391595df78c33926b4916594",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PavinLoader gatekeeper and loader chain",
+    "malware_family": "PavinLoader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Netskope Threat Labs",
+      "Netskope Threat Labs"
+    ],
+    "source_article": [
+      "Inside PavinLoader",
+      "PavinLoader November 2026 IOC appendix"
+    ],
+    "source_url": [
+      "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+      "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md"
+    ],
+    "article_published_date": [
+      "2026-11-19",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "RedBios fake-software installer (Inno Setup), Dropbox cluster. Single-publisher campaign evidence. Extended seven-day publication window; observation dates unknown. Component digest; transformed or memory-loaded stages may require extracted-content telemetry.",
+    "sources": [
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "Inside PavinLoader",
+        "url": "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+        "published_at": "2026-11-19",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      },
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "PavinLoader November 2026 IOC appendix",
+        "url": "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "official IOC appendix",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "tewiascomp.blog",
+    "ioc_type": "domain",
+    "original_ioc": "tewiascomp.blog",
+    "hunt_ioc": "tewiascomp.blog",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "PavinLoader gatekeeper and loader chain",
+    "malware_family": "PavinLoader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Netskope Threat Labs",
+      "Netskope Threat Labs"
+    ],
+    "source_article": [
+      "Inside PavinLoader",
+      "PavinLoader November 2026 IOC appendix"
+    ],
+    "source_url": [
+      "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+      "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md"
+    ],
+    "article_published_date": [
+      "2026-11-19",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "C2. Single-publisher campaign evidence. Extended seven-day publication window; observation dates unknown.",
+    "sources": [
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "Inside PavinLoader",
+        "url": "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+        "published_at": "2026-11-19",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      },
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "PavinLoader November 2026 IOC appendix",
+        "url": "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "official IOC appendix",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "lourohamiv.blog",
+    "ioc_type": "domain",
+    "original_ioc": "lourohamiv.blog",
+    "hunt_ioc": "lourohamiv.blog",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "PavinLoader gatekeeper and loader chain",
+    "malware_family": "PavinLoader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Netskope Threat Labs",
+      "Netskope Threat Labs"
+    ],
+    "source_article": [
+      "Inside PavinLoader",
+      "PavinLoader November 2026 IOC appendix"
+    ],
+    "source_url": [
+      "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+      "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md"
+    ],
+    "article_published_date": [
+      "2026-11-19",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "C2. Single-publisher campaign evidence. Extended seven-day publication window; observation dates unknown.",
+    "sources": [
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "Inside PavinLoader",
+        "url": "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+        "published_at": "2026-11-19",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      },
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "PavinLoader November 2026 IOC appendix",
+        "url": "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "official IOC appendix",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "dafoogrupa.blog",
+    "ioc_type": "domain",
+    "original_ioc": "dafoogrupa.blog",
+    "hunt_ioc": "dafoogrupa.blog",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "PavinLoader gatekeeper and loader chain",
+    "malware_family": "PavinLoader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Netskope Threat Labs",
+      "Netskope Threat Labs"
+    ],
+    "source_article": [
+      "Inside PavinLoader",
+      "PavinLoader November 2026 IOC appendix"
+    ],
+    "source_url": [
+      "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+      "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md"
+    ],
+    "article_published_date": [
+      "2026-11-19",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "C2. Single-publisher campaign evidence. Extended seven-day publication window; observation dates unknown.",
+    "sources": [
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "Inside PavinLoader",
+        "url": "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+        "published_at": "2026-11-19",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      },
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "PavinLoader November 2026 IOC appendix",
+        "url": "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "official IOC appendix",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "docardebiary.blog",
+    "ioc_type": "domain",
+    "original_ioc": "docardebiary.blog",
+    "hunt_ioc": "docardebiary.blog",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "PavinLoader gatekeeper and loader chain",
+    "malware_family": "PavinLoader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Netskope Threat Labs",
+      "Netskope Threat Labs"
+    ],
+    "source_article": [
+      "Inside PavinLoader",
+      "PavinLoader November 2026 IOC appendix"
+    ],
+    "source_url": [
+      "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+      "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md"
+    ],
+    "article_published_date": [
+      "2026-11-19",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "C2. Single-publisher campaign evidence. Extended seven-day publication window; observation dates unknown.",
+    "sources": [
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "Inside PavinLoader",
+        "url": "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+        "published_at": "2026-11-19",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      },
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "PavinLoader November 2026 IOC appendix",
+        "url": "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "official IOC appendix",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "skeegulduz.blog",
+    "ioc_type": "domain",
+    "original_ioc": "skeegulduz.blog",
+    "hunt_ioc": "skeegulduz.blog",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "PavinLoader gatekeeper and loader chain",
+    "malware_family": "PavinLoader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Netskope Threat Labs",
+      "Netskope Threat Labs"
+    ],
+    "source_article": [
+      "Inside PavinLoader",
+      "PavinLoader November 2026 IOC appendix"
+    ],
+    "source_url": [
+      "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+      "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md"
+    ],
+    "article_published_date": [
+      "2026-11-19",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Tier-2 beacon C2. Single-publisher campaign evidence. Extended seven-day publication window; observation dates unknown.",
+    "sources": [
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "Inside PavinLoader",
+        "url": "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+        "published_at": "2026-11-19",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      },
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "PavinLoader November 2026 IOC appendix",
+        "url": "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "official IOC appendix",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://tewiascomp.blog/5C4NX/get/FiastZunpaest_bbecf478.js",
+    "ioc_type": "url",
+    "original_ioc": "https://tewiascomp.blog/5C4NX/get/FiastZunpaest_bbecf478.js",
+    "hunt_ioc": "https://tewiascomp.blog/5C4NX/get/FiastZunpaest_bbecf478.js",
+    "hunt_ioc_type": "url",
+    "threat_campaign": "PavinLoader gatekeeper and loader chain",
+    "malware_family": "PavinLoader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Netskope Threat Labs",
+      "Netskope Threat Labs"
+    ],
+    "source_article": [
+      "Inside PavinLoader",
+      "PavinLoader November 2026 IOC appendix"
+    ],
+    "source_url": [
+      "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+      "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md"
+    ],
+    "article_published_date": [
+      "2026-11-19",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Stage request. Single-publisher campaign evidence. Extended seven-day publication window; observation dates unknown.",
+    "sources": [
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "Inside PavinLoader",
+        "url": "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+        "published_at": "2026-11-19",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      },
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "PavinLoader November 2026 IOC appendix",
+        "url": "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "official IOC appendix",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://tewiascomp.blog/5C4NX/event",
+    "ioc_type": "url",
+    "original_ioc": "https://tewiascomp.blog/5C4NX/event",
+    "hunt_ioc": "https://tewiascomp.blog/5C4NX/event",
+    "hunt_ioc_type": "url",
+    "threat_campaign": "PavinLoader gatekeeper and loader chain",
+    "malware_family": "PavinLoader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Netskope Threat Labs",
+      "Netskope Threat Labs"
+    ],
+    "source_article": [
+      "Inside PavinLoader",
+      "PavinLoader November 2026 IOC appendix"
+    ],
+    "source_url": [
+      "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+      "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md"
+    ],
+    "article_published_date": [
+      "2026-11-19",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "POST, beacon. Single-publisher campaign evidence. Extended seven-day publication window; observation dates unknown.",
+    "sources": [
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "Inside PavinLoader",
+        "url": "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+        "published_at": "2026-11-19",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      },
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "PavinLoader November 2026 IOC appendix",
+        "url": "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "official IOC appendix",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://www.dropbox.com/scl/fi/5yrckywm9nrsfbrlb22em/FileController.zip",
+    "ioc_type": "url",
+    "original_ioc": "https://www.dropbox.com/scl/fi/5yrckywm9nrsfbrlb22em/FileController.zip",
+    "hunt_ioc": "https://www.dropbox.com/scl/fi/5yrckywm9nrsfbrlb22em/FileController.zip",
+    "hunt_ioc_type": "url",
+    "threat_campaign": "PavinLoader gatekeeper and loader chain",
+    "malware_family": "PavinLoader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Netskope Threat Labs",
+      "Netskope Threat Labs"
+    ],
+    "source_article": [
+      "Inside PavinLoader",
+      "PavinLoader November 2026 IOC appendix"
+    ],
+    "source_url": [
+      "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+      "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md"
+    ],
+    "article_published_date": [
+      "2026-11-19",
+      "unknown"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Dropbox-hosted launch kit (live at time of writing). Single-publisher campaign evidence. Extended seven-day publication window; observation dates unknown. Match only this exact shared-service path; provider roots are not malicious indicators.",
+    "sources": [
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "Inside PavinLoader",
+        "url": "https://threatlabs.netskope.com/blog/2026/11/inside-pavinloader/",
+        "published_at": "2026-11-19",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      },
+      {
+        "organization": "Netskope Threat Labs",
+        "article_title": "PavinLoader November 2026 IOC appendix",
+        "url": "https://github.com/netskopeoss/NetskopeThreatLabsIOCs/blob/7cf1335fba2f1b07b0ebb6e9609e48463b11f094/Malware/PavinLoaderNov26/IOCs/README.md",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "official IOC appendix",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "66.245.219.252",
+    "ioc_type": "ip",
+    "original_ioc": "66.245.219.252",
+    "hunt_ioc": "66.245.219.252",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "GL.iNet device compromise",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "BleepingComputer"
+    ],
+    "source_article": [
+      "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices"
+    ],
+    "source_url": [
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/"
+    ],
+    "article_published_date": [
+      "2026-11-22"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Malicious delivery/communications destination identified in the publisher's ni.sh reverse engineering and related KVM logs. Single original analysis; no independent infrastructure corroboration or current-activity check. A match requires context.",
+    "sources": [
+      {
+        "organization": "BleepingComputer",
+        "article_title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+        "published_at": "2026-11-22",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "65.20.71.131",
+    "ioc_type": "ip",
+    "original_ioc": "65.20.71.131",
+    "hunt_ioc": "65.20.71.131",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "GL.iNet device compromise",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "BleepingComputer"
+    ],
+    "source_article": [
+      "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices"
+    ],
+    "source_url": [
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/"
+    ],
+    "article_published_date": [
+      "2026-11-22"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Malicious delivery/communications destination identified in the publisher's ni.sh reverse engineering and related KVM logs. Single original analysis; no independent infrastructure corroboration or current-activity check. A match requires context.",
+    "sources": [
+      {
+        "organization": "BleepingComputer",
+        "article_title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+        "published_at": "2026-11-22",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "170.39.226.219",
+    "ioc_type": "ip",
+    "original_ioc": "170.39.226.219",
+    "hunt_ioc": "170.39.226.219",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "GL.iNet device compromise",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "RemoteToHome Consulting",
+      "RemoteToHome Consulting"
+    ],
+    "source_article": [
+      "The remote shell on routers, and the cloud command behind it",
+      "The address the remote shells connected to"
+    ],
+    "source_url": [
+      "https://github.com/RemoteToHome-io/gl-security-incident-2026/blob/80df9ff52f6f1f8d028bcf90e7d503f54be17d16/docs/router-reverse-shell.md",
+      "https://github.com/RemoteToHome-io/gl-security-incident-2026/blob/80df9ff52f6f1f8d028bcf90e7d503f54be17d16/docs/attacker-infrastructure.md"
+    ],
+    "article_published_date": [
+      "2026-11-21",
+      "unknown"
+    ],
+    "ioc_first_seen": "2026-11-20",
+    "ioc_last_seen": "2026-11-22",
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Outbound reverse-shell destination supported by established connections and process-start evidence. Shells started November 20 and remained running November 22. Same-investigation provider response reports server suspension November 21; this is historical hunting evidence, not proof of an active server. No probes performed.",
+    "sources": [
+      {
+        "organization": "RemoteToHome Consulting",
+        "article_title": "The remote shell on routers, and the cloud command behind it",
+        "url": "https://github.com/RemoteToHome-io/gl-security-incident-2026/blob/80df9ff52f6f1f8d028bcf90e7d503f54be17d16/docs/router-reverse-shell.md",
+        "published_at": "2026-11-21",
+        "updated_at": "2026-11-22",
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      },
+      {
+        "organization": "RemoteToHome Consulting",
+        "article_title": "The address the remote shells connected to",
+        "url": "https://github.com/RemoteToHome-io/gl-security-incident-2026/blob/80df9ff52f6f1f8d028bcf90e7d503f54be17d16/docs/attacker-infrastructure.md",
+        "published_at": null,
+        "updated_at": null,
+        "source_role": "same-investigation infrastructure status context",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://eil786npto9u5bq.icu/JIUJIU888/weifile.html",
+    "ioc_type": "url",
+    "original_ioc": "https://eil786npto9u5bq.icu/JIUJIU888/weifile.html",
+    "hunt_ioc": "https://eil786npto9u5bq.icu/JIUJIU888/weifile.html",
+    "hunt_ioc_type": "url",
+    "threat_campaign": "Optimizely injected scripts",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Zscaler ThreatLabz"
+    ],
+    "source_article": [
+      "Attackers Exploit Optimizely Flaw To Inject Malicious JavaScript"
+    ],
+    "source_url": [
+      "https://www.zscaler.com/blogs/security-research/attackers-exploit-optimizely-flaw-inject-malicious-javascript"
+    ],
+    "article_published_date": [
+      "2026-11-18"
+    ],
+    "ioc_first_seen": "2026-11-16",
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-23T14:14:53Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Exact hidden iframe used for attempted iOS exploit delivery in the November 16 incident. Preserve path case. Extended seven-day publication window; single-publisher exact-path evidence. The hostname was previously collected; this path is newly collected here and does not represent a new campaign.",
+    "sources": [
+      {
+        "organization": "Zscaler ThreatLabz",
+        "article_title": "Attackers Exploit Optimizely Flaw To Inject Malicious JavaScript",
+        "url": "https://www.zscaler.com/blogs/security-research/attackers-exploit-optimizely-flaw-inject-malicious-javascript",
+        "published_at": "2026-11-18",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public report or text IOC appendix; no samples retrieved",
+        "collection_start": "2026-11-23T13:57:11Z",
+        "discovery_context": [
+          "Original public analysis reviewed; infrastructure and samples were not contacted."
+        ]
+      }
+    ]
+  }
+]

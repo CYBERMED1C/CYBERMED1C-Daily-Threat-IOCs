@@ -1,0 +1,28 @@
+// Daily Threat IOCs 2026-11-23. Static review only; not executed on live Defender XDR.
+// Requires DeviceNetworkEvents, DeviceFileEvents and DeviceProcessEvents.
+// Destination matches are investigative leads. Exact URL paths need full RemoteUrl telemetry.
+let DomainIOCs = dynamic(["dafoogrupa.blog", "docardebiary.blog", "lourohamiv.blog", "skeegulduz.blog", "tewiascomp.blog"]);
+let IPIOCs = dynamic(["170.39.226.219", "65.20.71.131", "66.245.219.252"]);
+let URLIOCs = dynamic(["https://eil786npto9u5bq.icu/JIUJIU888/weifile.html", "https://tewiascomp.blog/5C4NX/event", "https://tewiascomp.blog/5C4NX/get/FiastZunpaest_bbecf478.js", "https://www.dropbox.com/scl/fi/5yrckywm9nrsfbrlb22em/FileController.zip"]);
+let SHA256IOCs = dynamic(["141cd7d6daea4f835275eb5906a8220e9f60c3bbe81c6e34c02f553668d7052c", "179048190e35a748fe573bf8f4f20ce8a56b835463aeb20f2e6f005fee7cb481", "1c085b021de27fa330804e5add96e38db0dbe8c6c0f40cebc53f9cb196bddaa5", "5b8ade10e284d1f0da7dab2b77059c9ef1bc2b0d8608566e9b21e52f4ea3fe1a", "68bbd95b310aa84a8ea40f93025ef72eee3d7b3ed9dd1ee063fcb74b0300d529", "7de7733a96e4cde79e32a8079ccda1661e00bb73391595df78c33926b4916594", "9aa2f6dd84846ce54ad64c3a01eb8b0351b814a46bfaf7564afaacc40fe1e865", "a53311077a63b1799c8741a490f3dcc5590ea44aea2afd52a7d5c4e0f60c853b", "c1d23065d65e777e214c595ce7a4ed5f09af5bfd8be9f9405f9474f594e007c4", "f17deb00622e3d5bf9a69d7871ed974392aeecf53844963f4967b7fc04c47818"]);
+union
+(
+    DeviceNetworkEvents
+    | where Timestamp >= ago(30d)
+    | extend RemoteHost = tolower(tostring(parse_url(iff(RemoteUrl contains "://", RemoteUrl, strcat("https://", RemoteUrl))).Host))
+    | where RemoteHost in (DomainIOCs) or RemoteIP in (IPIOCs) or RemoteUrl in (URLIOCs)
+    | project Timestamp, DeviceName, ActionType, RemoteIP, RemoteUrl, InitiatingProcessFileName, InitiatingProcessSHA256
+),
+(
+    DeviceFileEvents
+    | where Timestamp >= ago(30d)
+    | where tolower(SHA256) in (SHA256IOCs)
+    | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256, InitiatingProcessFileName
+),
+(
+    DeviceProcessEvents
+    | where Timestamp >= ago(30d)
+    | where tolower(SHA256) in (SHA256IOCs)
+    | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine, InitiatingProcessFileName
+)
+| top 500 by Timestamp desc

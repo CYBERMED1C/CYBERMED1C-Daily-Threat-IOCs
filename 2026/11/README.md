@@ -13,3 +13,5 @@
 - [11 — November 11, 2026](11/)
 
 [2026 archive](../) · [Repository overview](../../README.md)
+
+- [November 23, 2026](23/)
