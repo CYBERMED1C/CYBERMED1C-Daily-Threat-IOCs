@@ -1,0 +1,3082 @@
+[
+  {
+    "ioc": "ccf299e23471cd79b2f40f91ee6f48293893e6c626ef84b10ef0b3ba86a89770",
+    "ioc_type": "sha256",
+    "original_ioc": "ccf299e23471cd79b2f40f91ee6f48293893e6c626ef84b10ef0b3ba86a89770",
+    "hunt_ioc": "ccf299e23471cd79b2f40f91ee6f48293893e6c626ef84b10ef0b3ba86a89770",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "winui.button.1.0.0.nupkg. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "9e58baccd25b009b80f093bbcaf007b1ca3ac763c9826e05e1352e64264d0d42",
+    "ioc_type": "sha256",
+    "original_ioc": "9e58baccd25b009b80f093bbcaf007b1ca3ac763c9826e05e1352e64264d0d42",
+    "hunt_ioc": "9e58baccd25b009b80f093bbcaf007b1ca3ac763c9826e05e1352e64264d0d42",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "WinUI.Button.dll malicious constructor. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "d0a78aec3dd8dbce2e3fb0412b666a602fc0a71a800e24b99d735581795e11dc",
+    "ioc_type": "sha256",
+    "original_ioc": "d0a78aec3dd8dbce2e3fb0412b666a602fc0a71a800e24b99d735581795e11dc",
+    "hunt_ioc": "d0a78aec3dd8dbce2e3fb0412b666a602fc0a71a800e24b99d735581795e11dc",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "VS_Builder.MSBuildAnalyzer.1.2.7.nupkg. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "33510d8e48c26279c0c212b4e6e5f95b7f0a116061eae7f50241f81903be5b6b",
+    "ioc_type": "sha256",
+    "original_ioc": "33510d8e48c26279c0c212b4e6e5f95b7f0a116061eae7f50241f81903be5b6b",
+    "hunt_ioc": "33510d8e48c26279c0c212b4e6e5f95b7f0a116061eae7f50241f81903be5b6b",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "MSBuild targets file shared across related malicious packages. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "352b04dac5f63208f45c7c7326ed06c6fa8ae2752e4cdafff0cfe649ebaeabe2",
+    "ioc_type": "sha256",
+    "original_ioc": "352b04dac5f63208f45c7c7326ed06c6fa8ae2752e4cdafff0cfe649ebaeabe2",
+    "hunt_ioc": "352b04dac5f63208f45c7c7326ed06c6fa8ae2752e4cdafff0cfe649ebaeabe2",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "lib/net8.0/MSBuildAnalyzer.dll (1.2.7). Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b49a89af8c4884f9aecad7d980bfffa03226e8d30aa35afd813919af9e2d7cfa",
+    "ioc_type": "sha256",
+    "original_ioc": "b49a89af8c4884f9aecad7d980bfffa03226e8d30aa35afd813919af9e2d7cfa",
+    "hunt_ioc": "b49a89af8c4884f9aecad7d980bfffa03226e8d30aa35afd813919af9e2d7cfa",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "lib/net10.0/MSBuildAnalyzer.dll (1.2.7). Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "09dd6f214a5b5a1fe2934cc859a1d1ce566894faf9236a0bcab2d2cf34448d63",
+    "ioc_type": "sha256",
+    "original_ioc": "09dd6f214a5b5a1fe2934cc859a1d1ce566894faf9236a0bcab2d2cf34448d63",
+    "hunt_ioc": "09dd6f214a5b5a1fe2934cc859a1d1ce566894faf9236a0bcab2d2cf34448d63",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "HappyOne MSBuildAnalyzer.dll. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "63f1c64bd0db73b327d6655e4262ab8dcbd4ff2ed0a6dd5e062ceb977dcb3e75",
+    "ioc_type": "sha256",
+    "original_ioc": "63f1c64bd0db73b327d6655e4262ab8dcbd4ff2ed0a6dd5e062ceb977dcb3e75",
+    "hunt_ioc": "63f1c64bd0db73b327d6655e4262ab8dcbd4ff2ed0a6dd5e062ceb977dcb3e75",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "VS_Builder.WinUI3Controls.1.0.7.nupkg. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a3d04638930eae8442578679be6d150b3c56373627c9bc7e480725a31bb2d85d",
+    "ioc_type": "sha256",
+    "original_ioc": "a3d04638930eae8442578679be6d150b3c56373627c9bc7e480725a31bb2d85d",
+    "hunt_ioc": "a3d04638930eae8442578679be6d150b3c56373627c9bc7e480725a31bb2d85d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "lib/net8.0-windows10.0.19041/WinUI3Controls.dll (1.0.7). Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "56e899eb1d5c967cbe760d1b7ac409fb9420b862c122ef7ec2a2aa6469a503a7",
+    "ioc_type": "sha256",
+    "original_ioc": "56e899eb1d5c967cbe760d1b7ac409fb9420b862c122ef7ec2a2aa6469a503a7",
+    "hunt_ioc": "56e899eb1d5c967cbe760d1b7ac409fb9420b862c122ef7ec2a2aa6469a503a7",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "msedgewebview2.exe loader. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "016f633b9a8dd5ef17d577775cc64f96aa30192f3fbf814eba0c3f5c9fa5d91a",
+    "ioc_type": "sha256",
+    "original_ioc": "016f633b9a8dd5ef17d577775cc64f96aa30192f3fbf814eba0c3f5c9fa5d91a",
+    "hunt_ioc": "016f633b9a8dd5ef17d577775cc64f96aa30192f3fbf814eba0c3f5c9fa5d91a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "PyInstaller Chrome stealer. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ef691b00cada5974b6bb516386c90589bd2340216f446518ad08d11fc930d631",
+    "ioc_type": "sha256",
+    "original_ioc": "ef691b00cada5974b6bb516386c90589bd2340216f446518ad08d11fc930d631",
+    "hunt_ioc": "ef691b00cada5974b6bb516386c90589bd2340216f446518ad08d11fc930d631",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "PyInstaller Chrome stealer. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ae28ff44ee3bd2911c5a1e4110f12d12e7b585f087a0afd85d6fdc4d4b5a36f5",
+    "ioc_type": "sha256",
+    "original_ioc": "ae28ff44ee3bd2911c5a1e4110f12d12e7b585f087a0afd85d6fdc4d4b5a36f5",
+    "hunt_ioc": "ae28ff44ee3bd2911c5a1e4110f12d12e7b585f087a0afd85d6fdc4d4b5a36f5",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "updater.exe loader. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "541b0893ca326b6c652cb1d5873f208e968481e33b635c3869479016bcd75d4f",
+    "ioc_type": "sha256",
+    "original_ioc": "541b0893ca326b6c652cb1d5873f208e968481e33b635c3869479016bcd75d4f",
+    "hunt_ioc": "541b0893ca326b6c652cb1d5873f208e968481e33b635c3869479016bcd75d4f",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "updater.exe loader. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "1bc553ee2324f67c86cf8d9057da242e8ab363c59e452f5a69a1275909c20a97",
+    "ioc_type": "sha256",
+    "original_ioc": "1bc553ee2324f67c86cf8d9057da242e8ab363c59e452f5a69a1275909c20a97",
+    "hunt_ioc": "1bc553ee2324f67c86cf8d9057da242e8ab363c59e452f5a69a1275909c20a97",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "WeapF payload. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b8cf4c68dc362aeb31546a3dd091f8f23cf624e495eec84c840f2dd0906e2f4d",
+    "ioc_type": "sha256",
+    "original_ioc": "b8cf4c68dc362aeb31546a3dd091f8f23cf624e495eec84c840f2dd0906e2f4d",
+    "hunt_ioc": "b8cf4c68dc362aeb31546a3dd091f8f23cf624e495eec84c840f2dd0906e2f4d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Themida builds. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "26485a167f9e4c4ea146c8420ba0bcc44facbec4d5e8fd91e624f2c81255b589",
+    "ioc_type": "sha256",
+    "original_ioc": "26485a167f9e4c4ea146c8420ba0bcc44facbec4d5e8fd91e624f2c81255b589",
+    "hunt_ioc": "26485a167f9e4c4ea146c8420ba0bcc44facbec4d5e8fd91e624f2c81255b589",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Themida builds. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "3dfce4e8d5b625e435429c8d15fb6ce8bad9601fbc7b84f74b4aa5b560bc482e",
+    "ioc_type": "sha256",
+    "original_ioc": "3dfce4e8d5b625e435429c8d15fb6ce8bad9601fbc7b84f74b4aa5b560bc482e",
+    "hunt_ioc": "3dfce4e8d5b625e435429c8d15fb6ce8bad9601fbc7b84f74b4aa5b560bc482e",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Themida builds. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "78fa8ea3d4daaaf088babd49f2bc0e59220940dc256d8b8938bad95e2fe4717b",
+    "ioc_type": "sha256",
+    "original_ioc": "78fa8ea3d4daaaf088babd49f2bc0e59220940dc256d8b8938bad95e2fe4717b",
+    "hunt_ioc": "78fa8ea3d4daaaf088babd49f2bc0e59220940dc256d8b8938bad95e2fe4717b",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "LGA.exe lure wrappers. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b797935ff3db3da42d046537d17191d790a6344a12947347165eea2744e1265d",
+    "ioc_type": "sha256",
+    "original_ioc": "b797935ff3db3da42d046537d17191d790a6344a12947347165eea2744e1265d",
+    "hunt_ioc": "b797935ff3db3da42d046537d17191d790a6344a12947347165eea2744e1265d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "LGA.exe lure wrappers. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e7e7649f7249cb32f3123299e3a200c83dc210420b40f944168c36ab781b9458",
+    "ioc_type": "sha256",
+    "original_ioc": "e7e7649f7249cb32f3123299e3a200c83dc210420b40f944168c36ab781b9458",
+    "hunt_ioc": "e7e7649f7249cb32f3123299e3a200c83dc210420b40f944168c36ab781b9458",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "CryptoWalletAnalyzer.exe (trojanized wallet analyzer). Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "17761569bf44d46877b22972bb1ca224527562a7a7aeb5b70ca8112510a49537",
+    "ioc_type": "sha256",
+    "original_ioc": "17761569bf44d46877b22972bb1ca224527562a7a7aeb5b70ca8112510a49537",
+    "hunt_ioc": "17761569bf44d46877b22972bb1ca224527562a7a7aeb5b70ca8112510a49537",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "vcruntime146_cor2.dll loader (inside CryptoWalletAnalyzer.exe). Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "27f600d476638c8f1236db3eda9d70e39c9a96ff62fca69ca227426c48448bf7",
+    "ioc_type": "sha256",
+    "original_ioc": "27f600d476638c8f1236db3eda9d70e39c9a96ff62fca69ca227426c48448bf7",
+    "hunt_ioc": "27f600d476638c8f1236db3eda9d70e39c9a96ff62fca69ca227426c48448bf7",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "CryptoWalletAnalyzer.dll (managed app inside CryptoWalletAnalyzer.exe). Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Component digest; ordinary endpoint hash telemetry may not expose extracted or memory-only stages.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-duolingo.com",
+    "ioc_type": "domain",
+    "original_ioc": "legal-duolingo.com",
+    "hunt_ioc": "legal-duolingo.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "activisionblizzard-legal.com",
+    "ioc_type": "domain",
+    "original_ioc": "activisionblizzard-legal.com",
+    "hunt_ioc": "activisionblizzard-legal.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-morningstar.com",
+    "ioc_type": "domain",
+    "original_ioc": "legal-morningstar.com",
+    "hunt_ioc": "legal-morningstar.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-westernunion.com",
+    "ioc_type": "domain",
+    "original_ioc": "legal-westernunion.com",
+    "hunt_ioc": "legal-westernunion.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-ea.com",
+    "ioc_type": "domain",
+    "original_ioc": "legal-ea.com",
+    "hunt_ioc": "legal-ea.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-dropbox.com",
+    "ioc_type": "domain",
+    "original_ioc": "legal-dropbox.com",
+    "hunt_ioc": "legal-dropbox.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-riotgames.com",
+    "ioc_type": "domain",
+    "original_ioc": "legal-riotgames.com",
+    "hunt_ioc": "legal-riotgames.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-indeed.com",
+    "ioc_type": "domain",
+    "original_ioc": "legal-indeed.com",
+    "hunt_ioc": "legal-indeed.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-creditkarma.com",
+    "ioc_type": "domain",
+    "original_ioc": "legal-creditkarma.com",
+    "hunt_ioc": "legal-creditkarma.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-vrtx.com",
+    "ioc_type": "domain",
+    "original_ioc": "legal-vrtx.com",
+    "hunt_ioc": "legal-vrtx.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-aexp.com",
+    "ioc_type": "domain",
+    "original_ioc": "legal-aexp.com",
+    "hunt_ioc": "legal-aexp.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-expeditors.com",
+    "ioc_type": "domain",
+    "original_ioc": "legal-expeditors.com",
+    "hunt_ioc": "legal-expeditors.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-twitch.tv",
+    "ioc_type": "domain",
+    "original_ioc": "legal-twitch.tv",
+    "hunt_ioc": "legal-twitch.tv",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-lvmh.com",
+    "ioc_type": "domain",
+    "original_ioc": "legal-lvmh.com",
+    "hunt_ioc": "legal-lvmh.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-amd.com",
+    "ioc_type": "domain",
+    "original_ioc": "legal-amd.com",
+    "hunt_ioc": "legal-amd.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-carvana.com",
+    "ioc_type": "domain",
+    "original_ioc": "legal-carvana.com",
+    "hunt_ioc": "legal-carvana.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-pepsico.com",
+    "ioc_type": "domain",
+    "original_ioc": "legal-pepsico.com",
+    "hunt_ioc": "legal-pepsico.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-caesars.com",
+    "ioc_type": "domain",
+    "original_ioc": "legal-caesars.com",
+    "hunt_ioc": "legal-caesars.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-rbi.com",
+    "ioc_type": "domain",
+    "original_ioc": "legal-rbi.com",
+    "hunt_ioc": "legal-rbi.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-grubhub.com",
+    "ioc_type": "domain",
+    "original_ioc": "legal-grubhub.com",
+    "hunt_ioc": "legal-grubhub.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legal-lucidmotors.com",
+    "ioc_type": "domain",
+    "original_ioc": "legal-lucidmotors.com",
+    "hunt_ioc": "legal-lucidmotors.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Inception-associated SSO vishing",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "SSO vishing campaign associated with the emerging Inception extortion group"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Confirmed SSO phishing-kit domain. Single-source exact-value evidence. Publisher confirmed phishing-kit evidence; some infrastructure was already parked or suspended. Exact observation dates unknown.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "SSO vishing campaign associated with the emerging Inception extortion group",
+        "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-sso-vishing-campaign-associated-with-emerging-inception-extortion-group",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "newpayapp.com",
+    "ioc_type": "domain",
+    "original_ioc": "newpayapp.com",
+    "hunt_ioc": "newpayapp.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "GT13 Check Point intrusion",
+    "malware_family": "ZULT",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "GreyNoise"
+    ],
+    "source_article": [
+      "Check Point Security Management Servers intrusion campaign"
+    ],
+    "source_url": [
+      "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "GT13-controlled domain linked to attempted implant delivery. Single-source exact-value evidence. Historical intrusion context from October–November; no present activity inferred.",
+    "sources": [
+      {
+        "organization": "GreyNoise",
+        "article_title": "Check Point Security Management Servers intrusion campaign",
+        "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "data-zt.newpayapp.com",
+    "ioc_type": "domain",
+    "original_ioc": "data-zt.newpayapp.com",
+    "hunt_ioc": "data-zt.newpayapp.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "GT13 Check Point intrusion",
+    "malware_family": "ZULT",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "GreyNoise"
+    ],
+    "source_article": [
+      "Check Point Security Management Servers intrusion campaign"
+    ],
+    "source_url": [
+      "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": "2026-10-19",
+    "ioc_last_seen": "2026-10-19",
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "GT13 ZULT malware download hostname. Single-source exact-value evidence. Historical intrusion context from October–November; no present activity inferred. Documented download attempt failed.",
+    "sources": [
+      {
+        "organization": "GreyNoise",
+        "article_title": "Check Point Security Management Servers intrusion campaign",
+        "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "cloudservicebase.ddns.net",
+    "ioc_type": "domain",
+    "original_ioc": "cloudservicebase.ddns.net",
+    "hunt_ioc": "cloudservicebase.ddns.net",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Exact ClickFix script-retrieval hostname; downstream payload not recovered. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://api.github.com/repos/Carol-White-Super/cloud/contents/db/avast.exe?ref=Main",
+    "ioc_type": "url",
+    "original_ioc": "https://api.github.com/repos/Carol-White-Super/cloud/contents/db/avast.exe?ref=Main",
+    "hunt_ioc": "https://api.github.com/repos/Carol-White-Super/cloud/contents/db/avast.exe?ref=Main",
+    "hunt_ioc_type": "url",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Exact executable retrieval path in WinUI.Button; downstream file unavailable. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Exact abused-service path only; provider roots are excluded.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://raw.githubusercontent.com/stevenleedig-ux/fantastic-giggle/main/src/demos/SPGO/build.docker",
+    "ioc_type": "url",
+    "original_ioc": "https://raw.githubusercontent.com/stevenleedig-ux/fantastic-giggle/main/src/demos/SPGO/build.docker",
+    "hunt_ioc": "https://raw.githubusercontent.com/stevenleedig-ux/fantastic-giggle/main/src/demos/SPGO/build.docker",
+    "hunt_ioc_type": "url",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Exact DLL staging URL in malicious build analyzer; downstream bytes unavailable. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Exact abused-service path only; provider roots are excluded.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://raw.githubusercontent.com/jason-code-super/axios/main/lib/env/axios.csproj",
+    "ioc_type": "url",
+    "original_ioc": "https://raw.githubusercontent.com/jason-code-super/axios/main/lib/env/axios.csproj",
+    "hunt_ioc": "https://raw.githubusercontent.com/jason-code-super/axios/main/lib/env/axios.csproj",
+    "hunt_ioc_type": "url",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Exact malicious executable delivery path; retains project-file disguise. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Exact abused-service path only; provider roots are excluded.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://raw.githubusercontent.com/stevenleedig-ux/axios-http/main/lib/env/axios.csproj",
+    "ioc_type": "url",
+    "original_ioc": "https://raw.githubusercontent.com/stevenleedig-ux/axios-http/main/lib/env/axios.csproj",
+    "hunt_ioc": "https://raw.githubusercontent.com/stevenleedig-ux/axios-http/main/lib/env/axios.csproj",
+    "hunt_ioc_type": "url",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Exact malicious executable delivery path; retains project-file disguise. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Exact abused-service path only; provider roots are excluded.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://raw.githubusercontent.com/ThoSuperstarDev/axios-http/main/lib/env/axios-telemetry.json",
+    "ioc_type": "url",
+    "original_ioc": "https://raw.githubusercontent.com/ThoSuperstarDev/axios-http/main/lib/env/axios-telemetry.json",
+    "hunt_ioc": "https://raw.githubusercontent.com/ThoSuperstarDev/axios-http/main/lib/env/axios-telemetry.json",
+    "hunt_ioc_type": "url",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Exact earlier GitHub-C2 loader delivery path. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Exact abused-service path only; provider roots are excluded.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://raw.githubusercontent.com/jeksifjeksjejcks/test/main/README.md",
+    "ioc_type": "url",
+    "original_ioc": "https://raw.githubusercontent.com/jeksifjeksjejcks/test/main/README.md",
+    "hunt_ioc": "https://raw.githubusercontent.com/jeksifjeksjejcks/test/main/README.md",
+    "hunt_ioc_type": "url",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Exact encrypted WeapF configuration retrieval path; no tokens copied. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity. Exact abused-service path only; provider roots are excluded.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://cloudservicebase.ddns.net/update/CVE-2026-44747_patch.dat",
+    "ioc_type": "url",
+    "original_ioc": "https://cloudservicebase.ddns.net/update/CVE-2026-44747_patch.dat",
+    "hunt_ioc": "https://cloudservicebase.ddns.net/update/CVE-2026-44747_patch.dat",
+    "hunt_ioc_type": "url",
+    "threat_campaign": "Fake .NET job-assessment supply chain",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Socket"
+    ],
+    "source_article": [
+      "Malicious NuGet packages target developers through fake job assessments"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Exact script retrieval target embedded in observed ClickFix command; downstream payload unknown. Single-source exact-value evidence. Campaign artifacts span July–November; publication does not establish current activity.",
+    "sources": [
+      {
+        "organization": "Socket",
+        "article_title": "Malicious NuGet packages target developers through fake job assessments",
+        "url": "https://socket.dev/blog/malicious-nuget-packages-fake-job-assessments",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "217.60.102.123",
+    "ioc_type": "ip",
+    "original_ioc": "217.60.102.123",
+    "hunt_ioc": "217.60.102.123",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "OXLoader malicious delivery chains",
+    "malware_family": "OXLoader / LOLD",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Malwarebytes"
+    ],
+    "source_article": [
+      "OXLoader abuses DLL hijacking to distribute different malware families"
+    ],
+    "source_url": [
+      "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "LOLD C2; offline at publisher analysis time. Single-source exact-value evidence. Observation dates unknown.",
+    "sources": [
+      {
+        "organization": "Malwarebytes",
+        "article_title": "OXLoader abuses DLL hijacking to distribute different malware families",
+        "url": "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "91.92.243.204",
+    "ioc_type": "ip",
+    "original_ioc": "91.92.243.204",
+    "hunt_ioc": "91.92.243.204",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "OXLoader malicious delivery chains",
+    "malware_family": "OXLoader / LOLD",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Malwarebytes"
+    ],
+    "source_article": [
+      "OXLoader abuses DLL hijacking to distribute different malware families"
+    ],
+    "source_url": [
+      "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "LOLD C2; offline at publisher analysis time. Single-source exact-value evidence. Observation dates unknown.",
+    "sources": [
+      {
+        "organization": "Malwarebytes",
+        "article_title": "OXLoader abuses DLL hijacking to distribute different malware families",
+        "url": "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "guestsisfilesjpmp.com",
+    "ioc_type": "domain",
+    "original_ioc": "guestsisfilesjpmp.com",
+    "hunt_ioc": "guestsisfilesjpmp.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "OXLoader malicious delivery chains",
+    "malware_family": "OXLoader / LOLD",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Malwarebytes"
+    ],
+    "source_article": [
+      "OXLoader abuses DLL hijacking to distribute different malware families"
+    ],
+    "source_url": [
+      "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "OXLoader distribution hostname. Single-source exact-value evidence. Observation dates unknown.",
+    "sources": [
+      {
+        "organization": "Malwarebytes",
+        "article_title": "OXLoader abuses DLL hijacking to distribute different malware families",
+        "url": "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "wovplaying.help",
+    "ioc_type": "domain",
+    "original_ioc": "wovplaying.help",
+    "hunt_ioc": "wovplaying.help",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "OXLoader malicious delivery chains",
+    "malware_family": "OXLoader / LOLD",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Malwarebytes"
+    ],
+    "source_article": [
+      "OXLoader abuses DLL hijacking to distribute different malware families"
+    ],
+    "source_url": [
+      "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "OXLoader distribution hostname. Single-source exact-value evidence. Observation dates unknown.",
+    "sources": [
+      {
+        "organization": "Malwarebytes",
+        "article_title": "OXLoader abuses DLL hijacking to distribute different malware families",
+        "url": "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "biklonasmain.net",
+    "ioc_type": "domain",
+    "original_ioc": "biklonasmain.net",
+    "hunt_ioc": "biklonasmain.net",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "OXLoader malicious delivery chains",
+    "malware_family": "OXLoader / LOLD",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Malwarebytes"
+    ],
+    "source_article": [
+      "OXLoader abuses DLL hijacking to distribute different malware families"
+    ],
+    "source_url": [
+      "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "OXLoader distribution hostname. Single-source exact-value evidence. Observation dates unknown.",
+    "sources": [
+      {
+        "organization": "Malwarebytes",
+        "article_title": "OXLoader abuses DLL hijacking to distribute different malware families",
+        "url": "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "videohostinginsort.net",
+    "ioc_type": "domain",
+    "original_ioc": "videohostinginsort.net",
+    "hunt_ioc": "videohostinginsort.net",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "OXLoader malicious delivery chains",
+    "malware_family": "OXLoader / LOLD",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Malwarebytes"
+    ],
+    "source_article": [
+      "OXLoader abuses DLL hijacking to distribute different malware families"
+    ],
+    "source_url": [
+      "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "OXLoader distribution hostname. Single-source exact-value evidence. Observation dates unknown.",
+    "sources": [
+      {
+        "organization": "Malwarebytes",
+        "article_title": "OXLoader abuses DLL hijacking to distribute different malware families",
+        "url": "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "videovisitors.com",
+    "ioc_type": "domain",
+    "original_ioc": "videovisitors.com",
+    "hunt_ioc": "videovisitors.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "OXLoader malicious delivery chains",
+    "malware_family": "OXLoader / LOLD",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Malwarebytes"
+    ],
+    "source_article": [
+      "OXLoader abuses DLL hijacking to distribute different malware families"
+    ],
+    "source_url": [
+      "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "OXLoader distribution hostname. Single-source exact-value evidence. Observation dates unknown.",
+    "sources": [
+      {
+        "organization": "Malwarebytes",
+        "article_title": "OXLoader abuses DLL hijacking to distribute different malware families",
+        "url": "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ac8547f5af42dc6932367ebcb162fb0e",
+    "ioc_type": "md5",
+    "original_ioc": "ac8547f5af42dc6932367ebcb162fb0e",
+    "hunt_ioc": "ac8547f5af42dc6932367ebcb162fb0e",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "OXLoader malicious delivery chains",
+    "malware_family": "OXLoader / LOLD",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Malwarebytes"
+    ],
+    "source_article": [
+      "OXLoader abuses DLL hijacking to distribute different malware families"
+    ],
+    "source_url": [
+      "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Trojanized UnityPlayer.dll. Single-source exact-value evidence. Observation dates unknown. Component digest; decoded stages may require extracted-content visibility.",
+    "sources": [
+      {
+        "organization": "Malwarebytes",
+        "article_title": "OXLoader abuses DLL hijacking to distribute different malware families",
+        "url": "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a9d620b690f84d552986a4872d57849e",
+    "ioc_type": "md5",
+    "original_ioc": "a9d620b690f84d552986a4872d57849e",
+    "hunt_ioc": "a9d620b690f84d552986a4872d57849e",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "OXLoader malicious delivery chains",
+    "malware_family": "OXLoader / LOLD",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Malwarebytes"
+    ],
+    "source_article": [
+      "OXLoader abuses DLL hijacking to distribute different malware families"
+    ],
+    "source_url": [
+      "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Encrypted shellcode manifest.json. Single-source exact-value evidence. Observation dates unknown. Component digest; decoded stages may require extracted-content visibility.",
+    "sources": [
+      {
+        "organization": "Malwarebytes",
+        "article_title": "OXLoader abuses DLL hijacking to distribute different malware families",
+        "url": "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b97730ba59b158f400e67050406cb3ea",
+    "ioc_type": "md5",
+    "original_ioc": "b97730ba59b158f400e67050406cb3ea",
+    "hunt_ioc": "b97730ba59b158f400e67050406cb3ea",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "OXLoader malicious delivery chains",
+    "malware_family": "OXLoader / LOLD",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Malwarebytes"
+    ],
+    "source_article": [
+      "OXLoader abuses DLL hijacking to distribute different malware families"
+    ],
+    "source_url": [
+      "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Decrypted shellcode. Single-source exact-value evidence. Observation dates unknown. Component digest; decoded stages may require extracted-content visibility.",
+    "sources": [
+      {
+        "organization": "Malwarebytes",
+        "article_title": "OXLoader abuses DLL hijacking to distribute different malware families",
+        "url": "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "27b3fd4a4ac2c2f62f7b175ca904c8f7",
+    "ioc_type": "md5",
+    "original_ioc": "27b3fd4a4ac2c2f62f7b175ca904c8f7",
+    "hunt_ioc": "27b3fd4a4ac2c2f62f7b175ca904c8f7",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "OXLoader malicious delivery chains",
+    "malware_family": "OXLoader / LOLD",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Malwarebytes"
+    ],
+    "source_article": [
+      "OXLoader abuses DLL hijacking to distribute different malware families"
+    ],
+    "source_url": [
+      "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Donut PE loader. Single-source exact-value evidence. Observation dates unknown. Component digest; decoded stages may require extracted-content visibility.",
+    "sources": [
+      {
+        "organization": "Malwarebytes",
+        "article_title": "OXLoader abuses DLL hijacking to distribute different malware families",
+        "url": "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "5a0b0bae87a464228398696517fcf6f5",
+    "ioc_type": "md5",
+    "original_ioc": "5a0b0bae87a464228398696517fcf6f5",
+    "hunt_ioc": "5a0b0bae87a464228398696517fcf6f5",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "OXLoader malicious delivery chains",
+    "malware_family": "OXLoader / LOLD",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Malwarebytes"
+    ],
+    "source_article": [
+      "OXLoader abuses DLL hijacking to distribute different malware families"
+    ],
+    "source_url": [
+      "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families"
+    ],
+    "article_published_date": [
+      "2026-11-23"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "LOLD payload. Single-source exact-value evidence. Observation dates unknown. Component digest; decoded stages may require extracted-content visibility.",
+    "sources": [
+      {
+        "organization": "Malwarebytes",
+        "article_title": "OXLoader abuses DLL hijacking to distribute different malware families",
+        "url": "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families",
+        "published_at": "2026-11-23",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ollama-ko.com",
+    "ioc_type": "domain",
+    "original_ioc": "ollama-ko.com",
+    "hunt_ioc": "ollama-ko.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Fake AI-tool installer and security-product impairment",
+    "malware_family": "WinWyvern",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "AhnLab"
+    ],
+    "source_article": [
+      "Attempts to Compromise Domestic Security Products via BYOVD"
+    ],
+    "source_url": [
+      "https://asec.ahnlab.com/en/96708/"
+    ],
+    "article_published_date": [
+      "2026-11-20"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Fake AI-tool distribution site for WinWyvern attack chain. Single-source exact-value evidence. Extended seven-day publication window; exact observation dates unknown. Legitimate vulnerable-driver digest excluded.",
+    "sources": [
+      {
+        "organization": "AhnLab",
+        "article_title": "Attempts to Compromise Domestic Security Products via BYOVD",
+        "url": "https://asec.ahnlab.com/en/96708/",
+        "published_at": "2026-11-20",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "09a0a4256980457c23663278b40e4c51",
+    "ioc_type": "md5",
+    "original_ioc": "09a0a4256980457c23663278b40e4c51",
+    "hunt_ioc": "09a0a4256980457c23663278b40e4c51",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Fake AI-tool installer and security-product impairment",
+    "malware_family": "WinWyvern",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "AhnLab"
+    ],
+    "source_article": [
+      "Attempts to Compromise Domestic Security Products via BYOVD"
+    ],
+    "source_url": [
+      "https://asec.ahnlab.com/en/96708/"
+    ],
+    "article_published_date": [
+      "2026-11-20"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "NVIDIA_Control.exe malicious dropper. Single-source exact-value evidence. Extended seven-day publication window; exact observation dates unknown. Legitimate vulnerable-driver digest excluded.",
+    "sources": [
+      {
+        "organization": "AhnLab",
+        "article_title": "Attempts to Compromise Domestic Security Products via BYOVD",
+        "url": "https://asec.ahnlab.com/en/96708/",
+        "published_at": "2026-11-20",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "5da8a73f76fc7f621c9f77af4512a1f3",
+    "ioc_type": "md5",
+    "original_ioc": "5da8a73f76fc7f621c9f77af4512a1f3",
+    "hunt_ioc": "5da8a73f76fc7f621c9f77af4512a1f3",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Fake AI-tool installer and security-product impairment",
+    "malware_family": "WinWyvern",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "AhnLab"
+    ],
+    "source_article": [
+      "Attempts to Compromise Domestic Security Products via BYOVD"
+    ],
+    "source_url": [
+      "https://asec.ahnlab.com/en/96708/"
+    ],
+    "article_published_date": [
+      "2026-11-20"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "Malicious DLL stored in an NTFS alternate data stream. Single-source exact-value evidence. Extended seven-day publication window; exact observation dates unknown. Legitimate vulnerable-driver digest excluded.",
+    "sources": [
+      {
+        "organization": "AhnLab",
+        "article_title": "Attempts to Compromise Domestic Security Products via BYOVD",
+        "url": "https://asec.ahnlab.com/en/96708/",
+        "published_at": "2026-11-20",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "62bdb2cd59af038dcddfc8f24fdd40aa",
+    "ioc_type": "md5",
+    "original_ioc": "62bdb2cd59af038dcddfc8f24fdd40aa",
+    "hunt_ioc": "62bdb2cd59af038dcddfc8f24fdd40aa",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Fake AI-tool installer and security-product impairment",
+    "malware_family": "WinWyvern",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "AhnLab"
+    ],
+    "source_article": [
+      "Attempts to Compromise Domestic Security Products via BYOVD"
+    ],
+    "source_url": [
+      "https://asec.ahnlab.com/en/96708/"
+    ],
+    "article_published_date": [
+      "2026-11-20"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-24T14:08:57Z",
+    "confidence": null,
+    "acceptance_score": null,
+    "status": "NEW",
+    "notes": "WinWyvern malicious kernel driver. Single-source exact-value evidence. Extended seven-day publication window; exact observation dates unknown. Legitimate vulnerable-driver digest excluded.",
+    "sources": [
+      {
+        "organization": "AhnLab",
+        "article_title": "Attempts to Compromise Domestic Security Products via BYOVD",
+        "url": "https://asec.ahnlab.com/en/96708/",
+        "published_at": "2026-11-20",
+        "updated_at": null,
+        "source_role": "primary evidence",
+        "retrieval_method": "Public original report and embedded IOC appendix; text only",
+        "collection_start": "2026-11-24T13:57:20Z",
+        "discovery_context": [
+          "Exact indicator role reviewed in original public analysis. No sample retrieval or infrastructure contact."
+        ]
+      }
+    ]
+  }
+]
